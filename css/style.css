@@ -15,11 +15,9 @@ html {
   margin: 0 auto;
   width: 90%;
   grid-template-areas:
-    "nav"
-    "hero-tagline"
-    "headshot"
+    "header"
     "featured-work"
-    "main.case-studies"
+    "case-studies"
     "about-me"
     "design-process"
     "footer"
@@ -38,12 +36,16 @@ h1 {
   font-size: 2.4rem;
   font-family: 'Domine', Georgia, Times, serif;
 }
+
+header {
+    grid-area: nav;
+}
+
 /*** Navigation bar ***/
 .nav {
   background-color: white;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-size: 1.4rem;
-  grid-area: nav;
   margin: auto;
   padding: 1.8rem;
   position: fixed;
@@ -76,7 +78,6 @@ h1 {
   display: flex;
   font-family: 'Domine', Georgia, Times, serif;
   font-size: 1.8rem;
-  grid-area: hero;
   line-height: 140%;
   padding: 1.8rem;
   text-align: left;
@@ -132,6 +133,11 @@ p.tagline {
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif
   grid-area: design-process;
 }
+
+footer {
+  font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif
+  grid-area: footer;
+}
 /*** Media queries ***/
 
 /*** For mobile ***/
@@ -180,9 +186,10 @@ p.tagline {
 
 /*** For desktop ***/
 /*** when screen is larger than 1000px width, it changes to this ***/
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1024px) {
   .container {
     background-color: #fff;
+
     grid-template-columns: 1fr 1fr;
     margin: 0 auto;
     width: 100rem;
