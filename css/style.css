@@ -105,8 +105,12 @@ p.tagline {
   width: 20px;
 }
 
-h1 {
-  font-family: 'Domine', Georgia, Times, serif;
+.main.case-studies {
+  width: 90%;
+}
+
+.about-me {
+  width: 90%;
 }
 
 .design-process {
