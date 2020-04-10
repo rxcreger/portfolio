@@ -3,17 +3,181 @@
 }
 
 html {
-}
-
-body {
-}
-
-p {
+  font-size: 10px;
 }
 
 .container {
+  background-color: yellow;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem 2rem;
+  margin: 0 auto;
+  width: 90%;
 }
 
-@media screen and (min-width: 110em) {
+body {
+  background-color: red;
+}
 
+p {
+  font-size: 1.6rem;
+  font-family: 'Muli', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-family: 'Domine', Georgia, Times, serif;
+}
+/*** Navigation bar ***/
+.nav {
+  background-color: white;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+  margin: auto;
+  padding: 1.8rem;
+  position: fixed;
+  width: 90%;
+}
+
+.personal-logo {
+  float: left;
+  display: flex;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  justify-content: flex-end;
+}
+
+.nav-menu-links {
+  color: black;
+  float: right;
+  padding: 2rem;
+  text-decoration: none;
+}
+
+/*** Hero image section ***/
+.hero {
+  background-color: purple;
+  color: black;
+  display: flex;
+  font-family: 'Domine', Georgia, Times, serif;
+  font-size: 1.8rem;
+  line-height: 140%;
+  padding: 1.8rem;
+  text-align: left;
+  width: 100%;
+}
+
+.hero-tagline {
+  margin-top: 20%;
+  mmargin-left: 10%;
+  width: 50%;
+}
+
+h1.greeting {
+  font-weight: 550;
+  line-height: 170%;
+}
+
+p.tagline {
+  font-family: 'Domine', Georgia, Times, serif;
+}
+
+.headshot {
+  padding-left: 5%;
+  margin-top: 15%;
+  mmargin-right: 10%;
+  width: 40%;
+}
+
+.featured-work {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 1.3em;
+  padding: 2rem;
+  text-align: center;
+}
+
+.down-arrow {
+  padding: .5em;
+  width: 20px;
+}
+
+h1 {
+  font-family: 'Domine', Georgia, Times, serif;
+}
+
+.design-process {
+  font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
+}
+/*** Media queries ***/
+
+/*** For mobile ***/
+/*** when screen is larger than than 575px width, it changes to this ***/
+@media screen and (min-width: 575px) {
+  .container {
+
+  }
+}
+
+/*** when screen is less than than 575px width, it changes to this ***/
+@media screen and (max-width: 575px) {
+  .container {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+  .hero {
+    display: block;
+  }
+  .hero {
+    display: block;
+  }
+  .main.case-studies {
+    display: block;
+  }
+  .project-nav {
+    display: none;
+  }
+}
+
+/*** For tablet ***/
+/*** when screen is larger than than 768px width, it changes to this ***/
+@media screen and (min-width: 768px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    width: 70rem;
+  }
+  .hero-tagline {
+    width: 30%;
+  }
+  .headshot {
+    width: 20%;
+  }
+}
+
+/*** For desktop ***/
+/*** when screen is larger than 1000px width, it changes to this ***/
+@media screen and (min-width: 1000px) {
+  .container {
+    background-color: #fff;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    width: 100rem;
+  }
+}
+
+/*** when screen is less than 1000px width, it changes to this ***/
+@media screen and (max-width: 1024px) {
+  /***.header {
+    display: flex;
+  }
+
+  .container {
+    /***margin: 0 auto;
+    position: relative;
+    width: 1024px;
+  }
 }

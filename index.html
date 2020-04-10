@@ -8,29 +8,46 @@
      <!-- Custom Styles -->
      <link rel="stylesheet" href="css/reset.css">
      <link rel="stylesheet" href="css/style.css">
+     <link href='https://fonts.googleapis.com/css?family=Domine' rel='stylesheet'>
+     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+     <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'>
    </head>
    <body>
      <div class="container">
        <header>
-         <nav>
-           <a href="index.html"><img src="images/homepage/logo.png" alt="personal logo"></a>
-           <a href="project.html"><p>Work</p></a>
-           <p>About</p>
-           <p>Contact</p>
+         <nav class="nav">
+           <a href="index.html"><img src="images/homepage/logo.png" alt="personal logo" class="personal-logo"></a>
+              <div class="nav-menu-container">
+               <ul class="nav-menu">
+                  <li>
+                     <a href="project.html" class="nav-menu-links">Work</a>
+                  </li>
+                  <li>
+                     <a href="about.html" class="nav-menu-links">About</a>
+                  </li>
+                  <li>
+                     <a href="project.html" class="nav-menu-links">Contact</a>
+                  </li>
+               </ul>
+             </div>
          </nav>
          <!-- Hero image and tagline -->
          <section class="hero">
-           <img src="images/homepage/headshot.png" alt="headshot">
-           <h1>Hello! My name is Rebecca.</h1>
-           <p>I’m a UX designer living in the San Francisco Bay Area. I love asking questions and designing user-centric solutions to people’s needs.</p>
+           <div class="hero-tagline">
+               <h1 class="greeting">Hello! I'm Rebecca.</h1>
+               <p class="tagline">I’m a UX designer living in the San Francisco Bay Area. I love asking questions and designing user-centric solutions to people’s needs.</p>
+           </div>
+           <div class="headshot">
+               <img src="images/homepage/headshot.png" alt="headshot">
+           </div>
          </section>
       </header>
-         <section class="featured work">
+         <section class="featured-work">
             <p>Featured Work</p>
-            <img src="images/homepage/down-arrow.png" alt="down arrow">
+            <img src="images/homepage/down-arrow.png" alt="down arrow" class="down-arrow">
          </section>
          <!-- Case Studies -->
-         <main class="case studies">
+         <main class="case-studies">
            <section class ="cloudspark">
              <div class="cloudspark-image">
                 <img src="images/homepage/cloudspark.png" alt="Cloudspark image">
@@ -69,7 +86,7 @@
           </article>
          </section>
          <!-- My design process section -->
-         <section class="design process">
+         <section class="design-process">
            <article>
              <h1>My Design Process</h1>
              <h4 class="design-process-tagline">Each project is different, so I adapt this design process to each project:</h4>
