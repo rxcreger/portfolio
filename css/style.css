@@ -9,7 +9,8 @@ html {
 .container {
   background-color: yellow;
   display: grid;
-  grid-auto-rows: minmax(200px,auto);
+  flex-direction: column;
+  grid-auto-rows: minmax(200px, auto);
   grid-template-columns: 1fr;
   grid-gap: 1rem 2rem;
   margin: 0 auto;
@@ -38,7 +39,9 @@ h1 {
 }
 
 header {
-    grid-area: nav;
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    grid-area: header;
 }
 
 /*** Navigation bar ***/
@@ -46,6 +49,7 @@ header {
   background-color: white;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-size: 1.4rem;
+  justify content: space-between;
   margin: auto;
   padding: 1.8rem;
   position: fixed;
@@ -54,7 +58,6 @@ header {
 
 .personal-logo {
   float: left;
-  display: flex;
 }
 
 .nav-menu {
@@ -86,7 +89,7 @@ header {
 
 .hero-tagline {
   margin-top: 20%;
-  mmargin-left: 10%;
+  /* margin-left: 10%; */
   width: 50%;
 }
 
@@ -102,14 +105,16 @@ p.tagline {
 .headshot {
   padding-left: 5%;
   margin-top: 15%;
-  mmargin-right: 10%;
+  /* margin-right: 10%; */
   width: 40%;
 }
 
 .featured-work {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-size: 1.3em;
-  grid-area: featured-work;
+  grid-column: 1 / span 2;
+  grid-row: 2 ;
+  justify content: center;
   padding: 2rem;
   text-align: center;
 }
@@ -121,23 +126,31 @@ p.tagline {
 
 .main.case-studies {
   width: 90%;
-  grid-area: main.case-studies;
+  grid-column: 1 / span 2;
+  grid-row: 3 / span 2;
 }
 
 .about-me {
-  grid-area: about-me;
+  grid-column: 1 / span 2;
+  grid-row: 4 ;
+  justify content: center;
   width: 90%;
 }
 
 .design-process {
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif
-  grid-area: design-process;
+  grid-column: 1 / span 2;
+  grid-row: 5 ;
+  justify content: center;
 }
 
 footer {
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif
-  grid-area: footer;
+  grid-column: 1 / span 2;
+  grid-row: 6 ;
+  justify content: center;
 }
+
 /*** Media queries ***/
 
 /*** For mobile ***/
@@ -172,6 +185,7 @@ footer {
 /*** when screen is larger than than 768px width, it changes to this ***/
 @media screen and (min-width: 768px) {
   .container {
+    flex-direction: row;
     grid-template-columns: 1fr 1fr;
     margin: 0 auto;
     width: 70rem;
@@ -185,25 +199,33 @@ footer {
 }
 
 /*** For desktop ***/
-/*** when screen is larger than 1000px width, it changes to this ***/
+/*** when screen is larger than 1024px width, it changes to this ***/
 @media screen and (min-width: 1024px) {
   .container {
     background-color: #fff;
-
+    display: grid;
+    flex-direction: row;
     grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "header header"
+      "featured-work featured-work"
+      "case-studies case-studies"
+      "about-me about-me"
+      "design-process design-process"
+      "footer footer"
     margin: 0 auto;
     width: 100rem;
   }
 }
 
 /*** when screen is less than 1000px width, it changes to this ***/
-@media screen and (max-width: 1024px) {
-  /***.header {
+/* @media screen and (max-width: 1024px) { */
+  /* header { */
     display: flex;
   }
 
-  .container {
-    /***margin: 0 auto;
+  /* .container { */
+    margin: 0 auto;
     position: relative;
     width: 1024px;
   }
