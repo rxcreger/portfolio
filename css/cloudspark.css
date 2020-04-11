@@ -7,7 +7,7 @@ html {
 }
 
 .container {
-  background-color: white;
+  background-color: yellow;
   width: 100%;
 }
 
@@ -16,14 +16,35 @@ body {
 }
 
 p {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-family: 'Muli', Helvetica, Arial, sans-serif;
+  line-height: 140%;
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   font-family: 'Domine', Georgia, Times, serif;
   line-height: 160%;
+  text-align: center;
+}
+h2 {
+  font-size: 1.8rem;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  line-height: 160%;
+  text-align: left;
+}
+
+h4 {
+  font-size: 1.4rem;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  line-height: 160%;
+  text-align: left;
+}
+article {
+  text-align: left;
+  padding: 4%;
 }
 
 header {
@@ -60,73 +81,84 @@ header {
   text-decoration: none;
 }
 
-/*** Case studies section ***/
-.case-studies {
-  text-align: center;
-}
-
 /*** Hero image section ***/
-.hero {
+.project-hero {
   background-color: white;
   color: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
   font-family: 'Domine', Georgia, Times, serif;
   font-size: 1.8rem;
   line-height: 140%;
+  padding-top: 70%;
   padding: 3rem;
   text-align: center;
   width: 100%;
 }
 
-.hero-tagline {
+.cloudspark-logo {
   margin-top: 25%;
-  margin-bottom: 5%;
 }
-
-h1.greeting {
-  font-weight: 550;
-  line-height: 170%;
+.cloudspark-hero-image {
+  text-align: center;
+  margin-top: 10%;
 }
-
-p.tagline {
-  font-family: 'Domine', Georgia, Times, serif;
+.see-prototype {
+  color: #4A23F1;
+  font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  text-decoration: none;
 }
-
-.headshot {
-  padding: 1.9rem;
+main.cloudspark-case-study {
+  width: 100%;
 }
-
-.featured-work {
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  font-size: 1.3em;
-  padding: 2rem;
+.project-nav {
+  display: none;
+}
+.project-overview {
+  padding: 4%;
+  text-align: center;
+  width: 100%;
+}
+.role {
   text-align: center;
 }
-
-.down-arrow {
-  padding: .5em;
-  width: 20px;
+.research-intro {
+  background-color: #EDEBEB;
+  padding: 4%;
+}
+.research-image {
+  width: 80px;
+}
+.see-research {
+  color: #4A23F1;
+  font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+.user-personas {
+  padding: 4%;
+}
+.competitive-analysis {
+  padding: 4%;
+}
+.user-stories-image {
+  width: 100%;
+}
+.user-flows-image {
+  width: 100%;
+}
+.user-flows {
+  padding: 4%;
 }
 
-main.case-studies {
+
+
+.back-to-top {
+  margin: auto;
   text-align: center;
 }
-
-.about-me {
-  position: relative;
-  text-align: center;
-  line-height: 140%;
-}
-.short-bio {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  line-height: 140%;
-}
-
 .green-button {
   background-color: #86A681;
   border: none;
@@ -138,35 +170,6 @@ main.case-studies {
   justify-content: center;
   text-decoration: none;
   font-size: 1.4em;
-}
-
-.design-process {
-  font-size: 1.3em;
-  font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
-  margin: 4em;
-  text-align: center;
-}
-
-.process-tagline {
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  line-height: 180%;
-  text-align: center;
-}
-
-.four-steps {
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  text-align: center;
-}
-
-.testimonials {
-  background: #EBE8E8;
-  padding: 4em;
-  text-align: center;
-  line-height: 200%;
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-top: 7%;
-  padding-bottom: 7%;
 }
 
 footer {
@@ -190,6 +193,9 @@ address {
 /*** For tablet ***/
 /*** when screen is larger than than 768px width, it changes to this ***/
 @media screen and (min-width: 768px) {
+  h1 {
+    text-align: left;
+  }
   .container {
     margin: 0 auto;
     width: 70rem;
@@ -206,60 +212,15 @@ address {
   .nav-menu {
     justify-content: flex-end;
   }
-  .hero {
-    display: flex;
-    flex-direction: row;
+  .project-nav {
+    color: white;
+    background-color: #4A23F1;
+    display: inline-flex;
     justify-content: space-between;
-  }
-  .hero-tagline {
-    justify-content: flex-start;
-    text-align: left;
-    width: 50%;
-  }
-  .headshot {
-    justify-content: flex-end;
-    margin-top: 10%;
-    margin-right: 10%;
-    width: 30%;
-  }
-  .main.case-studies {
-    display: flex;
+    padding: 1.5rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
     width: 100%;
-  }
-  .cloudspark {
-    display: flex;
-    flex-direction: row;
-    padding: 1.4rem;
-  }
-  article.cloudspark {
-    display: flex;
-    flex-direction: column;
-  }
-  .cloudspark-image {
-    /* padding: 2rem; */
-  }
-  .busy-bus {
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 1.4rem;
-  }
-  .about-me {
-    position: relative;
-    text-align: left;
-    line-height: 140%;
-}
-  .short-bio {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    line-height: 230%;
-    transform: translate(-50%, -50%);
-    width: 70%;
-  }
-  .four-steps {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
   }
 }
 

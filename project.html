@@ -7,26 +7,38 @@
       <script src="https://kit.fontawesome.com/a076d05399.js"></script>
       <!-- Custom Styles -->
       <link rel="stylesheet" href="css/reset.css">
-      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/cloudspark.css">
    </head>
    <body>
       <div class="container">
-          <header class="hero content">
-             <nav>
-                <a href="index.html"><img src="images/homepage/logo.png" alt="Personal logo"/></a>
-                <a href="project.html"><p>Work</p></a>
-                <p>About</p>
-                <p>Contact</p>
-             </nav>
+          <header>
+            <nav class="nav">
+              <a href="index.html"><img src="images/homepage/logo.png" alt="personal logo" class="personal-logo"></a>
+                 <div class="nav-menu-container">
+                  <ul class="nav-menu">
+                     <li>
+                        <a href="project.html" class="nav-menu-links">Work</a>
+                     </li>
+                     <li>
+                        <a href="about.html" class="nav-menu-links">About</a>
+                     </li>
+                     <li>
+                        <a href="project.html" class="nav-menu-links">Contact</a>
+                     </li>
+                  </ul>
+                </div>
+            </nav>
                <!-- Case study hero image section -->
                 <section class="project-hero">
-                   <img src="images/cloudspark/cloudspark-hero.png" alt="Cloudspark Hero Image"/>
-                   <h1>CloudSpark</h1>
-                   <p>Cloudspark is a mobile cloud storage app for file storage and collaboration. Users can upload photos, create and collaborate on documents and easily organize and share their files.</p>
-                   <a href="https://invis.io/3KVE7A2S92T">See prototype →</a>
+                        <img src="images/cloudspark/cloudspark-logo.png" alt="Cloudspark logo" class="cloudspark-logo"/>
+                         <p>Cloudspark is a mobile cloud storage app for file storage and collaboration. Users can upload photos, create and collaborate on documents and easily organize and share their files.</p>
+                    <br>
+                         <a href="https://invis.io/3KVE7A2S92T" class="see-prototype">See prototype →</a>
+                         <img src="images/cloudspark/cloudspark-hero.png" alt="Cloudspark Hero Image" class="cloudspark-hero-image"/>
                 </section>
             </header>
                 <!-- Case study nav bar links -->
+            <main class="cloudspark-case-study">
                 <section class="project-nav">
                 <h4>Overview</h4>
                 <h4>Research</h4>
@@ -36,26 +48,31 @@
                 </section>
                 <!--Case study overview section-->
                 <section class="project-overview">
-                   <div class="overview header">
+                   <div class="overview-header">
                       <h1>Overview</h1>
                    </div>
-                   <div class="What I did container">
-                      <div class="Role">
+                   <br>
+                   <div class="what-i-did">
+                      <div class="role">
                         <h4>Role</h4>
-                         <p>Research, UX Designer, Information architecture, Visual design and testing</p>
+                         <p>UX Research, UX Design,<br>Information architecture,<br>Visual design and testing</p>
                       </div>
-                      <div class="Deliverables">
-                         <p>High-fi Invision prototype, competitive analysis, user personas, user stories, user flows, logo, brand style guide, UI design</p>
+                      <br>
+                      <div class="deliverables">
+                        <h4>Deliverables</h4>
+                         <p>Invision prototype, competitive analysis,<br>user personas, user stories, user flows,<br>logo, brand style guide, UI design</p>
                       </div>
-                      <div class="Tools used">
-                         <p>Figma, Invision, Google Forms, Illustrator, Draw.io, Lookback.io, UsabilityHub</p>
+                      <br>
+                      <div class="tools-used">
+                        <h4>Tools used</h4>
+                         <p>Figma, Invision,<br>Google Forms, Illustrator,<br>Draw.io, Lookback.io, UsabilityHub</p>
                       </div>
                    </div>
                    <div class="Problem">
                       <article>
                          <h2>Problem</h2>
                          <p>User research revealed that cloud storage users struggle to keep their files organized, so we created and tested several prototypes to build a new cloud storage app with stronger organizational features.</p>
-                         <p>The result was CloudSpark,  a new cloud storage app with stronger organizational features where you can store files and collaborate with friends.</p>
+                         <br><p>The result was CloudSpark,  a new cloud storage app with stronger organizational features where you can store files and collaborate with friends.</p>
                       </article>
                       <div class="problem image">
                       <img src="images/cloudspark/cloudspark-prototype.png" alt="Cloudspark Prototype"/>
@@ -63,25 +80,26 @@
              </div>
              </section>
              <!-- Case study research section -->
-             <section class="Research and Discovery">
-                <div class="research header">
-                   <h1>Research and Discovery</h1>
-                </div>
-                <div class="Research Key Insights">
-                   <article>
-                      <h3>Research Key Insights</h3>
-                      <p>The top files hosted on cloud storage sites are photos and documents</p>
-                      <p>The most important feature is uploading files from a mobile device</p>
-                      <p>People struggle to keep their files organized in cloud storage apps</p>
-                      <a href="drive.google.com">See all the research →</a>
-                   </article>
-                   <div class="research image">
-                   <img src="images/cloudspark/research-image.png" alt="research image">
-                </div>
+             <section class="research-discovery">
+                <div class="research-intro">
+                  <h1>Research and Discovery</h1>
+                  <br>
+                  <div class="Research Key Insights">
+                     <article>
+                        <h4>Research Key Insights</h4>
+                        <p>The top files hosted on cloud storage sites are photos and documents</p>
+                        <p>The most important feature is uploading files from a mobile device</p>
+                        <p>People struggle to keep their files organized in cloud storage apps</p>
+                        <a href="drive.google.com" class="see-research">See all the research →</a>
+                     </article>
+                     <div class="research-image">
+                     <img src="images/cloudspark/research-image.png" alt="research image">
+                  </div>
+            </div>
           </div>
-          <div class="User personas">
+          <div class="user-personas">
           <article>
-          <h3>User Personas</h3>
+          <h4>User Personas</h4>
           <p>Next, I developed two disticnt personas based on trends in the research to build empathy with users:</p>
           </article>
           <div class="persona-images">
@@ -89,45 +107,41 @@
           <img src="images/cloudspark/Paul_persona.png" alt="Paul persona">
           </div>
           </div>
-          <div class="Competitive analysis">
-          <article>
-          <h3>Competitive Analysis</h3>
-          <p>I found opportunities for a new cloud storage app to compete by studying competitors’ weaknesses</p>
-          <a href="drive.google.com">View competitive analysis →</a>
-          </article>
-          <div class="competitive analysis-images">
-          <img src="images/cloudspark/dropbox.png" alt="Dropbox">
-          <img src="images/cloudspark/evernote.png" alt="Evernote">
+          <div class="competitive-analysis">
+              <article>
+              <h4>Competitive Analysis</h4>
+              <p>I found opportunities for a new cloud storage app to compete by studying competitors’ weaknesses</p>
+              <a href="drive.google.com">View competitive analysis →</a>
+              </article>
+              <div class="competitive analysis-images">
+              <img src="images/cloudspark/dropbox.png" alt="Dropbox">
+              <img src="images/cloudspark/evernote.png" alt="Evernote">
+              </div>
           </div>
-          </div>
-          <div class="User Stories">
+          <div class="user-stories">
           <article>
-          <h3>User Stories</h3>
+          <h4>User Stories</h4>
           <p>We prioritized user stories based on our research to build the MVP</p>
           </article>
-          <div class="user stories-image">
-          <img src="images/cloudspark/User-stories.png" alt="User stories">
-          </div>
+          <img src="images/cloudspark/User-stories.png" alt="User stories" class="user-stories-image">
           </div>
           </section>
           <!-- Case study Information Architecture section -->
-          <section class="Information Architecture">
-             <div class="IA header">
+          <section class="Information-Architecture">
+             <div class="ia-header">
                 <h1>Information Architecture</h1>
              </div>
-             <div class="User Flows">
+             <div class="user-flows">
                 <article>
-                   <h3>User Flows</h3>
+                   <h4>User Flows</h4>
                    <p>I mapped out the user stories with user flows to inform the design.</p>
                    <a href="drive.google.com">View all user flows →</a>
                 </article>
-                <div class="user flows-images">
-                <img src="images/cloudspark/userflows.png" alt="User flows">
-             </div>
+                <img src="images/cloudspark/userflows.png" alt="User flows" class="user-flows-image">
              </div>
              <div class="Sketching and Wireframing">
                 <article>
-                   <h3>Sketching and Wireframing</h3>
+                   <h4>Sketching and Wireframing</h4>
                    <p>Constructed low fidelity wireframes of the highest priority user flows  in Figma and user tested them on several people remotely.</p>
                 </article>
                 <div class="wireframe-images">
@@ -139,7 +153,7 @@
              </div>
              <div class="User Testing">
                 <article>
-                   <h3>User Testing Results</h3>
+                   <h4>User Testing Results</h4>
                    <p>Users were able to complete tasks successfully but gave some great feedback</p>
                    <p>Based on the feedback from testing we made these changes:</p>
                    <ul>
@@ -160,7 +174,7 @@
              </div>
              <div class="Branding">
                 <article>
-                   <h3>Branding</h3>
+                   <h4>Branding</h4>
                    <p>I chose brand characteristics like magical, fun and whimsical, which helped us choose a brand name of Cloudspark</p>
                    <p>I made dozens of sketches, combining the concepts of cloud and spark.</p>
                 </article>
@@ -171,7 +185,7 @@
              </div>
              <div class="Logo Development">
                 <article>
-                   <h3>Logo Development</h3>
+                   <h4>Logo Development</h4>
                    <p> I refined the most promising concepts in  Illustrator and landed on one refined mark, which we paired with the typefaces Poppins Semibold and Sofia Pro:</p>
                 </article>
                 <div class="logo image">
@@ -180,7 +194,7 @@
              </div>
              <div class="Style guide and brand assets">
                 <article>
-                   <h3>Style guide and brand assets</h3>
+                   <h4>Style guide and brand assets</h4>
                    <p>We used a mood board to develop a brand color palette and style guide:</p>
                    <a href="drive.google.com">See the style guide →</a>
                 </article>
@@ -192,7 +206,7 @@
              </div>
              <div class="User testing high fidelity prototypes">
                 <article>
-                   <h3>User testing high fidelity prototypes</h3>
+                   <h4>User testing high fidelity prototypes</h4>
                    <p>Created high fidelity prototype with new brand assets in Figma and Invision</p>
                    <p>User tested the high fidelity prototype using Invision and Lookback.io to record the sessions.</p>
                    <p>Users were able to complete tasks faster than the first round of user testing but they made some suggestions which resulted in the following changes:</p>
@@ -208,7 +222,7 @@
              </div>
              <div class="Preference testing">
                 <article>
-                   <h3>Preference testing</h3>
+                   <h4>Preference testing</h4>
                    <p>Conducted preference testing on high fidelity designs with Usability Hub and implemented users preferences in final InVision prototype</p>
                 </article>
                 <div class="preference-testing-images">
@@ -230,7 +244,7 @@
                 </div>
                 <div class="What I learned">
                 <article class="what I learned">
-                   <h3>What I learned</h3>
+                   <h4>What I learned</h4>
                    <p>Had a lot of success with a list view design and slide up contextual menus</p>
                    <p>Learned the importance of performing tasks in as few clicks as possible </p>
                    <p>If time allowed, would have done additional research into more niche markets </p>
@@ -242,12 +256,13 @@
                    <p>Back to top</p>
                 </div>
           </section>
-          </div>
+      </main>
           <!-- Footer with icons and contact cta -->
           <footer>
              <div class="footer-cta">
-                <p>Let's build something great together.</p>
-                <button>Contact me</button>
+                <h1>Let's build something great together.</h1>
+                <br><br><br>
+                <button class="green-button">Contact me</button>
              </div>
              <div class="footer-icons">
                 <ul>
@@ -272,5 +287,6 @@
                     <p>© 2020 Rebecca Creger | Designed and developed by Rebecca Creger</p>
                  </address>
           </footer>
+          </div>
    </body>
 </html>
