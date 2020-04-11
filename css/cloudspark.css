@@ -19,6 +19,12 @@ p {
   font-size: 1.4rem;
   font-family: 'Muli', Helvetica, Arial, sans-serif;
   line-height: 140%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+a {
+  text-decoration: none;
 }
 
 h1 {
@@ -32,6 +38,8 @@ h2 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 600;
   line-height: 160%;
+  margin-left: 4%;
+  margin-right: 4%;
   text-align: left;
 }
 
@@ -40,6 +48,8 @@ h4 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 600;
   line-height: 160%;
+  margin-left: 4%;
+  margin-right: 4%;
   text-align: left;
 }
 article {
@@ -108,7 +118,7 @@ header {
   color: #4A23F1;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
   font-weight: 500;
-  text-decoration: none;
+  font-size: 1em;
 }
 main.cloudspark-case-study {
   width: 100%;
@@ -117,19 +127,17 @@ main.cloudspark-case-study {
   display: none;
 }
 .project-overview {
-  padding: 4%;
   text-align: center;
   width: 100%;
 }
-.role {
+h4.what-i-did {
   text-align: center;
 }
 .research-intro {
   background-color: #EDEBEB;
-  padding: 4%;
 }
 .research-image {
-  width: 80px;
+  width: 100%;
 }
 .see-research {
   color: #4A23F1;
@@ -138,10 +146,10 @@ main.cloudspark-case-study {
   text-decoration: none;
 }
 .user-personas {
-  padding: 4%;
+
 }
 .competitive-analysis {
-  padding: 4%;
+
 }
 .user-stories-image {
   width: 100%;
@@ -150,9 +158,11 @@ main.cloudspark-case-study {
   width: 100%;
 }
 .user-flows {
-  padding: 4%;
-}
 
+}
+.sketching {
+  width: 100%;
+}
 
 
 .back-to-top {
