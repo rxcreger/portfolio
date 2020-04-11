@@ -8,6 +8,8 @@ html {
 
 .container {
   background-color: yellow;
+  /* display: flex; */
+  /* flex-direction: column; */
   width: 100%;
 }
 
@@ -32,11 +34,11 @@ header {
 /*** Navigation bar ***/
 .nav {
   background-color: white;
-  align-content: center;
   margin: auto;
-  padding: 1.2rem;
+  padding: 1.6rem;
   position: fixed;
-  width: 29.5%;
+  width: 100%;
+  z-index: 10;
 }
 
 .personal-logo {
@@ -45,10 +47,8 @@ header {
 }
 
 .nav-menu {
-  display: flex;
-  flex-direction: row;
   float: right;
-  justify-content: flex-end;
+  display: inline-flex;
 }
 
 .nav-menu-links {
@@ -65,6 +65,8 @@ header {
 .hero {
   background-color: purple;
   color: black;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   font-family: 'Domine', Georgia, Times, serif;
   font-size: 1.8rem;
@@ -76,7 +78,6 @@ header {
 
 .hero-tagline {
   margin-top: 25%;
-  justify-content: center;
   margin-bottom: 5%;
 }
 
@@ -90,15 +91,12 @@ p.tagline {
 }
 
 .headshot {
-  display: flex;
   padding: 1.9rem;
-  justify-content: center;
 }
 
 .featured-work {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-size: 1.3em;
-  justify content: center;
   padding: 2rem;
   text-align: center;
 }
@@ -109,23 +107,49 @@ p.tagline {
 }
 
 .main.case-studies {
-  width: 29.5%;
+  /* display: flex; */
+  /* justify content: center; */
+  /* flex-direction: column; */
+  text-align: center;
 }
 
 .about-me {
-  justify content: center;
-  width: 29.5%;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify content: center; */
+  text-align: center;
+  width: 100%;
 }
 
 .design-process {
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif
-  justify content: center;
+  text-align: center;
+}
+
+.process-tagline {
+  text-align: center;
+}
+
+.four-steps {
+  text-align: center;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify content: center; */
+}
+
+.testimonials {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify content: center; */
+  text-align: center;
 }
 
 footer {
+  /* display: flex; */
+  /* flex-direction: column; */
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif
-  justify content: center;
-  width: 29.5%;
+  /* justify content: center; */
+  text-align: center;
 }
 
 /*** Media queries ***/
@@ -150,24 +174,27 @@ footer {
   .main.case-studies {
     /* display: block; */
   }
-  .project-nav {
-    display: none;
-  }
 }
 
 /*** For tablet ***/
 /*** when screen is larger than than 768px width, it changes to this ***/
 @media screen and (min-width: 768px) {
   .container {
-    display: flex;
+    /* display: flex; */
+    /* flex-direction: column; */
     margin: 0 auto;
     width: 70rem;
   }
+  .nav {
+    width: 100%;
+  }
   .hero-tagline {
+    /* justify-content: flex-start; */
     text-align: left;
     width: 30%;
   }
   .headshot {
+    justify-content: flex-end;
     width: 20%;
   }
 }
@@ -177,8 +204,8 @@ footer {
 @media screen and (min-width: 1024px) {
   .container {
     background-color: #fff;
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     margin: 0 auto;
     width: 100rem;
   }
