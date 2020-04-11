@@ -24,6 +24,10 @@ p {
 }
 
 a {
+  font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
+font-size: 1.4em;
+  font-weight: 500;
+  padding: 4%;
   text-decoration: none;
 }
 
@@ -52,9 +56,20 @@ h4 {
   margin-right: 4%;
   text-align: left;
 }
+img {
+  text-align: center;
+}
+ul {
+  font-family: 'Muli', Helvetica, Arial, sans-serif;
+  font-size: 1.4em;
+  list-style-type: decimal;
+  line-height: 140%;
+  padding-left: 7%;
+  padding-right: 4%;
+}
 article {
   text-align: left;
-  padding: 4%;
+  padding-left: 4%;
 }
 
 header {
@@ -145,14 +160,19 @@ h4.what-i-did {
   font-weight: 500;
   text-decoration: none;
 }
-.user-personas {
-
+#persona {
+  height: 20rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  object-fit: contain;
+  width: 100%;
 }
 .competitive-analysis {
 
 }
 .user-stories-image {
   width: 100%;
+  margin: 0 auto
 }
 .user-flows-image {
   width: 100%;
