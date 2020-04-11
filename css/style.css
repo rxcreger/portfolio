@@ -8,20 +8,7 @@ html {
 
 .container {
   background-color: yellow;
-  display: grid;
-  flex-direction: column;
-  grid-auto-rows: minmax(200px, auto);
-  grid-template-columns: 1fr;
-  grid-gap: 1rem 2rem;
-  margin: 0 auto;
-  width: 90%;
-  grid-template-areas:
-    "header"
-    "featured-work"
-    "case-studies"
-    "about-me"
-    "design-process"
-    "footer"
+  width: 100%;
 }
 
 body {
@@ -39,25 +26,22 @@ h1 {
 }
 
 header {
-    grid-column: 1 / span 2;
-    grid-row: 1;
-    grid-area: header;
+  width: 100%;
 }
 
 /*** Navigation bar ***/
 .nav {
   background-color: white;
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  font-size: 1.4rem;
-  justify content: space-between;
+  align-content: center;
   margin: auto;
-  padding: 1.8rem;
+  padding: 1.2rem;
   position: fixed;
-  width: 90%;
+  width: 29.5%;
 }
 
 .personal-logo {
   float: left;
+  padding-top: 2%;
 }
 
 .nav-menu {
@@ -69,7 +53,10 @@ header {
 
 .nav-menu-links {
   color: black;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
   float: right;
+  padding-top: 8%;
   padding: 2rem;
   text-decoration: none;
 }
@@ -78,19 +65,19 @@ header {
 .hero {
   background-color: purple;
   color: black;
-  display: flex;
+  justify-content: center;
   font-family: 'Domine', Georgia, Times, serif;
   font-size: 1.8rem;
   line-height: 140%;
-  padding: 1.8rem;
-  text-align: left;
+  padding: 3rem;
+  text-align: center;
   width: 100%;
 }
 
 .hero-tagline {
-  margin-top: 20%;
-  /* margin-left: 10%; */
-  width: 50%;
+  margin-top: 25%;
+  justify-content: center;
+  margin-bottom: 5%;
 }
 
 h1.greeting {
@@ -103,17 +90,14 @@ p.tagline {
 }
 
 .headshot {
-  padding-left: 5%;
-  margin-top: 15%;
-  /* margin-right: 10%; */
-  width: 40%;
+  display: flex;
+  padding: 1.9rem;
+  justify-content: center;
 }
 
 .featured-work {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-size: 1.3em;
-  grid-column: 1 / span 2;
-  grid-row: 2 ;
   justify content: center;
   padding: 2rem;
   text-align: center;
@@ -125,30 +109,23 @@ p.tagline {
 }
 
 .main.case-studies {
-  width: 90%;
-  grid-column: 1 / span 2;
-  grid-row: 3 / span 2;
+  width: 29.5%;
 }
 
 .about-me {
-  grid-column: 1 / span 2;
-  grid-row: 4 ;
   justify content: center;
-  width: 90%;
+  width: 29.5%;
 }
 
 .design-process {
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif
-  grid-column: 1 / span 2;
-  grid-row: 5 ;
   justify content: center;
 }
 
 footer {
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif
-  grid-column: 1 / span 2;
-  grid-row: 6 ;
   justify content: center;
+  width: 29.5%;
 }
 
 /*** Media queries ***/
@@ -164,17 +141,14 @@ footer {
 /*** when screen is less than than 575px width, it changes to this ***/
 @media screen and (max-width: 575px) {
   .container {
-    grid-template-columns: 1fr;
     margin: 0 auto;
   }
   .hero {
-    display: block;
-  }
-  .hero {
-    display: block;
+    /* display: block; */
+    text-align: center;
   }
   .main.case-studies {
-    display: block;
+    /* display: block; */
   }
   .project-nav {
     display: none;
@@ -185,12 +159,12 @@ footer {
 /*** when screen is larger than than 768px width, it changes to this ***/
 @media screen and (min-width: 768px) {
   .container {
-    flex-direction: row;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     margin: 0 auto;
     width: 70rem;
   }
   .hero-tagline {
+    text-align: left;
     width: 30%;
   }
   .headshot {
@@ -203,30 +177,9 @@ footer {
 @media screen and (min-width: 1024px) {
   .container {
     background-color: #fff;
-    display: grid;
-    flex-direction: row;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas:
-      "header header"
-      "featured-work featured-work"
-      "case-studies case-studies"
-      "about-me about-me"
-      "design-process design-process"
-      "footer footer"
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
     width: 100rem;
-  }
-}
-
-/*** when screen is less than 1000px width, it changes to this ***/
-/* @media screen and (max-width: 1024px) { */
-  /* header { */
-    display: flex;
-  }
-
-  /* .container { */
-    margin: 0 auto;
-    position: relative;
-    width: 1024px;
   }
 }
