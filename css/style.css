@@ -11,14 +11,11 @@ html {
   width: 100%;
 }
 
-a {
-  font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
-  font-size: 1.4em;
-  font-weight: 500;
-  text-decoration: none;
-}
 body {
   background-color: white;
+}
+a {
+  text-decoration: none;
 }
 
 p {
@@ -40,8 +37,8 @@ header {
 .nav {
   background-color: white;
   margin: auto;
-  padding: 1.6rem;
   position: fixed;
+  padding: 2rem;
   width: 100rem;
 }
 .nav-menu-container {
@@ -53,8 +50,12 @@ header {
 .hamburger-menu {
   float: right;
 }
-
-
+h1.greeting {
+  font-size: 3rem
+}
+h3.tagline {
+  font-size: 2rem;
+}
 /*** Case studies section ***/
 main.case-studies {
   text-align: center;
@@ -71,6 +72,7 @@ button.case-study {
   margin: 2%;
   padding: 15px 32px;
   text-align: center;
+  text-decoration: none;
 }
 
 /*** Hero image section ***/
@@ -83,13 +85,13 @@ button.case-study {
   font-family: 'Domine', Georgia, Times, serif;
   font-size: 1.8rem;
   line-height: 140%;
-  padding: 3rem;
+  /* padding: 3rem; */
   text-align: center;
   width: 100%;
 }
 
 .hero-tagline {
-  margin-top: 25%;
+  margin-top: 20%;
   margin-bottom: 5%;
 }
 
@@ -103,7 +105,7 @@ p.tagline {
 }
 
 .headshot {
-  padding: 1.9rem;
+  /* padding-left: 1.9rem; */
 }
 
 .featured-work {
@@ -233,7 +235,7 @@ address {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 3rem;
+    padding-left: 0rem;
   }
   .hamburger-menu {
     display: none;
@@ -281,8 +283,6 @@ address {
   .cloudspark {
     display: flex;
     flex-direction: row;
-    margin: 3%;
-    padding: 1.4rem;
     text-align: left;
   }
   article.cloudspark {
@@ -297,8 +297,6 @@ address {
   .busy-bus {
     display: flex;
     flex-direction: row-reverse;
-    margin: 3%;
-    padding: 1.4rem;
     text-align: left;
   }
   article.busy-bus {
