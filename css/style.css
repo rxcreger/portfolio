@@ -39,7 +39,7 @@ header {
   margin: auto;
   position: fixed;
   padding: 2rem;
-  width: 100rem;
+  width: 80rem;
 }
 .nav-menu-container {
   display: none;
@@ -113,6 +113,8 @@ p.tagline {
   font-size: 1.3em;
   padding: 2rem;
   text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .down-arrow {
@@ -121,15 +123,16 @@ p.tagline {
 }
 
 main.case-studies {
-  text-align: center;;
+  text-align: center;
 }
 .tag {
   border-radius: 20rem;
   border: 2px solid black;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 28px;
-  padding: 2% 3%;
+  /* margin-right: 4px; */
+  padding: 4px;
 }
 #cloudspark-image {
   text-align: center;
@@ -169,7 +172,6 @@ article.short-bio {
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
   padding: 15px 32px;
   text-align: center;
-  justify-content: center;
   text-decoration: none;
   font-size: 1.4em;
 }
@@ -265,12 +267,12 @@ address {
   .hero-tagline {
     justify-content: flex-start;
     text-align: left;
-    width: 50%;
+    width: 60%;
   }
   .headshot {
     justify-content: flex-end;
-    margin-top: 10%;
-    margin-right: 10%;
+    margin-top: 15%;
+    /* margin-right: 10%; */
     width: 30%;
   }
   .main.case-studies {
@@ -279,15 +281,18 @@ address {
   }
   .tag {
     display: inline;
+   }
   }
   .cloudspark {
     display: flex;
     flex-direction: row;
+    /* margin-top: 3rem; */
     text-align: left;
   }
   article.cloudspark {
     display: flex;
     flex-direction: column;
+    margin-right: 3rem;
   }
   #cloudspark-image {
     display: flex;
@@ -297,11 +302,13 @@ address {
   .busy-bus {
     display: flex;
     flex-direction: row-reverse;
+    margin-top: 8rem;
     text-align: left;
   }
   article.busy-bus {
     display: flex;
     flex-direction: column;
+    margin-left: 3rem;
   }
   #busybus-image {
     display: flex;
