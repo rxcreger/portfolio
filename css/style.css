@@ -111,20 +111,37 @@ p.tagline {
 }
 
 main.case-studies {
+  text-align: center;;
+}
+
+#cloudspark-image {
   text-align: center;
+  width: 100%;
+}
+#busybus-image {
+  text-align: center;
+  width: 100%;
 }
 
 .about-me {
+  font-size: 1em;
+  line-height: 200%;
   position: relative;
   text-align: center;
-  line-height: 140%;
 }
-.short-bio {
+
+article.short-bio {
   position: absolute;
   top: 50%;
   left: 50%;
+  /* line-height: 140%; */
+  /* padding: 4%; */
   transform: translate(-50%, -50%);
-  line-height: 140%;
+  width: 80%;
+}
+.bio-imagery {
+  object-fit: cover;
+  width: 100%;
 }
 
 .green-button {
@@ -195,10 +212,10 @@ address {
     width: 70rem;
   }
   .nav {
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
   }
   .personal-logo {
     justify-content: flex-start;
@@ -230,18 +247,18 @@ address {
     display: flex;
     flex-direction: row;
     padding: 1.4rem;
+    text-align: left;
   }
   article.cloudspark {
     display: flex;
     flex-direction: column;
   }
-  .cloudspark-image {
-    /* padding: 2rem; */
-  }
+
   .busy-bus {
     display: flex;
     flex-direction: row-reverse;
     padding: 1.4rem;
+    text-align: left;
   }
   .about-me {
     position: relative;

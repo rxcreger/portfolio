@@ -7,7 +7,7 @@ html {
 }
 
 .container {
-  background-color: yellow;
+  background-color: white;
   width: 100%;
 }
 
@@ -35,6 +35,7 @@ h1 {
   font-size: 2.2rem;
   font-family: 'Domine', Georgia, Times, serif;
   line-height: 160%;
+  padding: 2rem;
   text-align: center;
 }
 h2 {
@@ -45,6 +46,12 @@ h2 {
   margin-left: 4%;
   margin-right: 4%;
   text-align: left;
+}
+h3 {
+  font-size: 1.4rem;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 160%;
 }
 
 h4 {
@@ -59,14 +66,7 @@ h4 {
 img {
   text-align: center;
 }
-ul {
-  font-family: 'Muli', Helvetica, Arial, sans-serif;
-  font-size: 1.4em;
-  list-style-type: decimal;
-  line-height: 140%;
-  padding-left: 7%;
-  padding-right: 4%;
-}
+
 article {
   text-align: left;
   padding-left: 4%;
@@ -110,9 +110,6 @@ header {
 .project-hero {
   background-color: white;
   color: black;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: center; */
   font-family: 'Domine', Georgia, Times, serif;
   font-size: 1.8rem;
   line-height: 140%;
@@ -128,12 +125,13 @@ header {
 .cloudspark-hero-image {
   text-align: center;
   margin-top: 10%;
+  width: 100%;
 }
 .see-prototype {
   color: #4A23F1;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
   font-weight: 500;
-  font-size: 1em;
+  font-size: .8em;
 }
 main.cloudspark-case-study {
   width: 100%;
@@ -154,21 +152,14 @@ h4.what-i-did {
 .research-image {
   width: 100%;
 }
-.see-research {
-  color: #4A23F1;
-  font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  text-decoration: none;
+.persona-images {
+  text-align: center;
 }
 #persona {
-  height: 20rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  object-fit: contain;
-  width: 100%;
+  width: 50%;
 }
-.competitive-analysis {
-
+.competitive-analysis-images {
+  text-align: center;
 }
 .user-stories-image {
   width: 100%;
@@ -177,16 +168,55 @@ h4.what-i-did {
 .user-flows-image {
   width: 100%;
 }
-.user-flows {
-
-}
 .sketching {
   width: 100%;
 }
-
-
+.wireframe-images {
+  text-align: center;
+}
+.user-testing-images {
+  text-align: center;
+  width: 100%;
+}
+ul.user-testing-changes {
+  font-family: 'Muli', 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 1.3em;
+  line-height: 140%;
+  list-style: decimal;
+  padding-left: 6%;
+}
+.branding-images {
+  text align: center;
+  width: 100%;
+}
+.logo-image {
+  text-align: center;
+}
+.asset-images {
+  text-align: center;
+  width: 100%;
+}
+.hifi-user-testing {
+  font-family: 'Muli', 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 1.3em;
+  line-height: 140%;
+  list-style: decimal;
+  padding-left: 6%;
+}
+.hifi-user-testing-images {
+  text-align: center;
+}
+.preference-testing-images{
+  text-align: center;
+  width: 100%;
+}
+.final-prototype-images {
+  text-align: center;
+  width: 100%;
+}
 .back-to-top {
   margin: auto;
+  margin-top: 5%;
   text-align: center;
 }
 .green-button {
@@ -223,24 +253,27 @@ address {
 /*** For tablet ***/
 /*** when screen is larger than than 768px width, it changes to this ***/
 @media screen and (min-width: 768px) {
-  h1 {
-    text-align: left;
-  }
   .container {
     margin: 0 auto;
     width: 70rem;
   }
   .nav {
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
   }
   .personal-logo {
     justify-content: flex-start;
   }
   .nav-menu {
     justify-content: flex-end;
+  }
+  h1 {
+    text-align: left;
+    font-size: 2.5em;
+    padding: 8%;
   }
   .project-nav {
     color: white;
@@ -251,6 +284,47 @@ address {
     padding-left: 8rem;
     padding-right: 8rem;
     width: 100%;
+  }
+  .project-hero {
+    display: flex;
+    flex-direction: row;
+    margin-top: 8%;
+    padding: 1.4rem;
+    text-align: left;
+    width: 100%;
+  }
+  article.cloudspark-hero {
+    display: flex;
+    flex-direction: column;
+    line-height: 140%;
+  }
+  .what-i-did {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: left;
+    width: 100%;
+  }
+  h4.what-i-did {
+    text-align: left;
+  }
+  .problem-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    padding: 1em;
+  }
+  article.problem {
+    flex-direction: column;
+    justify-content: flex-start;
+    width:
+  }
+  .problem-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
 }
 
