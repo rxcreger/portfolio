@@ -19,7 +19,7 @@ a {
   text-decoration: none;
 }
 body {
-  background-color: red;
+  background-color: white;
 }
 
 p {
@@ -224,6 +224,7 @@ address {
 @media screen and (min-width: 768px) {
   .container {
     display: flex;
+    flex-direction: column;
     margin: 0 auto;
     width: 70rem;
   }
