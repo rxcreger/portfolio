@@ -11,6 +11,13 @@ html {
   width: 100%;
 }
 
+a {
+  font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
+  font-size: 1.4em;
+  font-weight: 500;
+  padding: 4%;
+  text-decoration: none;
+}
 body {
   background-color: red;
 }
@@ -113,7 +120,13 @@ p.tagline {
 main.case-studies {
   text-align: center;;
 }
-
+button.tag {
+  border-radius: 18px;
+  border: 2px solid black;
+  font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
+  padding: 10px 10px;
+  text-align: center;
+}
 #cloudspark-image {
   text-align: center;
   width: 100%;
