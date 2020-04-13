@@ -190,6 +190,8 @@ article.personas {
 }
 .competitive-analysis-images {
   text-align: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 .user-stories {
   margin-bottom: 5%;
@@ -208,6 +210,10 @@ article.personas {
 }
 .sketching {
   margin-bottom: 8%;
+  width: 100%;
+}
+.sketch-images {
+  margin-top: 5%;
   width: 100%;
 }
 .wireframe-images {
@@ -231,7 +237,7 @@ ul.user-testing-changes {
   margin-bottom: 8%;
 }
 .branding-images {
-  text align: center;
+  /* text align: center; */
   width: 100%;
 }
 .logo-image {
@@ -248,10 +254,6 @@ ul.user-testing-changes {
 .user-testing-one {
   margin-bottom: 8%;
 }
-.preference-testing {
-  margin-bottom: 8%;
-  margin-top: 8%;
-}
 .hifi-user-testing {
   font-family: 'Muli', 'Montserrat', Helvetica, Arial, sans-serif;
   font-size: 1.3em;
@@ -260,10 +262,17 @@ ul.user-testing-changes {
   padding-left: 6%;
 }
 .hifi-user-testing-images {
+  margin-top: 2%;
   text-align: center;
 }
-.preference-testing-images{
+.preference-testing {
+  /* margin-bottom: 8%; */
+  margin-top: 8%;
+}
+.preference-testing-images {
   text-align: center;
+  padding-top: 6%;
+  padding-bottom: 6%;
   width: 100%;
 }
 .final-prototype-images {
