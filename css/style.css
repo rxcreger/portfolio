@@ -30,7 +30,7 @@ h1 {
 }
 
 header {
-  width: 100%;
+  /* width: 100%; */
 }
 
 /*** Navigation bar ***/
@@ -39,7 +39,7 @@ header {
   margin: auto;
   position: fixed;
   padding: 2rem;
-  width: 80rem;
+  width: 100%;
 }
 .nav-menu-container {
   display: none;
@@ -116,23 +116,24 @@ p.tagline {
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
-
 .down-arrow {
   padding: .5em;
   width: 20px;
 }
-
-main.case-studies {
-  text-align: center;
-}
 .tag {
-  border-radius: 20rem;
+  border-radius: 20px;
   border: 2px solid black;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
   font-size: 1.2rem;
   line-height: 28px;
-  /* margin-right: 4px; */
-  /* padding: 4px; */
+  margin-right: 2px;
+  padding: 10px;
+  text-align: center;
+}
+.case-study-tagline {
+  line-height: 160%;
+}
+.cloudspark {
   text-align: center;
 }
 #cloudspark-image {
@@ -143,7 +144,6 @@ main.case-studies {
   text-align: center;
   width: 100%;
 }
-
 .about-me {
   font-size: 1em;
   line-height: 200%;
@@ -156,7 +156,6 @@ article.short-bio {
   top: 50%;
   left: 50%;
   line-height: 200%;
-  /* padding: 4%; */
   transform: translate(-50%, -50%);
   width: 80%;
 }
@@ -180,7 +179,7 @@ article.short-bio {
 .design-process {
   font-size: 1.3em;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
-  margin: 4em;
+  margin: 3em;
   text-align: center;
 }
 
@@ -191,10 +190,13 @@ article.short-bio {
 }
 
 .four-steps {
+  display: block;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   text-align: center;
 }
-
+p.bold {
+  font-weight: 600;
+}
 .testimonials {
   background: #EBE8E8;
   padding: 4em;
@@ -231,7 +233,7 @@ address {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 70rem;
+    width: 80rem;
   }
   .nav {
     align-items: center;
@@ -239,6 +241,7 @@ address {
     flex-direction: row;
     justify-content: space-between;
     padding-left: 0rem;
+    width: 80rem;
   }
   .hamburger-menu {
     display: none;
@@ -248,7 +251,6 @@ address {
     flex-direction: row;
     justify-content: flex-end;
   }
-
   .nav-menu-links {
     color: black;
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
@@ -267,22 +269,13 @@ address {
   }
   .hero-tagline {
     text-align: left;
-    /* width: 60%; */
+    margin-right: 5%;
   }
   .headshot {
-    /* justify-content: flex-end; */
     margin-top: 15%;
-    /* margin-right: 10%; */
-    /* width: 30%; */
   }
   main.case-studies {
-    display: flex;
-    flex-direction: column;
-    /* width: 100%; */
-  }
-  .tag {
-    display: inline;
-   }
+    text-align: left;
   }
   .cloudspark {
     display: flex;
