@@ -33,6 +33,7 @@ header {
 
 /*** Navigation bar ***/
 .nav {
+  align-items: center;
   background-color: white;
   margin: auto;
   position: fixed;
@@ -44,6 +45,7 @@ header {
 }
 .personal-logo {
   float: left;
+  padding-top: 2%;
 }
 .hamburger-menu {
   float: right;
