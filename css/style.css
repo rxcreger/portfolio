@@ -39,7 +39,7 @@ header {
   margin: auto;
   position: fixed;
   padding: 2rem;
-  width: 80rem;
+  width: 100rem;
 }
 .nav-menu-container {
   display: none;
@@ -154,7 +154,7 @@ article.short-bio {
   position: absolute;
   top: 50%;
   left: 50%;
-  /* line-height: 140%; */
+  line-height: 140%;
   /* padding: 4%; */
   transform: translate(-50%, -50%);
   width: 80%;
@@ -275,8 +275,9 @@ address {
     /* margin-right: 10%; */
     width: 30%;
   }
-  .main.case-studies {
+  main.case-studies {
     display: flex;
+    flex-direction: column;
     width: 100%;
   }
   .tag {
