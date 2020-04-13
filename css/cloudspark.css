@@ -193,6 +193,8 @@ article.personas {
 }
 .user-stories {
   margin-bottom: 5%;
+  padding-top: 10%;
+  background-color: #EDEBEB;
 }
 .user-stories-image {
   width: 100%;
