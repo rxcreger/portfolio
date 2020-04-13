@@ -276,6 +276,7 @@ address {
   }
   main.case-studies {
     text-align: left;
+    width: 80rem;
   }
   .cloudspark {
     display: flex;
@@ -322,10 +323,21 @@ address {
 /*** when screen is larger than 1024px width, it changes to this ***/
 @media screen and (min-width: 1024px) {
   .container {
-    background-color: #fff;
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
+    width: 100rem;
+  }
+  .nav {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0rem;
+    width: 100rem;
+  }
+  main.case-studies {
+    text-align: left;
     width: 100rem;
   }
 }
