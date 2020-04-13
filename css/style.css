@@ -39,7 +39,7 @@ header {
   margin: auto;
   position: fixed;
   padding: 2rem;
-  width: 100rem;
+  width: 80rem;
 }
 .nav-menu-container {
   display: none;
@@ -132,7 +132,8 @@ main.case-studies {
   font-size: 1.2rem;
   line-height: 28px;
   /* margin-right: 4px; */
-  padding: 4px;
+  /* padding: 4px; */
+  text-align: center;
 }
 #cloudspark-image {
   text-align: center;
@@ -154,7 +155,7 @@ article.short-bio {
   position: absolute;
   top: 50%;
   left: 50%;
-  line-height: 140%;
+  line-height: 200%;
   /* padding: 4%; */
   transform: translate(-50%, -50%);
   width: 80%;
@@ -199,8 +200,8 @@ article.short-bio {
   padding: 4em;
   text-align: center;
   line-height: 200%;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 15%;
+  padding-right: 15%;
   padding-top: 7%;
   padding-bottom: 7%;
 }
@@ -265,20 +266,19 @@ address {
     justify-content: space-between;
   }
   .hero-tagline {
-    justify-content: flex-start;
     text-align: left;
-    width: 60%;
+    /* width: 60%; */
   }
   .headshot {
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     margin-top: 15%;
     /* margin-right: 10%; */
-    width: 30%;
+    /* width: 30%; */
   }
   main.case-studies {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    /* width: 100%; */
   }
   .tag {
     display: inline;
@@ -287,17 +287,13 @@ address {
   .cloudspark {
     display: flex;
     flex-direction: row;
-    /* margin-top: 3rem; */
+    margin-top: 3rem;
     text-align: left;
   }
   article.cloudspark {
     display: flex;
     flex-direction: column;
     margin-right: 3rem;
-  }
-  #cloudspark-image {
-    display: flex;
-    flex-direction: column;
   }
 
   .busy-bus {
@@ -306,14 +302,8 @@ address {
     margin-top: 8rem;
     text-align: left;
   }
-  article.busy-bus {
-    display: flex;
-    flex-direction: column;
+  article.busy-bus-copy {
     margin-left: 3rem;
-  }
-  #busybus-image {
-    display: flex;
-    flex-direction: column;
   }
   .about-me {
     position: relative;
