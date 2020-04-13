@@ -122,11 +122,15 @@ header {
 
 .cloudspark-logo {
   margin-top: 25%;
+  margin-bottom: 5%;
 }
 .cloudspark-hero-image {
   text-align: center;
   margin-top: 10%;
   width: 100%;
+}
+article.cloudspark-hero {
+  text-align: center;
 }
 .see-prototype {
   color: #4A23F1;
@@ -144,14 +148,33 @@ main.cloudspark-case-study {
   text-align: center;
   width: 100%;
 }
-h4.what-i-did {
+.what-i-did {
   text-align: center;
 }
+.role {
+  margin-bottom: 5%;
+}
+.deliverables {
+  margin-bottom: 5%;
+}
+.tools-used {
+  margin-bottom: 5%;
+}
+article.problem {
+  margin-bottom: 5%;
+}
 .research-intro {
+  margin-top: 5%;
   background-color: #EDEBEB;
 }
 .research-image {
   width: 100%;
+}
+.persona-container {
+  margin-bottom: 10%;
+}
+.persona-copy {
+  margin: 5%;
 }
 .persona-images {
   text-align: center;
@@ -159,21 +182,37 @@ h4.what-i-did {
 #persona {
   width: 50%;
 }
+article.personas {
+  margin-top: 10%;
+}
+.competitive-analysis {
+  margin-bottom: 5%;
+}
 .competitive-analysis-images {
   text-align: center;
+}
+.user-stories {
+  margin-bottom: 5%;
 }
 .user-stories-image {
   width: 100%;
   margin: 0 auto
 }
+.user-flows {
+  margin-bottom: 5%;
+}
 .user-flows-image {
   width: 100%;
 }
 .sketching {
+  margin-bottom: 8%;
   width: 100%;
 }
 .wireframe-images {
   text-align: center;
+}
+.user-testing {
+  margin-bottom: 8%;
 }
 .user-testing-images {
   text-align: center;
@@ -186,16 +225,30 @@ ul.user-testing-changes {
   list-style: decimal;
   padding-left: 6%;
 }
+.branding {
+  margin-bottom: 8%;
+}
 .branding-images {
   text align: center;
   width: 100%;
 }
 .logo-image {
   text-align: center;
+  margin-bottom: 8%;
+}
+.style-guide {
+  margin-bottom: 8%;
 }
 .asset-images {
   text-align: center;
   width: 100%;
+}
+.user-testing-one {
+  margin-bottom: 8%;
+}
+.preference-testing {
+  margin-bottom: 8%;
+  margin-top: 8%;
 }
 .hifi-user-testing {
   font-family: 'Muli', 'Montserrat', Helvetica, Arial, sans-serif;
@@ -214,6 +267,9 @@ ul.user-testing-changes {
 .final-prototype-images {
   text-align: center;
   width: 100%;
+}
+.what-i-learned {
+  margin-top: 8%;
 }
 .back-to-top {
   margin: auto;

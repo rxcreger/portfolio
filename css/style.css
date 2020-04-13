@@ -121,8 +121,9 @@ p.tagline {
   width: 20px;
 }
 .tag {
+  color: #414A4C;
   border-radius: 20px;
-  border: 2px solid black;
+  border: 2px solid #414A4C;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
   font-size: 1.2rem;
   line-height: 28px;
