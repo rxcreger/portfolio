@@ -18,6 +18,7 @@ body {
 p {
   font-size: 1.6rem;
   font-family: 'Muli', Helvetica, Arial, sans-serif;
+  line-height: 160%;
 }
 
 h1 {
@@ -56,19 +57,23 @@ h3.tagline {
 /*** Case studies section ***/
 main.case-studies {
   text-align: center;
-}
-.case-study-tagline {
   margin-top: 4%;
 }
-button.case-study {
-  color: #0E8F8F;
+.case-study-tagline {
+  margin-top: 3%;
+}
+.case-study-btn {
   border: 2px solid #0E8F8F;
   border-radius: 8px;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
-  font-size: 1em;
-  margin: 2%;
   padding: 15px 32px;
   text-align: center;
+  text-decoration: none;
+  margin-bottom: 3%;
+}
+.case-study-btn a {
+  color: #0E8F8F;
+  font-size: 1.2em;
   text-decoration: none;
 }
 
@@ -108,8 +113,7 @@ h1.greeting {
   font-size: 1.3em;
   padding: 2rem;
   text-align: center;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 .down-arrow {
   padding: .5em;
@@ -146,7 +150,9 @@ h1.greeting {
   position: relative;
   text-align: left;
 }
-
+article.case-study {
+  margin-top: 3%;
+}
 article.short-bio {
   position: absolute;
   top: 50%;
@@ -184,14 +190,22 @@ article.short-bio {
   line-height: 180%;
   text-align: center;
 }
-
+.process-icon {
+  width: 100%;
+  text-align: center;
+  padding-top: 4%;
+}
+.list {
+  line-height: 140%;
+  font-size: 1.4rem;
+}
 .four-steps {
   display: block;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   text-align: center;
 }
 p.bold {
-  font-weight: 600;
+  font-weight: 1000;
 }
 .testimonials {
   background: #EBE8E8;
@@ -280,7 +294,7 @@ address {
   }
   .cloudspark {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     margin-top: 3rem;
     text-align: left;
   }
@@ -290,7 +304,7 @@ address {
 
   .busy-bus {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     margin-top: 8rem;
     text-align: left;
   }
