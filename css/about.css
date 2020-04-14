@@ -24,7 +24,7 @@ p {
 h1 {
   font-size: 2.4rem;
   font-family: 'Domine', Georgia, Times, serif;
-  line-height: 160%;
+  line-height: 140%;
 }
 
 header {
@@ -79,19 +79,19 @@ h3.tagline {
 .bio-intro-container {
   display: flex;
   flex-direction: column;
-  top: 45%;
-  left: 41%;
+  top: 50%;
+  left: 35%;
   position: absolute;
   transform: translate(-34%, -65%);
   text-align: center;
+  width: 100%;
 }
 .intro-copy {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+  font-size: 1.6em;
 }
 .headshot {
-  margin-top: 10%;
+  margin-top: 0%;
+  margin-bottom: 5%;
 }
 p.hero-tagline {
   font-family: 'Domine', Georgia, Times, serif;
@@ -104,7 +104,7 @@ p.hero-tagline {
 main.bio {
   text-align: left;
   margin-top: 4%;
-  padding: 5%;
+  width: 100%;
 }
 .intro {
   font-size: 2rem;
@@ -112,7 +112,7 @@ main.bio {
   margin-bottom: 2%;
 }
 bio-part-1 {
-  margin: 5%;
+  width: 100%;
 }
 p.pull-quote {
   font-family: 'Domine', Georgia, Times, serif;
@@ -121,8 +121,7 @@ p.pull-quote {
   text-align: left;
 }
 bio-part-2 {
-  margin: 5%;
-  text-align: left;
+  width: 100%;
 }
 footer {
   text-align: center;
@@ -220,7 +219,7 @@ address {
     font-size: 1.8rem;
     line-height: 140%;
     text-align: center;
-    width: 100%;
+    width: 80rem;
   }
   .bio-imagery {
     max-width: 100%; overflow: hidden;
@@ -232,30 +231,41 @@ address {
   .bio-intro-container {
     display: flex;
     flex-direction: row-reverse;
-    top: 41%;
-    left: 29%;
+    top: 40%;
+    left: 40%;
     position: absolute;
-    transform: translate(-34%, -60%);
+    transform: translate(-34%, -66%);
     text-align: left;
+    width: 100%;
   }
   .intro-copy {
     display: flex;
     flex-direction: column;
-    margin-left: 10%;
-    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 8%;
+    margin-top: 15%;
     text-align: left;
   }
   p.hero-tagline {
     font-family: 'Domine', Georgia, Times, serif;
     margin-top: 10%;
-    font-size: 1.8rem;
+    font-size: 2rem;
     text-align: left;
   }
   .headshot {
     margin-top: 10%;
   }
-  main.bio {
-    width: 80rem;
+  .bio {
+    /* width: 80rem; */
+  }
+  bio-part-1 {
+
+  }
+  p.pull-quote {
+
+  }
+  bio-part-2 {
+
   }
 
 }
@@ -274,16 +284,53 @@ address {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 0rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
     width: 100rem;
   }
-  .bio-intro {
+  .hero {
+    background-color: white;
+    color: black;
+    font-family: 'Domine', Georgia, Times, serif;
+    font-size: 1.8rem;
+    line-height: 140%;
+    text-align: center;
+    width: 100%;
+  }
+  .bio-imagery {
+    width: 100%;
+    /* max-width: 100%; overflow: hidden;
+    position: relative; */
+  }
+  /* .bio-imagery img {
+    max-width: initial; /* Maybe optional. */
+  } */
+  .bio-intro-container {
     display: flex;
     flex-direction: row-reverse;
+    top: 40%;
+    left: 40%;
+    position: absolute;
+    transform: translate(-34%, -66%);
+    text-align: left;
+    width: 100%;
   }
   .intro-copy {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 8%;
+    margin-top: 15%;
+    text-align: left;
+  }
+  p.hero-tagline {
+    font-family: 'Domine', Georgia, Times, serif;
+    margin-top: 10%;
+    font-size: 2rem;
+    text-align: left;
+  }
+  .headshot {
+    margin-top: 10%;
   }
   main.bio {
     text-align: left;
