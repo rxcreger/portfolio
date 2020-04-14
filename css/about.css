@@ -120,6 +120,23 @@ footer {
   padding: 4em;
   text-align: center;
 }
+.social-media-icons {
+  background-color: white;
+  color: #86A681;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  justify-content: center;
+  text-decoration: none;
+}
+.social-media-icons a {
+  text-decoration: none;
+}
+/** controls size of social media icons **/
+.social-media-icons > ul {
+  margin: auto;
+  display: flex;
+}
 .green-button {
   background-color: #86A681;
   border: none;
@@ -130,10 +147,6 @@ footer {
   text-align: center;
   text-decoration: none;
   font-size: 1.4em;
-}
-.footer-icons{
-  display: inline-flex;
-  padding: 4em;
 }
 address {
   padding: 1em;
