@@ -70,12 +70,11 @@ main.case-studies {
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
   padding: 15px 32px;
   text-align: center;
-  text-decoration: none;
   margin-bottom: 3%;
 }
 .case-study-btn a {
   color: #0E8F8F;
-  font-size: 1.2em;
+  font-size: 1.4em;
   text-decoration: none;
 }
 
@@ -104,10 +103,6 @@ main.case-studies {
 h1.greeting {
   font-weight: 550;
   line-height: 170%;
-}
-
-.headshot {
-  /* padding-left: 1.9rem; */
 }
 
 .featured-work {
@@ -153,9 +148,9 @@ h1.greeting {
   position: relative;
   text-align: left;
 }
-article.case-study {
+/* article.case-study {
   margin-top: 3%;
-}
+} */
 article.short-bio {
   position: absolute;
   top: 50%;
@@ -165,8 +160,10 @@ article.short-bio {
   width: 90%;
 }
 .bio-imagery {
-  object-fit: cover;
-  width: 100%;
+  max-width: 100%; overflow: hidden;
+}
+.bio-imagery img {
+  max-width: initial; /* Maybe optional. */
 }
 
 .green-button {
@@ -182,15 +179,17 @@ article.short-bio {
 }
 
 .design-process {
-  font-size: 1.3em;
+  font-size: 1.4em;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
-  margin: 3em;
+  margin: 2em;
   text-align: center;
 }
 
-.process-tagline {
+p.process-tagline {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 1.8rem;
   line-height: 180%;
+  padding: 5%;
   text-align: center;
 }
 .process-icon {
@@ -208,6 +207,7 @@ article.short-bio {
   text-align: center;
 }
 p.bold {
+  padding-top: 2%;
   font-weight: 1000;
 }
 .testimonials {
@@ -255,6 +255,11 @@ address {
 /*** For tablet ***/
 /*** when screen is larger than than 768px width, it changes to this ***/
 @media screen and (min-width: 768px) {
+  h1 {
+    font-size: 2.4rem;
+    font-family: 'Domine', Georgia, Times, serif;
+    line-height: 160%;
+  }
   .container {
     display: flex;
     flex-direction: column;
@@ -280,7 +285,7 @@ address {
   .nav-menu-links {
     color: black;
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     display: flex;
     text-decoration: none;
   }
@@ -314,17 +319,22 @@ address {
     margin-top: 3rem;
     text-align: left;
   }
-  article.case-study {
-    margin-right: 3rem;
+  .cloudspark-case-study {
+    margin-left: 3rem;
+    text-align: left;
   }
-
   .busy-bus {
     display: flex;
     flex-direction: row;
     margin-top: 8rem;
+  }
+  .busybus-case-study {
+    margin-right: 3rem;
     text-align: left;
   }
-
+  .busybus-image {
+    text-align: right;
+  }
   .about-me {
     position: relative;
     text-align: left;
@@ -348,6 +358,16 @@ address {
 /*** For desktop ***/
 /*** when screen is larger than 1024px width, it changes to this ***/
 @media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 3rem;
+    font-family: 'Domine', Georgia, Times, serif;
+    line-height: 160%;
+  }
+  p {
+    font-size: 2rem;
+    font-family: 'Muli', Helvetica, Arial, sans-serif;
+    line-height: 160%;
+  }
   .container {
     display: flex;
     flex-direction: column;
@@ -362,8 +382,67 @@ address {
     padding-left: 0rem;
     width: 100rem;
   }
+  .hero {
+    width: 100rem;
+  }
   main.case-studies {
+    width: 100rem;
+  }
+  .tag {
+    font-size: 1.8rem;
+  }
+  .case-study-btn a {
+    font-size: 1.8em;
+    text-decoration: none;
+  }
+  .cloudspark-case-study {
+    font-size: 2rem;
     text-align: left;
     width: 100rem;
   }
+  .busybus-case-study {
+    font-size: 2rem;
+    text-align: left;
+    width: 100rem;
+  }
+  #cloudspark-image {
+    text-align: left;
+    width: 470px;
+  }
+  #busybus-image {
+    text-align: right;
+    width: 470px;
+  }
+  .about-me {
+    font-size: 1.2em;
+    line-height: 200%;
+    margin-top: 10%;
+    position: relative;
+    text-align: left;
+  }
+  article.short-bio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    line-height: 200%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+  }
+  p.process-tagline {
+    font-size: 2rem;
+  }
+  p.bold {
+    font-size: 2rem;
+    font-weight: 1000;
+    padding-top: 2%;
+  }
+  .list {
+    line-height: 160%;
+    font-size: 1.8rem;
+  }
+  .testimonials {
+
+  }
+
+
 }
