@@ -1,0 +1,221 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+.container {
+  background-color: white;
+  width: 100%;
+}
+
+body {
+  background-color: white;
+}
+
+p {
+  font-size: 1.6rem;
+  font-family: 'Muli', Helvetica, Arial, sans-serif;
+  line-height: 160%;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-family: 'Domine', Georgia, Times, serif;
+  line-height: 160%;
+}
+
+header {
+  width: 100%;
+}
+
+/*** Navigation bar ***/
+.nav {
+  background-color: white;
+  margin: auto;
+  position: fixed;
+  padding: 2rem;
+  width: 100%;
+  z-index: 10;
+}
+.nav-menu-container {
+  display: none;
+}
+.personal-logo {
+  float: left;
+}
+.hamburger-menu {
+  float: right;
+}
+h1.greeting {
+  font-size: 3rem
+}
+h3.tagline {
+  font-size: 2rem;
+}
+/*** Hero image section ***/
+.hero {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Domine', Georgia, Times, serif;
+  font-size: 1.8rem;
+  line-height: 140%;
+  margin-top: 20%;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.bio-intro {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 70%;
+}
+.bio-imagery {
+  margin-top: 20%;
+  position: relative;
+}
+p.hero-tagline {
+  font-family: 'Domine', Georgia, Times, serif;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+
+/*** Main bio section ***/
+main.bio {
+  text-align: left;
+  margin-top: 4%;
+  padding: 5%;
+}
+.intro {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 2%;
+}
+bio-part-1 {
+  margin: 5%;
+}
+p.pull-quote {
+  font-family: 'Domine', Georgia, Times, serif;
+  font-size: 1.8rem;
+  padding: 5%;
+  text-align: left;
+}
+bio-part-2 {
+  margin: 5%;
+  text-align: left;
+}
+footer {
+  text-align: center;
+  padding: 4em;
+}
+.footer-cta {
+  padding: 4em;
+  text-align: center;
+}
+.green-button {
+  background-color: #86A681;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.4em;
+}
+.footer-icons{
+  display: inline-flex;
+  padding: 4em;
+}
+address {
+  padding: 1em;
+  text-align: center;
+}
+
+/*** Media queries ***/
+
+/*** For tablet ***/
+/*** when screen is larger than than 768px width, it changes to this ***/
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80rem;
+  }
+  .nav {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0rem;
+    width: 80rem;
+  }
+  .hamburger-menu {
+    display: none;
+  }
+  .nav-menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .nav-menu-links {
+    color: black;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    display: flex;
+    text-decoration: none;
+  }
+  .nav-menu-links
+  li {
+    margin-left: 6rem;
+  }
+  .hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80rem;
+  }
+  .hero-tagline {
+    padding-left: 0%;
+    padding-right: 5%;
+    text-align: left;
+  }
+  .headshot {
+    margin-top: 15%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+}
+
+/*** For desktop ***/
+/*** when screen is larger than 1024px width, it changes to this ***/
+@media screen and (min-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100rem;
+  }
+  .nav {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0rem;
+    width: 100rem;
+  }
+  main.bio {
+    text-align: left;
+    width: 100rem;
+  }
+}
