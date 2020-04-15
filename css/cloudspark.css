@@ -177,11 +177,10 @@ article.personas {
   margin-bottom: 5%;
 }
 .competitive-analysis-images {
-  text-align: center;
+  /* text-align: center; */
   margin-bottom: 5%;
   margin-left: 7%;
   margin-top: 5%;
-  width: 80%;
 }
 .user-stories {
   margin-bottom: 5%;
