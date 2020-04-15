@@ -60,7 +60,7 @@ h4 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 600;
   line-height: 160%;
-  margin-left: 4%;
+  /* margin-left: 4%; */
   margin-right: 4%;
   text-align: left;
 }
@@ -288,8 +288,11 @@ ul.user-testing-changes {
   text-decoration: none;
   font-size: 1.4em;
 }
-
 footer {
+  text-align: center;
+  padding: 4em;
+}
+.footer-cta {
   padding: 4em;
   text-align: center;
 }
@@ -326,11 +329,12 @@ address {
     width: 80rem;
   }
   .nav {
+    align-items: center;
     display: flex;
     flex-direction: row;
-    position: fixed;
+    justify-content: space-between;
+    padding-left: 0rem;
     width: 80rem;
-    z-index: 10;
   }
   .hamburger-menu {
     display: none;
@@ -390,13 +394,16 @@ address {
   .what-i-did {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-left: 4%;
     padding-right: 8%;
     text-align: left;
     width: 100%;
   }
   h4.what-i-did {
+    text-align: left;
+  }
+  p.what-i-did {
     text-align: left;
   }
   .problem-container {
@@ -542,4 +549,20 @@ address {
     margin: 0 auto;
     width: 100rem;
   }
+  .nav {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0rem;
+    width: 100rem;
+  }
+  .project-hero {
+    width: 100rem;
+  }
+  main.cloudspark-case-study {
+    width: 100rem;
+  }
+
+
 }
