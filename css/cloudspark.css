@@ -227,7 +227,6 @@ ul.user-testing-changes {
   margin-bottom: 8%;
 }
 .branding-images {
-  /* text align: center; */
   width: 100%;
 }
 .logo-image {
@@ -321,24 +320,35 @@ address {
 /*** when screen is larger than than 768px width, it changes to this ***/
 @media screen and (min-width: 768px) {
   .container {
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
-    width: 70rem;
+    width: 80rem;
   }
   .nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     position: fixed;
-    width: 100%;
+    width: 80rem;
+    z-index: 10;
+  }
+  .hamburger-menu {
+    display: none;
+  }
+  .nav-menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
   .nav-menu-links {
     color: black;
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-    font-size: 1.4rem;
-    float: right;
-    padding-top: 8%;
-    padding: 2rem;
+    font-size: 1.8rem;
+    display: flex;
     text-decoration: none;
+  }
+  .nav-menu-links li {
+    margin-left: 6rem;
   }
   .personal-logo {
     justify-content: flex-start;
@@ -367,12 +377,15 @@ address {
     margin-top: 8%;
     padding: 1.4rem;
     text-align: left;
-    width: 100%;
+    width: 80rem;
   }
   article.cloudspark-hero {
     display: flex;
     flex-direction: column;
     line-height: 140%;
+  }
+  main.cloudspark-case-study {
+    width: 80rem;
   }
   .what-i-did {
     display: flex;
