@@ -16,7 +16,7 @@ body {
 }
 
 p {
-  font-size: 1.4rem;
+  font-size: 2rem;
   font-family: 'Muli', Helvetica, Arial, sans-serif;
   line-height: 140%;
 }
@@ -24,36 +24,47 @@ p {
 a {
   color: #4A23F1;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
-  font-size: 1.4em;
+  font-size: 2em;
   font-weight: 500;
   text-decoration: none;
 }
 
 h1 {
-  font-size: 2.2rem;
+  font-size: 3rem;
   font-family: 'Domine', Georgia, Times, serif;
   line-height: 160%;
+  text-align: center;
 }
 h2 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 600;
   line-height: 160%;
   text-align: left;
 }
 h3 {
-  font-size: 1.4rem;
+  font-size: 2rem;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 400;
   line-height: 160%;
 }
 
 h4 {
-  font-size: 1.4rem;
+  font-size: 2rem;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 600;
   line-height: 160%;
   text-align: left;
+}
+ul {
+  font-family: 'Muli', 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  line-height: 160%;
+}
+ol {
+  font-family: 'Muli', 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  line-height: 160%;
 }
 img {
   text-align: center;
@@ -61,7 +72,6 @@ img {
 
 article {
   text-align: left;
-  padding-left: 4%;
 }
 
 header {
@@ -74,6 +84,7 @@ header {
   margin: auto;
   padding: 2rem;
   position: fixed;
+  align-items: center;
   width: 100%;
 }
 .personal-logo {
@@ -81,7 +92,6 @@ header {
 }
 .hamburger-menu {
   float: right;
-  padding-top: 4%;
 }
 .nav-menu-links {
   display: none;
@@ -94,18 +104,17 @@ header {
   font-family: 'Domine', Georgia, Times, serif;
   font-size: 1.8rem;
   line-height: 140%;
-  padding-top: 70%;
-  padding: 3rem;
+  padding: 2rem;
   text-align: center;
   width: 100%;
 }
 .cloudspark-logo {
-  margin-top: 25%;
+  margin-top: 15%;
   margin-bottom: 5%;
 }
 .cloudspark-hero-image {
   text-align: center;
-  margin-top: 10%;
+  margin-top: 5%;
   width: 100%;
 }
 article.cloudspark-hero {
@@ -118,7 +127,8 @@ article.cloudspark-hero {
   font-size: 1em;
 }
 main.cloudspark-case-study {
-  width: 80rem;
+  padding: 2rem;
+  width: 100%;
 }
 .project-nav {
   display: none;
@@ -211,7 +221,6 @@ article.personas {
 }
 ul.user-testing-changes {
   font-family: 'Muli', 'Montserrat', Helvetica, Arial, sans-serif;
-  font-size: 1.3em;
   line-height: 140%;
   list-style: decimal;
   padding-left: 6%;
@@ -354,12 +363,14 @@ address {
     justify-content: flex-end;
   }
   p {
-    font-size: 1.6rem;
+    font-size: 2.2rem;
     font-family: 'Muli', Helvetica, Arial, sans-serif;
     line-height: 140%;
   }
   h1 {
     font-size: 3em;
+    padding-bottom: 5%;
+    padding-top: 5%;
     text-align: left;
   }
   h3 {
@@ -369,7 +380,7 @@ address {
     line-height: 160%;
   }
   h4 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     font-weight: 600;
     line-height: 160%;
@@ -385,7 +396,7 @@ address {
     display: inline-flex;
     justify-content: space-between;
     padding: 1.5rem;
-    width: 100rem;
+    width: 80rem;
   }
   .project-hero {
     display: flex;
@@ -422,18 +433,16 @@ address {
     width: 80rem;
   }
   .project-overview {
-    width: 100%;
+    width: 80rem;
   }
   .what-i-did {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 4%;
     text-align: left;
-    width: 100%;
   }
 .overview-header {
-  padding-left: 4%;
+  padding-top: 5%;
 }
   .problem-container {
     display: flex;
@@ -452,10 +461,6 @@ address {
   }
   .research-discovery {
 
-  }
-  h1.research-discovery{
-    padding-left: 5%;
-    padding-bottom: 5%;
   }
   .research-intro {
     padding-bottom: 10%;
