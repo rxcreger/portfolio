@@ -4,6 +4,7 @@
 
 html {
   font-size: 10px;
+  overflow-x: hidden;
 }
 
 .container {
@@ -58,7 +59,7 @@ h4 {
 }
 ul {
   font-family: 'Muli', 'Montserrat', Helvetica, Arial, sans-serif;
-  font-size: 2em;
+  font-size: 2.2em;
   line-height: 160%;
 }
 ol {
@@ -153,8 +154,9 @@ article.problem {
   margin-bottom: 5%;
 }
 .research-intro {
-  margin-top: 5%;
   background-color: #EDEBEB;
+  margin: 0 -9999rem;
+  padding: 5rem 9999rem;
 }
 .research-image {
   width: 100%;
@@ -184,9 +186,9 @@ article.personas {
   margin-top: 5%;
 }
 .user-stories {
-  margin-bottom: 5%;
-  padding-top: 10%;
   background-color: #EDEBEB;
+  margin: 0 -9999rem;
+  padding: 5rem 9999rem;
 }
 .user-stories-image {
   width: 100%;
@@ -213,7 +215,9 @@ article.personas {
   text-align: center;
 }
 .user-testing {
-  margin-bottom: 8%;
+  background-color: #EDEBEB;
+  margin: 0 -9999rem;
+  padding: 5rem 9999rem;
 }
 .user-testing-images {
   text-align: center;
@@ -223,7 +227,7 @@ ul.user-testing-changes {
   font-family: 'Muli', 'Montserrat', Helvetica, Arial, sans-serif;
   line-height: 140%;
   list-style: decimal;
-  padding-left: 6%;
+  padding-left: 2%;
 }
 .branding {
   margin-bottom: 8%;
@@ -374,7 +378,7 @@ address {
     text-align: left;
   }
   h3 {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     font-weight: 400;
     line-height: 160%;
@@ -388,46 +392,49 @@ address {
   }
   article {
     text-align: left;
-    padding-left: 0%;
-  }
-  .project-nav {
-    color: white;
-    background-color: #4A23F1;
-    display: inline-flex;
-    justify-content: space-between;
-    padding: 1.5rem;
-    width: 80rem;
   }
   .project-hero {
     display: flex;
     flex-direction: row;
-    margin: 0 auto;
+    margin-top: 8%;
     width: 80rem;
   }
   article.cloudspark-hero {
     display: flex;
     flex-direction: column;
-    line-height: 140%;
-    margin-top: 4%;
+    line-height: 160%;
     padding-right: 5%;
     width: 80rem;
   }
   .cloudspark-logo {
     margin-bottom: 5%;
-    margin-left: 2%;
-    margin-top: 25%;
     text-align: left;
     width: 60%;
   }
   .cloud-spark-tagline {
     text-align: left;
-    font-size: 1em;
   }
   .see-prototype {
     text-align: left;
   }
   .cloudspark-hero-image {
 
+  }
+  .project-nav {
+    color: white;
+    background: #4A23F1;
+    display: flex;
+    flex-direction: row;
+    font-size: 1em;
+    margin: 0 -9999rem;
+    padding: 1rem 9999rem;
+  }
+  p.project-nav-links {
+    display: flex;
+    font-size: 2em;
+    white-space: nowrap;
+    justify-content: space-between;
+    width: 100%;
   }
   main.cloudspark-case-study {
     width: 80rem;
@@ -538,25 +545,18 @@ address {
   }
   .user-testing {
     background-color: #EDEBEB;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    margin: 0 -9999rem;
+    padding: 5rem 9999rem;
+    text-align: left;
   }
   article.user-testing {
-    display: flex;
-    justify-content: center;
-    text-align: left;
-    padding-left: 25%;
-    padding-top: 10%;
   }
   .user-testing-images {
-    display: flex;
-    justify-content: center;
+    text-align: left;
   }
   .branding {
     display: flex;
     flex-direction: column;
-    padding-left: 7%;
     padding-bottom: 7%;
   }
   article.branding {
