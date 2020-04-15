@@ -19,8 +19,6 @@ p {
   font-size: 1.4rem;
   font-family: 'Muli', Helvetica, Arial, sans-serif;
   line-height: 140%;
-  margin-left: 4%;
-  margin-right: 4%;
 }
 
 a {
@@ -28,7 +26,6 @@ a {
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
   font-size: 1.4em;
   font-weight: 500;
-  padding: 4%;
   text-decoration: none;
 }
 
@@ -36,16 +33,12 @@ h1 {
   font-size: 2.2rem;
   font-family: 'Domine', Georgia, Times, serif;
   line-height: 160%;
-  padding: 2rem;
-  text-align: center;
 }
 h2 {
   font-size: 1.8rem;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 600;
   line-height: 160%;
-  margin-left: 4%;
-  margin-right: 4%;
   text-align: left;
 }
 h3 {
@@ -60,8 +53,6 @@ h4 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 600;
   line-height: 160%;
-  /* margin-left: 4%; */
-  margin-right: 4%;
   text-align: left;
 }
 img {
@@ -124,10 +115,10 @@ article.cloudspark-hero {
   color: #4A23F1;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
   font-weight: 500;
-  font-size: .8em;
+  font-size: 1em;
 }
 main.cloudspark-case-study {
-  width: 100%;
+  width: 80rem;
 }
 .project-nav {
   display: none;
@@ -359,10 +350,20 @@ address {
   .nav-menu {
     justify-content: flex-end;
   }
+  p {
+    font-size: 1.6rem;
+    font-family: 'Muli', Helvetica, Arial, sans-serif;
+    line-height: 140%;
+  }
   h1 {
+    font-size: 3em;
     text-align: left;
-    font-size: 2.5em;
-    padding: 7%;
+  }
+  h3 {
+    font-size: 1.7rem;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 160%;
   }
   .project-nav {
     color: white;
@@ -370,46 +371,60 @@ address {
     display: inline-flex;
     justify-content: space-between;
     padding: 1.5rem;
-    padding-left: 8rem;
-    padding-right: 8rem;
-    width: 100%;
+    width: 100rem;
   }
   .project-hero {
     display: flex;
     flex-direction: row;
-    margin-top: 8%;
-    padding: 1.4rem;
-    text-align: left;
+    margin: 0 auto;
     width: 80rem;
   }
   article.cloudspark-hero {
     display: flex;
     flex-direction: column;
     line-height: 140%;
+    margin-top: 4%;
+    padding-right: 5%;
+    width: 80rem;
+  }
+  .cloudspark-logo {
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-top: 25%;
+    text-align: left;
+    width: 60%;
+  }
+  .cloud-spark-tagline {
+    text-align: left;
+    font-size: 1em;
+  }
+  .see-prototype {
+    text-align: left;
+  }
+  .cloudspark-hero-image {
+
   }
   main.cloudspark-case-study {
     width: 80rem;
+  }
+  .project-overview {
+    width: 100%;
   }
   .what-i-did {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-left: 4%;
-    padding-right: 8%;
     text-align: left;
     width: 100%;
   }
-  h4.what-i-did {
-    text-align: left;
-  }
-  p.what-i-did {
-    text-align: left;
-  }
+.overview-header {
+  padding-left: 4%;
+}
   .problem-container {
     display: flex;
     flex-direction: row;
     margin-top: 10%;
-    padding: 1em;
   }
   article.problem {
     flex-direction: column;
@@ -421,23 +436,33 @@ address {
     flex-direction: column;
     justify-content: flex-end;
   }
+  .research-discovery {
+
+  }
+  h1.research-discovery{
+    padding-left: 5%;
+    padding-bottom: 5%;
+  }
   .research-intro {
     padding-bottom: 10%;
+    padding-top: 5%;
   }
   .research-insights {
     display: flex;
-    flex-direction: row;
-    padding-left: 2%;
+    flex-direction: row-reverse;
+    padding-left: 5%;
   }
   article.research {
     display: flex;
     flex-direction: column;
+    padding-right: 5%;
+    width: 90%;
   }
   .research-image {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: 80%;
+    width: 90%;
   }
   .user-personas {
     display: flex;
@@ -459,6 +484,7 @@ address {
     display: flex;
     flex-direction: row;
     padding-right: 4%;
+    width: 50%;
   }
   .user-stories {
     display: flex;
@@ -531,6 +557,9 @@ address {
   display: inline-flex;
   text-align: center;
   width: 70%;
+  }
+  .final-prototype-images {
+    width: 100%;
   }
   article.what-i-learned {
     padding-top: 7%;
