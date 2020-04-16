@@ -34,11 +34,13 @@ header {
 /*** Navigation bar ***/
 .nav {
   background-color: white;
-  margin: auto;
+  /* margin: auto; */
   position: fixed;
-  padding: 2rem;
+  /* padding: 2rem;
   width: 100%;
-  z-index: 10;
+  z-index: 10; */
+  width: 100vw;
+  padding: 10vh 15vw 5vh 15vw;
 }
 .nav-menu-container {
   display: none;
@@ -157,7 +159,7 @@ article.short-bio {
   width: 90%;
 }
 .bio-imagery {
-  
+
 }
 .bio-imagery img {
   /* width: 100%;
