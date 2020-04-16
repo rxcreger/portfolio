@@ -158,7 +158,7 @@ h1.greeting {
   text-align: left;
 }
 article.short-bio {
-  /* margin: auto; */
+
 }
 .bio-imagery {
 
@@ -266,6 +266,7 @@ address {
     flex-direction: column;
     margin: 0 auto;
     width: 80rem;
+    overflow-x: hidden;
   }
   .nav {
     align-items: center;
@@ -345,17 +346,14 @@ address {
     background-image: url("../images/homepage/blue-pattern.png");
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
     position: relative;
     text-align: left;
   }
-  .short-bio {
-    /* position: absolute; */
-    /* top: 50%;
-    left: 50%;
-    line-height: 230%;
-    transform: translate(-50%, -50%);
-    width: 70%; */
+  article.short-bio {
+    width: 90%;
   }
   .four-steps {
     align-items: center;
@@ -432,7 +430,7 @@ address {
   }
   article.short-bio {
     margin: auto;
-    max-width: 1024px;
+    max-width: 728px;
   }
   p.process-tagline {
     font-size: 2rem;
