@@ -19,7 +19,7 @@ body {
 p {
   font-size: 2rem;
   font-family: 'Muli', Helvetica, Arial, sans-serif;
-  line-height: 140%;
+  line-height: 160%;
 }
 
 a {
@@ -58,7 +58,7 @@ h4 {
   text-align: left;
 }
 ul {
-  font-family: 'Muli', 'Montserrat', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-size: 2.2em;
   line-height: 160%;
 }
@@ -179,7 +179,7 @@ article.personas {
 .competitive-analysis {
   margin-bottom: 5%;
 }
-.competitive-analysis-images {
+.competitive-analysis-columns {
   /* text-align: center; */
   margin-bottom: 5%;
   margin-left: 7%;
@@ -212,7 +212,7 @@ article.personas {
   width: 100%;
 }
 .wireframe-images {
-  text-align: center;
+
 }
 .user-testing {
   background-color: #EDEBEB;
@@ -373,8 +373,8 @@ address {
   }
   h1 {
     font-size: 4em;
-    padding-bottom: 5%;
-    padding-top: 5%;
+    padding-bottom: 8%;
+    padding-top: 8%;
     text-align: left;
   }
   h3 {
@@ -508,13 +508,15 @@ address {
   }
   .competitive-analysis {
     padding-top: 6%;
+    width: 100%;
   }
-  .competitive-analysis-images {
+  .competitive-analysis-columns {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding-right: 5%;
-    width: 90%;
+    justify-content: space-between;
+  }
+  .dropbox-vs-evernote {
+    text-align: left;
   }
   .user-stories {
     display: flex;
@@ -603,8 +605,8 @@ address {
     width: 100%;
   }
   article.what-i-learned {
-    padding-top: 7%;
-    width: 80%;
+    line-height: 180%;
+    width: 80rem;
   }
 }
 

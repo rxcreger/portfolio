@@ -33,21 +33,21 @@ header {
 
 /*** Navigation bar ***/
 .nav {
+  align-items: center;
   background-color: white;
-  /* margin: auto; */
+  margin: auto;
   position: fixed;
-  /* padding: 2rem;
+  padding: 2rem;
   width: 100%;
-  z-index: 10; */
-  width: 100vw;
-  padding: 10vh 15vw 5vh 15vw;
+  z-index: 10;
+  /* width: 100vw;
+  padding: 10vh 15vw 5vh 15vw; */
 }
 .nav-menu-container {
   display: none;
 }
 .personal-logo {
   float: left;
-  padding-top: 2%;
 }
 .hamburger-menu {
   float: right;
@@ -67,12 +67,15 @@ main.case-studies {
   margin-top: 3%;
 }
 .case-study-btn {
+  color: #0E8F8F;
   border: 2px solid #0E8F8F;
   border-radius: 8px;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
+  font-size: 1.4em;
   padding: 15px 32px;
   text-align: center;
-  margin-bottom: 3%;
+  margin-bottom: 5%;
+  text-decoration: none;
 }
 .case-study-btn a {
   color: #0E8F8F;
@@ -183,7 +186,7 @@ article.short-bio {
 .design-process {
   font-size: 1.4em;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
-  margin: 1em;
+  margin: 2em;
   text-align: center;
 }
 
@@ -195,9 +198,9 @@ p.process-tagline {
   text-align: center;
 }
 .process-icon {
-  width: 100%;
   text-align: center;
   padding-top: 4%;
+  width: 100%;
 }
 .list {
   line-height: 140%;
@@ -260,10 +263,13 @@ address {
     font-family: 'Domine', Georgia, Times, serif;
     line-height: 160%;
   }
+  header {
+
+  }
   .container {
+    /* max-width: 768px; */
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
     width: 80rem;
   }
   .nav {
@@ -271,7 +277,6 @@ address {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 0rem;
     width: 80rem;
   }
   .hamburger-menu {
@@ -349,6 +354,7 @@ address {
     width: 70%;
   }
   .four-steps {
+    align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -379,7 +385,6 @@ address {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 0rem;
     width: 100rem;
   }
   .hero {
@@ -391,17 +396,15 @@ address {
   .tag {
     font-size: 1.8rem;
   }
-  .case-study-btn a {
-    font-size: 1.8em;
+  .case-study-btn {
+    font-size: 1.4em;
     text-decoration: none;
   }
   .cloudspark-case-study {
-    font-size: 2rem;
     text-align: left;
     width: 100rem;
   }
   .busybus-case-study {
-    font-size: 2rem;
     text-align: left;
     width: 100rem;
   }
@@ -441,7 +444,9 @@ address {
     font-size: 1.8rem;
   }
   .testimonials {
-
+    background-color: #EDEBEB;
+    margin: 0 -9999rem;
+    padding: 5rem 9999rem;
   }
 
 
