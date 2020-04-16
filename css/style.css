@@ -270,6 +270,7 @@ address {
     /* max-width: 768px; */
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
     width: 80rem;
   }
   .nav {
@@ -444,7 +445,7 @@ address {
     font-size: 1.8rem;
   }
   .testimonials {
-  
+
   }
 
 
