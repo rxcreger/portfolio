@@ -71,11 +71,16 @@ h3.tagline {
   width: 100%;
 }
 .bio-imagery {
-  max-width: 100%; overflow: hidden;
+  /* max-width: 100%; overflow: hidden;
+  position: relative; */
+  width: 100%;
   position: relative;
+  top: 0;
+  left: 0;
+  z-index: 5000;
 }
 .bio-imagery img {
-  max-width: initial; /* Maybe optional. See note below */
+  /* max-width: initial; Maybe optional  */
 }
 .bio-intro-container {
   display: flex;
