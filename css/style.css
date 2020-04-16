@@ -25,7 +25,10 @@ h1 {
   font-family: 'Domine', Georgia, Times, serif;
   line-height: 160%;
 }
-
+li {
+  font-size: 1.4em;
+  line-height: 140%;
+}
 header {
   /* width: 100%; */
 }
@@ -204,6 +207,10 @@ p.process-tagline {
   display: block;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   text-align: center;
+  white-space: nowrap;
+}
+.step {
+
 }
 p.bold {
   padding-top: 2%;
@@ -356,10 +363,12 @@ address {
     width: 90%;
   }
   .four-steps {
-    align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+  }
+  .step {
+    padding: 10em;
   }
 }
 
@@ -437,13 +446,12 @@ address {
   }
   p.bold {
     align-items: center;
-    font-size: 2rem;
-    font-weight: 1000;
-    padding-top: 2%;
+    font-size: 2.4rem;
+    font-weight: 1500;
   }
   .list {
     line-height: 160%;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   .testimonials {
 
