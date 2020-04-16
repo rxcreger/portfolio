@@ -62,6 +62,7 @@ h3.tagline {
 main.case-studies {
   text-align: center;
   margin-top: 4%;
+  margin-bottom: 4%;
 }
 .case-study-tagline {
   margin-top: 3%;
@@ -433,16 +434,10 @@ address {
     font-size: 1.2em;
     line-height: 200%;
     margin-top: 10%;
-    position: relative;
     text-align: left;
   }
   article.short-bio {
-    /* position: absolute; */
-    top: 50%;
-    left: 50%;
-    line-height: 200%;
-    transform: translate(-50%, -50%);
-    width: 70%;
+    max-width: 1024px;
   }
   p.process-tagline {
     font-size: 2rem;
