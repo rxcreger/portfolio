@@ -147,13 +147,13 @@ h1.greeting {
   width: 90%;
 }
 .about-me {
-  background-image: url("blue-pattern.png");
+  background-image: url("../images/homepage/blue-pattern.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   font-size: 1.2em;
   line-height: 200%;
   margin-top: 10%;
-  /* position: relative; */
+  position: relative;
   text-align: left;
 }
 article.short-bio {
@@ -167,12 +167,8 @@ article.short-bio {
 .bio-imagery {
 
 }
-/* .bio-imagery img { */
-  /* width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 5000; */
+.bio-imagery img {
+  
 }
 .green-button {
   background-color: #86A681;
