@@ -7,7 +7,6 @@ html {
 }
 
 .container {
-  background-color: white;
   width: 100%;
 }
 
@@ -214,8 +213,9 @@ p.bold {
   background: #EBE8E8;
   text-align: center;
   line-height: 200%;
-  margin: 0 -9999rem;
-  padding: 5rem 9999rem;
+  margin-top: 5%;
+  padding: 10%;
+  width: 100%;
 }
 
 footer {
