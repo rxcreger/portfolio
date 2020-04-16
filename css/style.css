@@ -131,6 +131,7 @@ h1.greeting {
   margin-right: 2px;
   padding: 10px;
   text-align: center;
+  white-space: nowrap;
 }
 .case-study-tagline {
   line-height: 160%;
@@ -402,6 +403,7 @@ address {
   }
   .tag {
     font-size: 1.8rem;
+    white-space: nowrap;
   }
   .case-study-btn {
     font-size: 1.4em;
@@ -423,13 +425,16 @@ address {
     text-align: right;
     width: 470px;
   }
-  /* .about-me {
+  .about-me {
+    background-image: url("../images/homepage/blue-pattern.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-size: 1.2em;
     line-height: 200%;
     margin-top: 10%;
     position: relative;
     text-align: left;
-  } */
+  }
   article.short-bio {
     /* position: absolute; */
     top: 50%;
