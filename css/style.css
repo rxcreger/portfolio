@@ -390,10 +390,10 @@ address {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100rem;
+    width: 100%;
   }
   .hero {
-    width: 100rem;
+    width: 100%;
   }
   main.case-studies {
     width: 100rem;
@@ -409,19 +409,19 @@ address {
   }
   .cloudspark-case-study {
     text-align: left;
-    width: 100rem;
+    /* width: 100rem; */
   }
   .busybus-case-study {
     text-align: left;
-    width: 100rem;
+    /* width: 100rem; */
   }
   #cloudspark-image {
     text-align: left;
-    width: 470px;
+    width: 90%;
   }
   #busybus-image {
     text-align: right;
-    width: 470px;
+    width: 90%;
   }
   .about-me {
     background-image: url("../images/homepage/blue-pattern.png");
