@@ -127,7 +127,7 @@ h1.greeting {
   border-radius: 20px;
   border: 2px solid #414A4C;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 28px;
   margin-right: 2px;
   padding: 10px;
@@ -152,22 +152,13 @@ h1.greeting {
   background-image: url("../images/homepage/blue-pattern.png");
   background-repeat: no-repeat;
   background-size: cover;
-  font-size: 1.2em;
-  line-height: 200%;
   margin top: 10%;
   padding: 5%;
   position: relative;
   text-align: left;
 }
 article.short-bio {
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  line-height: 200%;
-  transform: translate(-50%, -50%);
-  width: 90%; */
-  /* position: relative;
-  width: 70%; */
+  /* margin: auto; */
 }
 .bio-imagery {
 
@@ -184,7 +175,7 @@ article.short-bio {
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  font-size: 1.4em;
+  font-size: 2em;
 }
 
 .design-process {
@@ -281,7 +272,7 @@ address {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 80rem;
+    width: 100%;
   }
   .hamburger-menu {
     display: none;
@@ -306,6 +297,7 @@ address {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 3%;
     width: 80rem;
   }
   .hero-tagline {
@@ -320,7 +312,13 @@ address {
   }
   main.case-studies {
     text-align: left;
+    padding: 3%;
     width: 80rem;
+  }
+  .tag {
+    font-size: 1.4rem;
+    line-height: 300%;
+    white-space: nowrap;
   }
   .cloudspark {
     display: flex;
@@ -329,7 +327,6 @@ address {
     text-align: left;
   }
   .cloudspark-case-study {
-    margin-left: 3rem;
     text-align: left;
   }
   .busy-bus {
@@ -338,7 +335,7 @@ address {
     margin-top: 8rem;
   }
   .busybus-case-study {
-    margin-right: 3rem;
+    /* margin-right: 3rem; */
     text-align: left;
   }
   .busybus-image {
@@ -348,8 +345,6 @@ address {
     background-image: url("../images/homepage/blue-pattern.png");
     background-repeat: no-repeat;
     background-size: cover;
-    font-size: 1.2em;
-    line-height: 200%;
     margin-top: 10%;
     position: relative;
     text-align: left;
@@ -404,7 +399,8 @@ address {
     width: 100rem;
   }
   .tag {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    line-height: 200%;
     white-space: nowrap;
   }
   .case-study-btn {
@@ -431,12 +427,11 @@ address {
     background-image: url("../images/homepage/blue-pattern.png");
     background-repeat: no-repeat;
     background-size: cover;
-    font-size: 1.2em;
-    line-height: 200%;
     margin-top: 10%;
     text-align: left;
   }
   article.short-bio {
+    margin: auto;
     max-width: 1024px;
   }
   p.process-tagline {
