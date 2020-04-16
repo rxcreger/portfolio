@@ -207,7 +207,7 @@ p.process-tagline {
   display: block;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   text-align: center;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 .step {
 
@@ -365,10 +365,11 @@ address {
   .four-steps {
     display: flex;
     flex-direction: row;
+    /* flex-wrap: wrap; */
     justify-content: space-evenly;
   }
   .step {
-    padding: 10em;
+    padding: 10%;
   }
 }
 
