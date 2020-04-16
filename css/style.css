@@ -157,12 +157,14 @@ h1.greeting {
   text-align: left;
 }
 article.short-bio {
-  /* position: absolute; */
-  /* top: 50%;
-  left: 50%; */
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
   line-height: 200%;
-  /* transform: translate(-50%, -50%); */
-  width: 90%;
+  transform: translate(-50%, -50%);
+  width: 90%; */
+  /* position: relative;
+  width: 70%; */
 }
 .bio-imagery {
 
@@ -350,12 +352,12 @@ address {
     text-align: left;
   }
   .short-bio {
-    position: absolute;
-    top: 50%;
+    /* position: absolute; */
+    /* top: 50%;
     left: 50%;
     line-height: 230%;
     transform: translate(-50%, -50%);
-    width: 70%;
+    width: 70%; */
   }
   .four-steps {
     align-items: center;
@@ -429,7 +431,7 @@ address {
     text-align: left;
   } */
   article.short-bio {
-    position: absolute;
+    /* position: absolute; */
     top: 50%;
     left: 50%;
     line-height: 200%;
