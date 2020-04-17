@@ -272,16 +272,15 @@ address {
     background-image: url("../images/homepage/blue-pattern.png");
     background-repeat: no-repeat;
     background-size: cover;
-    color: black;
     font-family: 'Domine', Georgia, Times, serif;
     font-size: 1.8rem;
     line-height: 140%;
-    text-align: center;
+  }
+  .bio-intro {
+    /* margin-top: 10%; */
   }
   .hero-copy {
-    text-align: left;
-    padding-top: 15%;
-    width: 50%;
+    width: 60%;
   }
   p.hero-tagline {
     font-family: 'Domine', Georgia, Times, serif;
@@ -289,9 +288,8 @@ address {
     text-align: left;
   }
   .headshot {
-    width: 50%;
-    margin-left: 10%;
-    margin-top: 8%;
+    /* width: 40%; */
+    /* margin-top: 8%; */
   }
   main.bio {
     padding-left: 10%;

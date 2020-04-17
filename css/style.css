@@ -43,8 +43,6 @@ header {
   padding: 2rem;
   width: 100%;
   z-index: 10;
-  /* width: 100vw;
-  padding: 10vh 15vw 5vh 15vw; */
 }
 .nav-menu-container {
   display: none;
@@ -267,8 +265,8 @@ address {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 80rem;
     overflow-x: hidden;
+    width: 80rem;
   }
   .nav {
     align-items: center;
@@ -461,7 +459,12 @@ address {
     width: 25%;
   }
   .testimonials {
-
+    background: #EBE8E8;
+    text-align: center;
+    line-height: 200%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    width: 100%;
   }
 
 

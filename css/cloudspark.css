@@ -8,7 +8,6 @@ html {
 }
 
 .container {
-  background-color: white;
   width: 100%;
 }
 
@@ -51,9 +50,9 @@ h3 {
 }
 
 h4 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 160%;
   text-align: left;
 }
@@ -81,12 +80,13 @@ header {
 
 /*** Navigation bar ***/
 .nav {
+  align-items: center;
   background-color: white;
   margin: auto;
-  padding: 2rem;
   position: fixed;
-  align-items: center;
+  padding: 2rem;
   width: 100%;
+  z-index: 10;
 }
 .personal-logo {
   float: left;
@@ -94,7 +94,7 @@ header {
 .hamburger-menu {
   float: right;
 }
-.nav-menu-links {
+.nav-menu-container {
   display: none;
 }
 
@@ -128,8 +128,9 @@ article.cloudspark-hero {
   font-size: 1em;
 }
 main.cloudspark-case-study {
-  padding: 2rem;
-  width: 100%;
+  text-align: left;
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
 .project-nav {
   display: none;
@@ -152,6 +153,9 @@ main.cloudspark-case-study {
 }
 article.problem {
   margin-bottom: 5%;
+}
+.problem-container {
+  margin-bottom: 10%;
 }
 .research-intro {
   background-color: #EDEBEB;
@@ -177,18 +181,22 @@ article.personas {
   margin-top: 10%;
 }
 .competitive-analysis {
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
 .competitive-analysis-columns {
-  /* text-align: center; */
-  margin-bottom: 5%;
-  margin-left: 7%;
-  margin-top: 5%;
+  padding: 1%;
+}
+.dropbox-vs-evernote {
+  text-align: center;
+  padding: 5%;
 }
 .user-stories {
-  background-color: #EDEBEB;
-  margin: 0 -9999rem;
-  padding: 5rem 9999rem;
+  background: #EBE8E8;
+  text-align: center;
+  line-height: 200%;
+  margin-top: 10%;
+  padding: 2rem;
+  width: 100%;
 }
 .user-stories-image {
   width: 100%;
@@ -332,6 +340,7 @@ address {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    overflow-x: hidden;
     width: 80rem;
   }
   .nav {
@@ -339,8 +348,7 @@ address {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 0rem;
-    width: 80rem;
+    width: 100%;
   }
   .hamburger-menu {
     display: none;
@@ -348,7 +356,7 @@ address {
   .nav-menu-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
   }
   .nav-menu-links {
     color: black;
@@ -360,14 +368,8 @@ address {
   .nav-menu-links li {
     margin-left: 6rem;
   }
-  .personal-logo {
-    justify-content: flex-start;
-  }
-  .nav-menu {
-    justify-content: flex-end;
-  }
   p {
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-family: 'Muli', Helvetica, Arial, sans-serif;
     line-height: 140%;
   }
@@ -384,7 +386,7 @@ address {
     line-height: 160%;
   }
   h4 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     font-weight: 600;
     line-height: 160%;
@@ -442,6 +444,8 @@ address {
     white-space: nowrap;
   }
   main.cloudspark-case-study {
+    text-align: left;
+    padding: 3%;
     width: 80rem;
   }
   .project-overview {
@@ -451,26 +455,39 @@ address {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    line-height: 160%;
     text-align: left;
     width: 100%;
   }
+  p.what-i-did {
+    font-size: 2em;
+  }
 .overview-header {
-  padding-top: 5%;
+  /* padding-top: 5%; */
+}
+.role {
+  width: 28%;
+}
+.deliverables {
+  width: 37%;
+}
+.tools-used {
+  width: 30%;
 }
   .problem-container {
     display: flex;
     flex-direction: row;
-    margin-top: 10%;
+    margin-bottom: 10%;
   }
   article.problem {
     flex-direction: column;
     justify-content: flex-start;
-    width:
   }
   .problem-image {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    padding-left: 5%;
   }
   .research-discovery {
 
@@ -524,15 +541,30 @@ address {
     text-align: left;
   }
   .user-stories {
+    background: #EBE8E8;
+    text-align: left;
+    line-height: 200%;
+    margin: 0 auto;
+    padding: 2rem;
+    padding-top: 2rem;
+    width: 100%;
     display: flex;
     flex-direction: row-reverse;
-    padding: 7%;
+    justify-content: space-between;
+  }
+  article.user-stories {
+    display: flex;
     width: 100%;
+  }
+  .user-stories-image {
+    padding-right: 5%;
   }
   .Information-Architecture {
   width: 100%;
   }
   .user-flows {
+    display: flex;
+    flex-direction: column;
     margin-top: 6%;
     width: 100%;
   }
@@ -541,6 +573,7 @@ address {
   }
 .user-flows2 {
   display: flex;
+  width: 90%;
 }
   article.sketching {
     padding-top: 10%;
@@ -619,7 +652,6 @@ address {
 /*** when screen is larger than 1024px width, it changes to this ***/
 @media screen and (min-width: 1024px) {
   .container {
-    background-color: #fff;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -630,14 +662,16 @@ address {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 0rem;
-    width: 100rem;
+    width: 100%;
   }
   .project-hero {
-    width: 100rem;
+    width: 100%;
   }
   main.cloudspark-case-study {
     width: 100rem;
+  }
+  .project-overview {
+    width: 100%;
   }
 
 
