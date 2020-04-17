@@ -26,8 +26,9 @@ h1 {
   line-height: 160%;
 }
 li {
-  font-size: 1.4em;
+  font-size: 1.2em;
   line-height: 140%;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 header {
   /* width: 100%; */
@@ -195,7 +196,7 @@ p.process-tagline {
   text-align: center;
 }
 .process-icon {
-  text-align: center;
+  text-align: left;
   padding-top: 4%;
   width: 100%;
 }
@@ -204,17 +205,19 @@ p.process-tagline {
   font-size: 1.4rem;
 }
 .four-steps {
-  display: block;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  text-align: center;
-  /* white-space: nowrap; */
+  line-height: 160%;
+  margin: auto;
+  text-align: left;
 }
 .step {
-
+  line-height: 160%;
 }
 p.bold {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   padding-top: 2%;
   font-weight: 1000;
+  line-height: 160%;
 }
 .testimonials {
   background: #EBE8E8;
@@ -365,11 +368,11 @@ address {
   .four-steps {
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: space-evenly;
   }
   .step {
-    padding: 10%;
+    padding: 5%;
   }
 }
 
@@ -447,12 +450,20 @@ address {
   }
   p.bold {
     align-items: center;
-    font-size: 2.4rem;
-    font-weight: 1500;
+    font-size: 2rem;
+    font-weight: 1000;
   }
   .list {
     line-height: 160%;
     font-size: 1.6rem;
+  }
+  .four-steps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .step {
+    padding: 1%;
   }
   .testimonials {
 
