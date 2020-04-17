@@ -181,42 +181,44 @@ article.short-bio {
   font-size: 2em;
 }
 
-.design-process {
+.process-tagline {
   font-size: 1.4em;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
-  margin: 2em;
+  padding-top: 2em;
   text-align: center;
 }
-
 p.process-tagline {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-size: 1.8rem;
   line-height: 180%;
-  padding: 5%;
+  padding: 2%;
   text-align: center;
 }
 .process-icon {
   text-align: left;
   padding-top: 4%;
-  width: 100%;
+  /* width: 100%; */
 }
 .list {
-  line-height: 140%;
+  line-height: 180%;
   font-size: 1.4rem;
 }
 .four-steps {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   line-height: 160%;
-  margin: auto;
-  text-align: left;
+  width:
 }
 .step {
-  line-height: 160%;
+  padding: 5%;
 }
 p.bold {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   padding-top: 2%;
-  font-weight: 1000;
+  font-weight: 500;
   line-height: 160%;
 }
 .testimonials {
@@ -449,13 +451,12 @@ address {
     font-size: 2rem;
   }
   p.bold {
-    align-items: center;
     font-size: 2rem;
-    font-weight: 1000;
+    font-weight: 500;
   }
   .list {
-    line-height: 160%;
-    font-size: 1.6rem;
+    line-height: 180%;
+    font-size: 1.4rem;
   }
   .four-steps {
     display: flex;
