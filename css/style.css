@@ -369,7 +369,6 @@ address {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /* padding-left: 5%; */
   }
   .step {
     width: 50%;
