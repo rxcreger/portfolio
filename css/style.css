@@ -369,10 +369,10 @@ address {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding-left: 5%;
+    /* padding-left: 5%; */
   }
   .step {
-
+    width: 50%;
   }
 }
 
@@ -467,7 +467,7 @@ address {
     padding-left: 0%;
   }
   .step {
-    padding: 1%;
+    width: 25%;
   }
   .testimonials {
 
