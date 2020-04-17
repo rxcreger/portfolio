@@ -163,12 +163,6 @@ h1.greeting {
 article.short-bio {
 
 }
-.bio-imagery {
-
-}
-.bio-imagery img {
-
-}
 .green-button {
   background-color: #86A681;
   border: none;
@@ -270,7 +264,6 @@ address {
 
   }
   .container {
-    /* max-width: 768px; */
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -392,7 +385,6 @@ address {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    /* max-width: 1024px; */
     width: 100rem;
   }
   .nav {
