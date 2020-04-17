@@ -276,7 +276,7 @@ ul.user-testing-changes {
   text-align: center;
   padding-top: 6%;
   padding-bottom: 6%;
-  width: 100%;
+  width: 90%;
 }
 .final-prototype-images {
   text-align: center;
@@ -635,9 +635,15 @@ address {
   padding-bottom: 4%;
   }
 .preference-testing-images {
-  display: inline-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   text-align: center;
-  width: 70%;
+  width: 100%;
+  }
+  .ptesting {
+    display: flex;
+    padding-right: 5%;
   }
   .final-prototype-images {
     width: 100%;
