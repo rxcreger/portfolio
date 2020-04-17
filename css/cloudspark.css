@@ -430,15 +430,13 @@ address {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 1em;
-    margin: 0 -9999rem;
-    padding: 1rem 9999rem;
+    width: 100%;
   }
   .project-nav-links {
     padding: 2%;
+    display: flex;
   }
   p.project-nav-links {
-    display: flex;
     font-size: 2em;
     padding: 1%;
     white-space: nowrap;
