@@ -364,7 +364,6 @@ address {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    overflow-x: hidden;
     width: 100%;
   }
   .nav {
