@@ -453,7 +453,16 @@ address {
 
   }
   .project-nav {
-    color: white;
+    /* color: white;
+    background: #4A23F1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%; */
+  }
+  .project-nav-links {
+    color: black;
     background: #4A23F1;
     display: flex;
     flex-direction: row;
@@ -461,14 +470,11 @@ address {
     margin: auto;
     width: 100%;
   }
-  .project-nav-links {
-    padding: 2%;
-    display: flex;
-  }
-  p.project-nav-links {
+  .p-links {
     font-size: 2em;
     padding: 1%;
-    white-space: nowrap;
+    display: flex;
+    /* white-space: nowrap; */
   }
   main.cloudspark-case-study {
     text-align: left;
