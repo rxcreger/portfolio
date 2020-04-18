@@ -364,7 +364,8 @@ address {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 100%;
+    overflow-x: hidden;
+    width: 80rem;
   }
   .nav {
     align-items: center;
@@ -471,7 +472,7 @@ address {
   }
   main.cloudspark-case-study {
     text-align: left;
-    /* padding: 3%; */
+    padding: 3%;
     width: 100%;
   }
   .project-overview {
@@ -701,7 +702,7 @@ address {
     width: 100%;
   }
   main.cloudspark-case-study {
-    width: 100rem;
+    width: 100%;
   }
   .project-overview {
     width: 100%;
