@@ -56,6 +56,10 @@ h4 {
   line-height: 160%;
   text-align: left;
 }
+h1.footer {
+  text-align: center;
+  padding: .5em;
+}
 ul {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-size: 2.2em;
@@ -156,14 +160,17 @@ article.problem {
 }
 .problem-container {
   margin-bottom: 10%;
+  padding: 2em;
 }
 .research-intro {
   background-color: #EDEBEB;
-  margin: 0 -9999rem;
-  padding: 5rem 9999rem;
+  padding: 2rem;
 }
 .research-image {
   width: 100%;
+}
+.user-personas {
+  padding: 2rem;
 }
 .persona-container {
   margin-bottom: 10%;
@@ -181,6 +188,7 @@ article.personas {
   margin-top: 10%;
 }
 .competitive-analysis {
+  padding: 2rem;
   margin-bottom: 10%;
 }
 .competitive-analysis-columns {
@@ -192,7 +200,7 @@ article.personas {
 }
 .user-stories {
   background: #EBE8E8;
-  text-align: center;
+  text-align: left;
   line-height: 200%;
   margin-top: 10%;
   padding: 2rem;
@@ -204,6 +212,7 @@ article.personas {
 }
 .user-flows {
   margin-bottom: 5%;
+  padding: 2em;
 }
 .user-flows2 {
   display: none;
@@ -213,6 +222,7 @@ article.personas {
 }
 .sketching {
   margin-bottom: 8%;
+  padding: 2em;
   width: 100%;
 }
 .sketch-images {
@@ -224,8 +234,7 @@ article.personas {
 }
 .user-testing {
   background-color: #EDEBEB;
-  margin: 0 -9999rem;
-  padding: 5rem 9999rem;
+  padding: 2em;
 }
 .user-testing-images {
   text-align: center;
@@ -240,8 +249,14 @@ ul.user-testing-changes {
 .branding {
   margin-bottom: 8%;
 }
+article.branding {
+  padding: 2em;
+}
 .branding-images {
   width: 100%;
+}
+.logo-development {
+  padding: 2em;
 }
 .logo-image {
   text-align: center;
@@ -250,12 +265,16 @@ ul.user-testing-changes {
 .style-guide {
   margin-bottom: 8%;
 }
+article.style-guide {
+  padding: 2em;
+}
 .asset-images {
   text-align: center;
   width: 100%;
 }
 .user-testing-one {
   margin-bottom: 8%;
+  padding: 2em;
 }
 .hifi-user-testing {
   font-family: 'Muli', 'Montserrat', Helvetica, Arial, sans-serif;
@@ -271,6 +290,7 @@ ul.user-testing-changes {
 .preference-testing {
   /* margin-bottom: 8%; */
   margin-top: 8%;
+  padding: 2em;
 }
 .preference-testing-images {
   text-align: center;
@@ -278,12 +298,16 @@ ul.user-testing-changes {
   padding-bottom: 6%;
   width: 90%;
 }
+.final-prototype {
+  padding: 2em;
+}
 .final-prototype-images {
   text-align: center;
   width: 100%;
 }
 .what-i-learned {
   margin-top: 8%;
+  padding: 2em;
 }
 .back-to-top {
   margin: auto;
@@ -341,7 +365,7 @@ address {
     flex-direction: column;
     margin: 0 auto;
     overflow-x: hidden;
-    width: 80rem;
+    width: 100%;
   }
   .nav {
     align-items: center;
@@ -378,6 +402,10 @@ address {
     padding-bottom: 8%;
     padding-top: 8%;
     text-align: left;
+  }
+  h1.footer {
+    text-align: center;
+    font-size: 3em;
   }
   h3 {
     font-size: 1.8rem;
@@ -430,6 +458,7 @@ address {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: auto;
     width: 100%;
   }
   .project-nav-links {
@@ -443,8 +472,8 @@ address {
   }
   main.cloudspark-case-study {
     text-align: left;
-    padding: 3%;
-    width: 80rem;
+    /* padding: 3%; */
+    width: 100%;
   }
   .project-overview {
     width: 80rem;
@@ -584,8 +613,7 @@ address {
   }
   .user-testing {
     background-color: #EDEBEB;
-    margin: 0 -9999rem;
-    padding: 5rem 9999rem;
+    padding: 2em;
     text-align: left;
   }
   article.user-testing {
@@ -622,7 +650,7 @@ address {
   h4.logo-development{
     text-align: center;
   }
-  .style-guide{
+  .style-guide {
     text-align: center;
   }
   h4.style-guide{
@@ -650,6 +678,8 @@ address {
     line-height: 180%;
     width: 80rem;
   }
+
+
 }
 
 /*** For desktop ***/
