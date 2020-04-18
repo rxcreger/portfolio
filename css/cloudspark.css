@@ -221,7 +221,6 @@ article.personas {
   width: 100%;
 }
 .sketching {
-  margin-bottom: 8%;
   padding: 2em;
   width: 100%;
 }
@@ -230,7 +229,7 @@ article.personas {
   width: 100%;
 }
 .wireframe-images {
-
+text-align: center;
 }
 .user-testing {
   background-color: #EDEBEB;
@@ -613,8 +612,17 @@ address {
   .sketch-images {
     width: 100%;
   }
+  .sketching {
+    padding: 2em;
+  }
+  .wireframe-images {
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 1%;
+    padding-bottom: 5%;
+  }
   .wireframe {
-    padding-bottom: 10%;
+    padding-bottom: 5%;
   }
   .user-testing {
     background-color: #EDEBEB;
