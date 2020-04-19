@@ -165,6 +165,7 @@ article.problem {
 .research-intro {
   background-color: #EDEBEB;
   padding: 2rem;
+  width: 100%;
 }
 .research-image {
   width: 100%;
@@ -363,7 +364,6 @@ address {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    overflow-x: hidden;
     width: 80rem;
   }
   .nav {
@@ -521,11 +521,12 @@ address {
     padding-left: 5%;
   }
   .research-discovery {
-
+    width: 100%;
   }
   .research-intro {
     padding-bottom: 10%;
     padding-top: 5%;
+    width: 100%;
   }
   .research-insights {
     display: flex;

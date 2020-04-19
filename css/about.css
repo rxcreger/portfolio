@@ -22,7 +22,7 @@ p {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.4rem;
   font-family: 'Domine', Georgia, Times, serif;
   line-height: 140%;
   font-weight: 600;
@@ -70,6 +70,7 @@ h3.tagline {
 }
 h1.title {
   font-weight: bold;
+  font-size: 3rem;
   margin-top: 3%;
 }
 .headshot {
@@ -158,8 +159,10 @@ address {
   p {
     font-size: 1.8rem;
   }
-  h1 {
-    font-size: 3rem;
+  h1.title {
+    font-weight: bold;
+    font-size: 3.2rem;
+    margin-top: 0%;
   }
   p.pull-quote {
     font-size: 2.2rem;
@@ -218,7 +221,7 @@ address {
   }
   .hero-copy {
     text-align: left;
-    padding-top: 15%;
+    padding-top: 13%;
     width: 50%;
   }
   p.hero-tagline {
@@ -231,6 +234,7 @@ address {
   .headshot {
     width: 30%;
   }
+
   .intro {
     font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
     font-size: 1.8rem;
@@ -273,23 +277,26 @@ address {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Domine', Georgia, Times, serif;
-    font-size: 1.8rem;
+    font-size: 2rem;
     line-height: 140%;
+    padding-top: 8%;
+    width: 100%;
   }
+
   .bio-intro {
-    /* margin-top: 10%; */
+    /* padding: 2%; */
+    width: 100%;
   }
   .hero-copy {
     width: 60%;
   }
   p.hero-tagline {
     font-family: 'Domine', Georgia, Times, serif;
-    font-size: 2.4rem;
+    font-size: 3rem;
     text-align: left;
   }
   .headshot {
-    /* width: 40%; */
-    /* margin-top: 8%; */
+    margin-top: 8%;
   }
   main.bio {
     padding-left: 10%;
