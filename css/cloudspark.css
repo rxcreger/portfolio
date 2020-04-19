@@ -202,9 +202,13 @@ article.personas {
 .user-stories {
   background: #EBE8E8;
   text-align: left;
-  line-height: 200%;
+  margin-bottom: 10%;
   margin-top: 10%;
   padding: 2rem;
+  width: 100%;
+}
+.Information-Architecture {
+  margin-top: 4%;
   width: 100%;
 }
 .user-stories-image {
@@ -302,12 +306,17 @@ article.style-guide {
   padding: 2em;
 }
 .final-prototype-images {
+  margin-top: 5%;
   text-align: center;
   width: 100%;
 }
 .what-i-learned {
-  margin-top: 8%;
+  line-height: 160%;
+  margin-top: 1%;
   padding: 2em;
+}
+.what-i-learned p {
+  line-height: 170%;
 }
 .back-to-top {
   margin: auto;
@@ -575,10 +584,6 @@ address {
   .user-stories {
     background: #EBE8E8;
     text-align: left;
-    line-height: 200%;
-    margin: 0 auto;
-    padding: 2rem;
-    padding-top: 2rem;
     width: 100%;
     display: flex;
     flex-direction: row-reverse;
@@ -586,18 +591,21 @@ address {
   }
   article.user-stories {
     display: flex;
+    flex-direction: column;
+    padding-left: 10%;
     width: 100%;
   }
   .user-stories-image {
-    padding-right: 5%;
+    padding-top: 8%;
   }
   .Information-Architecture {
-  width: 100%;
+    margin-top: 3%;
+    width: 100%;
   }
   .user-flows {
     display: flex;
     flex-direction: column;
-    margin-top: 6%;
+    margin-top: 0%;
     width: 100%;
   }
   .user-flows-image {
@@ -688,9 +696,15 @@ address {
   .final-prototype-images {
     width: 100%;
   }
+  .final {
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 5%;
+  }
+
   article.what-i-learned {
     line-height: 180%;
-    width: 80rem;
+    width: 100%;
   }
 
 
@@ -721,6 +735,14 @@ address {
   .project-overview {
     width: 100%;
   }
-
+  .final-prototype-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+  }
+  .final {
+    padding: 0%;
+  }
 
 }
