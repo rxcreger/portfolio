@@ -21,11 +21,6 @@
            <div class="personal-logo">
                <a href="index.html"><img src="images/homepage/logo.png" alt="personal logo" class="personal-logo"></a>
            </div>
-               <div class="hamburger-menu" onclick="myFunction()">
-                  <div class="hamburger">
-                     <img src="images/homepage/hamburger.png" alt="hamburger menu">
-                  </div>
-                </div>
                   <div class="nav-menu-links">
                    <ul class="nav-menu-links">
                       <li>
@@ -39,21 +34,20 @@
                       </li>
                    </ul>
                  </div>
+                 <button class="hamburger-menu" id ="hamburger-menu">
+                    <div class="hamburger">
+                       <img src="images/homepage/hamburger.png" alt="hamburger menu">
+                    </div>
+                  </button>
                </div>
-         </div>
-         <div class="hamburger-dropdown">
-          <ul class="dropdown-links">
-             <li>
-                <a href="project.html" class="dropdown-links">Work</a>
-             </li>
-             <li>
-                <a href="about.html" class="dropdown-links">About</a>
-             </li>
-             <li>
-                <a href="project.html" class="dropdown-links">Contact</a>
-             </li>
-           </ul>
           </div>
+          <div class="dropdown">
+          <div class="dropdown-content" id="myDropdown">
+                <a href="project.html">Work</a>
+                <a href="about.html">About</a>
+                <a href="project.html">Contact</a>
+           </div>
+         </div>
      </nav>
          <!-- Hero image and tagline -->
     <div class="container">
@@ -238,7 +232,13 @@
         </div>
       </footer>
       <script>
+                // Get the button, and when the user clicks on it, execute myFunction
+          document.getElementById("hamburger-menu").onclick = function() {myFunction()};
 
+          /* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+          function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("dropdown-content");
+          }
     </script>
    </body>
  </html>
