@@ -461,16 +461,15 @@ address {
 
   }
   .project-nav {
-    /* color: white;
+    color: white;
     background: #4A23F1;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: auto;
-    width: 100%; */
+    width: 100%;
   }
   .project-nav-links {
-    color: black;
     background: #4A23F1;
     display: flex;
     flex-direction: row;
@@ -533,6 +532,7 @@ address {
     width: 100%;
   }
   .research-intro {
+    background-color: #EDEBEB;
     padding-bottom: 10%;
     padding-top: 5%;
     width: 100%;
