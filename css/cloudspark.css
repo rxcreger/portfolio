@@ -203,7 +203,7 @@ article.personas {
   background: #EBE8E8;
   text-align: left;
   margin-bottom: 10%;
-  margin-top: 10%;
+  margin-top: 8%;
   padding: 2rem;
   width: 100%;
 }
@@ -571,6 +571,7 @@ address {
   .competitive-analysis {
     padding-top: 6%;
     width: 100%;
+    margin-bottom: 1%;
   }
   .competitive-analysis-columns {
     display: flex;
@@ -580,7 +581,7 @@ address {
   .dropbox-vs-evernote {
     text-align: left;
   }
-  .user-stories {
+  .user-stories-container {
     background: #EBE8E8;
     text-align: left;
     width: 100%;
@@ -623,14 +624,17 @@ address {
   .sketching {
     padding: 2em;
   }
+  .wireframe {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5%;
+  }
   .wireframe-images {
     display: inline-flex;
     justify-content: space-between;
     padding: 1%;
     padding-bottom: 5%;
-  }
-  .wireframe {
-    padding-bottom: 5%;
+    width: 40%;
   }
   .user-testing {
     background-color: #EDEBEB;
