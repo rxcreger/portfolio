@@ -60,7 +60,7 @@ header {
   color: white;
   background: #86A681;
   font-size: 2em;
-  margin-top: 10%;
+  margin-top: 0%;
   position: absolute;
   text-align: center;
   text-decoration: none;
@@ -223,9 +223,10 @@ address {
     display: none;
   }
   .nav-menu-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   }
   .nav-menu-links {
     color: black;

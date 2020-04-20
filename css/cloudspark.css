@@ -123,6 +123,8 @@ header {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   display: flex;
   flex-direction: column;
+  font-size: 1em;
+  font-weight: normal;
   padding: 1em;
   padding-bottom: 4%;
   padding-top: 4%;
@@ -428,9 +430,10 @@ address {
     display: none;
   }
   .nav-menu-container {
+    align-items: center;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
   }
   .nav-menu-links {
     color: black;
