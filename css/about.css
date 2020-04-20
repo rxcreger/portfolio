@@ -222,6 +222,9 @@ address {
   .hamburger-menu {
     display: none;
   }
+  .dropdown {
+    display: none;
+  }
   .nav-menu-container {
   align-items: center;
   display: flex;
