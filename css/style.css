@@ -40,7 +40,6 @@ header {
   background-color: white;
   margin: auto;
   position: fixed;
-  padding: 2rem;
   width: 100%;
   z-index: 10;
 }
@@ -49,9 +48,30 @@ header {
 }
 .personal-logo {
   float: left;
+  padding: 1rem;
 }
 .hamburger-menu {
+  padding: 2rem;
   float: right;
+}
+.hamburger-dropdown {
+  color: white;
+  background: #86A681;
+  /* display: none; */
+  margin-top: 8%;
+  font-size: 2em;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  z-index: 11;
+}
+.hamburger-dropdown a {
+  color: white;
+  text-decoration: none;
+}
+.dropdown-links li {
+  padding: .75em;
+  width: 100%;
 }
 h1.greeting {
   font-size: 3rem
@@ -276,6 +296,9 @@ address {
     width: 100%;
   }
   .hamburger-menu {
+    display: none;
+  }
+  .hamburger-dropdown {
     display: none;
   }
   .nav-menu-container {
