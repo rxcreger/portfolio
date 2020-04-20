@@ -533,7 +533,7 @@ address {
   }
   .research-intro {
     background: #EDEBEB;
-    margin: auto;
+    margin: 0 auto;
     width: 100%;
   }
   .research-insights {
