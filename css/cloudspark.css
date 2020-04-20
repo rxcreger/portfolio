@@ -100,6 +100,28 @@ header {
 .hamburger-menu {
   float: right;
 }
+.hamburger-dropdown {
+  display: none;
+  color: #86A681;
+  background: #86A681;
+  display: none;
+  float: right;
+  font-size: 3em!important;
+  text-align: center;
+  padding: 2rem;
+  text-decoration: none;
+  width: 100%;
+  z-index: 100;
+}
+.dropdown-links ul {
+  display: none;
+}
+  li.dropdown-links {
+  color: white;
+  display: none;
+  font-size: 2em;
+  text-decoration: none !important;
+}
 .nav-menu-container {
   display: none;
 }
@@ -387,6 +409,12 @@ address {
   .hamburger-menu {
     display: none;
   }
+  .hamburger-dropdown {
+    display: none;
+  }
+.dropdown-links {
+    display: none;
+  }
   .nav-menu-container {
     display: flex;
     flex-direction: row;
@@ -462,6 +490,7 @@ address {
   .cloudspark-hero-image {
 
   }
+
   .project-nav {
     color: white;
     background: #4A23F1;
