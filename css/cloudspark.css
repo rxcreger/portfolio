@@ -88,43 +88,55 @@ header {
 .nav {
   align-items: center;
   background-color: white;
-  margin: auto;
   position: fixed;
-  padding: 2rem;
   width: 100%;
   z-index: 10;
 }
+.nav-menu-links {
+  display: none;
+}
 .personal-logo {
   float: left;
+  padding: 1em;
 }
 .hamburger-menu {
+  cursor: pointer;
+  border: none;
   float: right;
+  padding: 2.3em;
 }
-.hamburger-dropdown {
-  display: none;
-  color: #86A681;
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  color: white;
   background: #86A681;
-  display: none;
-  float: right;
-  font-size: 3em!important;
+  font-size: 2em;
+  margin-top: 10%;
+  position: absolute;
   text-align: center;
-  padding: 2rem;
   text-decoration: none;
   width: 100%;
-  z-index: 100;
 }
-.dropdown-links ul {
-  display: none;
-}
-  li.dropdown-links {
+.dropdown a {
   color: white;
-  display: none;
-  font-size: 2em;
-  text-decoration: none !important;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  padding-bottom: 4%;
+  padding-top: 4%;
+  text-decoration: none;
 }
-.nav-menu-container {
+.dropdown-content {
   display: none;
 }
+
+.dropdown a:hover {
+  color: #86A681;
+  background-color: #f1f1f1;
+}
+/* .show {display:block;} */
 
 /*** Hero image section ***/
 .project-hero {

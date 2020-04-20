@@ -36,22 +36,55 @@ header {
 .nav {
   align-items: center;
   background-color: white;
-  margin: auto;
   position: fixed;
-  padding: 2rem;
   width: 100%;
   z-index: 10;
 }
-
-.nav-menu-container {
+.nav-menu-links {
   display: none;
 }
 .personal-logo {
   float: left;
+  padding: 1em;
 }
 .hamburger-menu {
+  cursor: pointer;
+  border: none;
   float: right;
+  padding: 2.3em;
 }
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  color: white;
+  background: #86A681;
+  font-size: 2em;
+  margin-top: 10%;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+.dropdown a {
+  color: white;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  padding-bottom: 4%;
+  padding-top: 4%;
+  text-decoration: none;
+}
+.dropdown-content {
+  display: none;
+}
+
+.dropdown a:hover {
+  color: #86A681;
+  background-color: #f1f1f1;
+}
+/* .show {display:block;} */
 h1.greeting {
   font-size: 3rem
 }
