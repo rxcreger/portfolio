@@ -30,10 +30,12 @@ a {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: 'Domine', Georgia, Times, serif;
   line-height: 160%;
   text-align: center;
+  padding-bottom: 8%;
+  padding-top: 8%;
 }
 h2 {
   font-size: 2rem;
@@ -202,7 +204,7 @@ article.personas {
 .user-stories {
   background: #EBE8E8;
   text-align: left;
-  margin-bottom: 10%;
+  margin-bottom: 8%;
   margin-top: 8%;
   padding: 2rem;
   width: 100%;
@@ -406,9 +408,9 @@ address {
     line-height: 140%;
   }
   h1 {
-    font-size: 4em;
-    padding-bottom: 8%;
-    padding-top: 8%;
+    font-size: 4.5em;
+    padding-bottom: 5%;
+    padding-top: 5%;
     text-align: left;
   }
   h1.footer {
@@ -517,6 +519,7 @@ address {
     display: flex;
     flex-direction: row;
     margin-bottom: 10%;
+    padding: 0em;
   }
   article.problem {
     flex-direction: column;
@@ -581,6 +584,9 @@ address {
   .dropbox-vs-evernote {
     text-align: left;
   }
+  .user-stories {
+    margin-bottom: 5%;
+  }
   .user-stories-container {
     background: #EBE8E8;
     text-align: left;
@@ -599,13 +605,14 @@ address {
     padding-top: 8%;
   }
   .Information-Architecture {
-    margin-top: 3%;
+    margin-top: 0%;
     width: 100%;
   }
   .user-flows {
     display: flex;
     flex-direction: column;
     margin-top: 0%;
+    padding: 0em;
     width: 100%;
   }
   .user-flows-image {
@@ -622,7 +629,7 @@ address {
     width: 100%;
   }
   .sketching {
-    padding: 2em;
+    padding: 0em;
   }
   .wireframe {
     display: flex;
@@ -640,7 +647,7 @@ address {
   }
   .user-testing {
     background-color: #EDEBEB;
-    padding: 2em;
+    padding-left: 0em;
     text-align: left;
   }
   article.user-testing {
@@ -648,22 +655,25 @@ address {
   .user-testing-images {
     text-align: left;
   }
-  Visual-Design {
+  .Visual-Design {
     width: 100%;
   }
   .branding {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 7%;
+    margin-bottom: 5%;
     width: 100%;
   }
   article.branding {
+    padding: 0em;
+  }
+  .branding-image-container {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
   .branding-images {
     display: flex;
-    flex-direction: row;
-    width: 70%;
+    padding-right: 5%;
+    /* width: 100%; */
   }
   .logo-image {
     padding-top: 3%;
