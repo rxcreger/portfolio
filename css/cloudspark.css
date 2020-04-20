@@ -628,13 +628,15 @@ address {
     display: flex;
     flex-direction: row;
     padding-bottom: 5%;
+    width: 100%;
   }
   .wireframe-images {
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 1%;
     padding-bottom: 5%;
-    width: 40%;
+    width: 100%;
   }
   .user-testing {
     background-color: #EDEBEB;
@@ -646,10 +648,14 @@ address {
   .user-testing-images {
     text-align: left;
   }
+  Visual-Design {
+    width: 100%;
+  }
   .branding {
     display: flex;
     flex-direction: column;
     padding-bottom: 7%;
+    width: 100%;
   }
   article.branding {
     display: flex;
@@ -657,6 +663,7 @@ address {
   .branding-images {
     display: flex;
     flex-direction: row;
+    width: 70%;
   }
   .logo-image {
     padding-top: 3%;
