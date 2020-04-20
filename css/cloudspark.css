@@ -532,9 +532,8 @@ address {
     width: 100%;
   }
   .research-intro {
-    background-color: #EDEBEB;
-    padding-bottom: 10%;
-    padding-top: 5%;
+    background: #EDEBEB;
+    margin: auto;
     width: 100%;
   }
   .research-insights {
