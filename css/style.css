@@ -34,6 +34,10 @@ header {
   /* width: 100%; */
 }
 
+a {
+  text-decoration: none;
+}
+
 /*** Navigation bar ***/
 .nav {
   align-items: center;
@@ -206,6 +210,9 @@ article.short-bio {
   text-align: center;
   text-decoration: none;
   font-size: 2em;
+}
+.green-button a {
+  color: white;
 }
 
 article.process-tagline {
