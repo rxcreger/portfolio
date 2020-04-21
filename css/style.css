@@ -200,6 +200,9 @@ h1.greeting {
 article.short-bio {
 
 }
+.short-bio-content {
+  margin-bottom: 2%;
+}
 .green-button {
   background-color: #86A681;
   border: none;
@@ -409,6 +412,12 @@ address {
   }
   article.short-bio {
     width: 90%;
+  }
+  .short-bio-content {
+    margin-bottom: 3%;
+  }
+  .bio-button {
+    text-align: center;
   }
   .four-steps {
     display: flex;
