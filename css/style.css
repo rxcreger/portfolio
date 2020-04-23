@@ -1,3 +1,5 @@
+
+/********** Typefaces, styling, colors, buttons high level structure **********/
 * {
   box-sizing: border-box;
 }
@@ -31,14 +33,14 @@ li {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 header {
-  /* width: 100%; */
+  width: 100%;
 }
 
 a {
   text-decoration: none;
 }
 
-/*** Navigation bar ***/
+/********* Navigation bar *********/
 .nav {
   align-items: center;
   background-color: white;
@@ -98,32 +100,36 @@ h1.greeting {
 h3.tagline {
   font-size: 2rem;
 }
-/*** Case studies section ***/
-main.case-studies {
+/********* Footer *********/
+footer {
   text-align: center;
-  margin-top: 4%;
-  margin-bottom: 4%;
+  padding: 4em;
 }
-.case-study-tagline {
-  margin-top: 3%;
-}
-.case-study-btn {
-  color: #0E8F8F;
-  border: 2px solid #0E8F8F;
-  border-radius: 8px;
-  font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
-  font-size: 1.4em;
-  padding: 15px 32px;
+.footer-cta {
+  padding: 4em;
   text-align: center;
-  margin-bottom: 5%;
+}
+.social-media-icons {
+  background-color: white;
+  color: #86A681;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  justify-content: center;
   text-decoration: none;
 }
-.case-study-btn a {
-  color: #0E8F8F;
-  font-size: 1.4em;
+.social-media-icons a {
   text-decoration: none;
 }
-
+/** controls size of social media icons **/
+.social-media-icons > ul {
+  margin: auto;
+  display: flex;
+}
+address {
+  padding: 1em;
+}
+/************************************ INDEX.HTML PAGE ************************************/
 /*** Hero image section ***/
 .hero {
   background-color: white;
@@ -161,6 +167,31 @@ h1.greeting {
 .down-arrow {
   padding: .5em;
   width: 20px;
+}
+/*** Case studies section ***/
+main.case-studies {
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.case-study-tagline {
+  margin-top: 3%;
+}
+.case-study-btn {
+  color: #0E8F8F;
+  border: 2px solid #0E8F8F;
+  border-radius: 8px;
+  font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
+  font-size: 1.4em;
+  padding: 15px 32px;
+  text-align: center;
+  margin-bottom: 5%;
+  text-decoration: none;
+}
+.case-study-btn a {
+  color: #0E8F8F;
+  font-size: 1.4em;
+  text-decoration: none;
 }
 .tag {
   color: #414A4C;
@@ -263,48 +294,70 @@ p.bold {
   padding: 10%;
   width: 100%;
 }
-
-footer {
+/************************************ ABOUT.HTML PAGE ************************************/
+/*** Hero image section ***/
+.about-hero {
+  background-image: url("../images/homepage/blue-pattern.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5%;
+  padding-top: 17%;
+  position: relative;
   text-align: center;
-  padding: 4em;
 }
-.footer-cta {
-  padding: 4em;
+h1.title {
+  font-weight: bold;
+  font-size: 3rem;
+  margin-top: 3%;
+}
+.hero-headshot {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+p.about-hero-tagline {
+  font-family: 'Domine', Georgia, Times, serif;
+  font-size: 2.2rem;
+  /* padding: 3%; */
   text-align: center;
 }
-.social-media-icons {
-  background-color: white;
-  color: #86A681;
-  display: flex;
-  flex-direction: row;
-  padding: 1rem;
-  justify-content: center;
-  text-decoration: none;
+
+/*** Main bio section ***/
+main.bio {
+  text-align: left;
+  margin-top: 5%;
+  padding: 4%;
+  width: 100%;
 }
-.social-media-icons a {
-  text-decoration: none;
+p.about-intro {
+  font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 3%;
 }
-/** controls size of social media icons **/
-.social-media-icons > ul {
-  margin: auto;
-  display: flex;
+.bio-part-1 {
+  /* width: 100%; */
 }
-address {
-  padding: 1em;
+p.pull-quote {
+  font-family: 'Domine', Georgia, Times, serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 5%;
+  text-align: left;
+}
+.bio-part-2 {
+  /* width: 100%; */
 }
 
-/*** Media queries ***/
 
-/*** For tablet ***/
+/*************************** Media queries ******************************/
+
+/****************** For tablet *****************/
 /*** when screen is larger than than 768px width, it changes to this ***/
-@media screen and (min-width: 768px) {
-  h1 {
-    font-size: 3rem;
-    font-family: 'Domine', Georgia, Times, serif;
-    line-height: 160%;
-  }
-  header {
 
+/******* Typefaces, styling, colors, buttons high level structure ******/
+@media screen and (min-width: 768px) {
+  header {
+    width: 100%;
   }
   .container {
     display: flex;
@@ -352,6 +405,7 @@ address {
   li {
     margin-left: 6rem;
   }
+  /********************* INDEX.HTML PAGE******************/
   .hero {
     display: flex;
     flex-direction: row;
@@ -428,21 +482,57 @@ address {
   .step {
     width: 50%;
   }
+/*************** ABOUT.HTML PAGE ***************/
+.about-hero {
+  background-image: url("../images/homepage/blue-pattern.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.bio-intro {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  text-align: left;
+  padding: 5%;
+  width: 100%;
+}
+.hero-copy {
+  text-align: left;
+  padding-top: 13%;
+  width: 50%;
+}
+p.about-hero-tagline {
+  font-family: 'Domine', Georgia, Times, serif;
+  padding-left: 5%;
+  padding: 0%;
+  font-size: 2rem;
+  text-align: left;
+}
+.hero-headshot {
+  width: 30%;
+}
+h1.title {
+  font-weight: bold;
+  font-size: 3.2rem;
+  margin-top: 0%;
+}
+p.pull-quote {
+  font-size: 2.2rem;
+}
+.about-intro {
+  font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 3%;
 }
 
-/*** For desktop ***/
+}
+
+/********************* For desktop *********************/
 /*** when screen is larger than 1024px width, it changes to this ***/
 @media screen and (min-width: 1024px) {
-  h1 {
-    font-size: 3rem;
-    font-family: 'Domine', Georgia, Times, serif;
-    line-height: 160%;
-  }
-  p {
-    font-size: 2rem;
-    font-family: 'Muli', Helvetica, Arial, sans-serif;
-    line-height: 160%;
-  }
+/********** Typefaces, styling, colors, buttons high level structure **********/
   .container {
     display: flex;
     flex-direction: column;
@@ -459,6 +549,8 @@ address {
   .hero {
     width: 100%;
   }
+
+/********************* INDEX.HTML PAGE******************/
   main.case-studies {
     width: 100rem;
   }
@@ -530,6 +622,39 @@ address {
     padding-top: 5%;
     width: 100%;
   }
+/********************* ABOUT.HTML PAGE******************/
+.about-hero {
+  background-image: url("../images/homepage/blue-pattern.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Domine', Georgia, Times, serif;
+  font-size: 2rem;
+  line-height: 140%;
+  padding-top: 8%;
+  width: 100%;
+}
+
+.bio-intro {
+  /* padding: 2%; */
+  width: 100%;
+}
+.hero-copy {
+  width: 60%;
+}
+p.about-hero-tagline {
+  font-family: 'Domine', Georgia, Times, serif;
+  font-size: 3rem;
+  text-align: left;
+}
+.hero-headshot {
+  margin-top: 8%;
+}
+main.bio {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 4%;
+  width: 100rem;
+}
 
 
 }
