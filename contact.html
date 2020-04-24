@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+ <html lang="en">
+   <head>
+     <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Portfolio | Rebecca Creger</title>
+     <!-- Custom Styles -->
+     <link rel="stylesheet" href="css/reset.css">
+     <link rel="stylesheet" href="css/style.css">
+     <link href='https://fonts.googleapis.com/css?family=Domine' rel='stylesheet'>
+     <link href="https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap" rel="stylesheet">
+     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+     <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'>
+   </head>
+   <body>
+   <!-- <div class="container"> -->
+     <header>
+     <nav class="nav">
+        <div class="container">
+          <div class="nav-menu-container">
+           <div class="personal-logo">
+               <a href="index.html"><img src="images/homepage/logo.png" alt="personal logo" class="personal-logo"></a>
+           </div>
+                  <div class="nav-menu-links">
+                   <ul class="nav-menu-links">
+                      <li>
+                         <a href="project.html" class="nav-menu-links">Work</a>
+                      </li>
+                      <li>
+                         <a href="about.html" class="nav-menu-links">About</a>
+                      </li>
+                      <li>
+                         <a href="contact.html" class="nav-menu-links">Contact</a>
+                      </li>
+                   </ul>
+                 </div>
+                 <button class="hamburger-menu" id ="hamburger-menu">
+                    <div class="hamburger">
+                       <img src="images/homepage/hamburger.png" alt="hamburger menu">
+                    </div>
+                  </button>
+               </div>
+          </div>
+          <div class="dropdown">
+            <div class="dropdown-content" id="myDropdown">
+                  <a href="project.html">Work</a>
+                  <a href="about.html">About</a>
+                  <a href="contact.html">Contact</a>
+             </div>
+         </div>
+     </nav>
+      </header>
+    <!-- </div> -->
+         <!-- Case Studies -->
+      <div class="container">
+      <main class="form-container">
+        <form action="https://formspree.io/xrganrbl" method="POST">
+          <label>Your name:</label>
+          <br>
+            <input type="text" name="name">
+            <br>
+          <label>Email:</label>
+          <br>
+            <input type="text" name="email">
+            <br>
+          <label>Message:</label>
+          <br>
+            <textarea name="message" id="message"> </textarea>
+            <br>
+          <button type="submit" class="green-button">Send</button>
+        </form>
+      </main>
+      </div>
+      <script>
+                // Get the button, and when the user clicks on it, execute myFunction
+          document.getElementById("hamburger-menu").onclick = function() {myFunction()};
+
+          /* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+          function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("dropdown-content");
+          }
+    </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164133953-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-164133953-1');
+    </script>
+   </body>
+ </html>

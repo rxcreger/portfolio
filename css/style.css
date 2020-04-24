@@ -141,6 +141,7 @@ p.tagline {
 footer {
   text-align: center;
   padding: 4em;
+  margin-bottom: 0em;
 }
 .footer-cta {
   padding: 4em;
@@ -152,16 +153,21 @@ footer {
   display: flex;
   flex-direction: row;
   padding: 1rem;
+
   justify-content: center;
   text-decoration: none;
 }
 .social-media-icons a {
   text-decoration: none;
+  text-align: center;
 }
 /** controls size of social media icons **/
 .social-media-icons > ul {
   margin: auto;
   display: flex;
+  list-style-type: none;
+  padding-left: 0px;
+  text-align: center;
 }
 address {
   padding: 1em;
@@ -622,8 +628,44 @@ p.pull-quote {
 .bio-part-2 {
   /* width: 100%; */
 }
-
-
+/*************************** CONTACT.HTML***************************/
+.form-container {
+  display: block;
+  margin-bottom: 30%;
+  padding-left: 2rem;
+  padding-top: 15rem;
+  text-align: left;
+}
+label {
+  font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  text-align: left;
+  white-space: nowrap;
+}
+input[type=text], select {
+    font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    height: 40px;
+    margin: 1.3rem 0rem 2rem;
+    outline: none;
+    padding: 1.2rem 2rem;
+}
+textarea#message {
+    border: 1px solid #c9c4c4;
+    font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    height: 12rem;
+    margin: 1.5rem 0;
+    outline: none;
+    padding: 2rem;
+    resize: none;
+    width: 90%;
+}
 /*************************** Media queries ******************************/
 
 /****************** For tablet *****************/
@@ -668,6 +710,7 @@ p.pull-quote {
     flex-direction: row;
     justify-content: flex-end;
     padding-right: .5em;
+    list-style-type: none;
   }
   .nav-menu-links {
     color: black;
@@ -675,10 +718,12 @@ p.pull-quote {
     font-size: 1.8rem;
     display: flex;
     text-decoration: none;
+    list-style-type: none;
   }
   .nav-menu-links
   li {
     margin-left: 6rem;
+    list-style-type: none;
   }
   /********************* INDEX.HTML PAGE******************/
   .hero {
@@ -1024,9 +1069,10 @@ article.branding {
   justify-content: space-between;
 }
 .branding-images {
+  align-self: center;
   display: flex;
   padding-right: 5%;
-  /* width: 100%; */
+  width: 100%;
 }
 .logo-image {
   padding-top: 3%;
@@ -1120,6 +1166,45 @@ p.pull-quote {
   font-size: 1.8rem;
   font-weight: 600;
   margin-bottom: 3%;
+}
+/*************************** CONTACT.HTML***************************/
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 25rem;
+  padding-top: 15rem;
+  width: 60rem;
+}
+label {
+  font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  text-align: left;
+  white-space: nowrap;
+}
+input[type=text], select {
+    font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    height: 40px;
+    margin: 1.3rem 0rem 2rem;
+    outline: none;
+    padding: 1.2rem 2rem;
+}
+textarea#message {
+    border: 1px solid #c9c4c4;
+    font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    height: 12rem;
+    margin: 1.5rem 0;
+    outline: none;
+    padding: 2rem;
+    resize: none;
+    width: 60rem;
 }
 
 }
