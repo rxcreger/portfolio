@@ -220,8 +220,8 @@ article.personas {
   padding: 1%;
 }
 .dropbox-vs-evernote {
-  text-align: center;
-  padding: 5%;
+  text-align: left;
+  /* padding: 5%; */
 }
 .user-stories {
   background: #EBE8E8;

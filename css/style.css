@@ -309,7 +309,9 @@ p.process-tagline {
 }
 .list {
   line-height: 180%;
-  font-size: 1.4rem;
+  list-style-type: none;
+  font-size: 2rem;
+  padding-left: 0px;
 }
 
 .four-steps {
@@ -444,7 +446,8 @@ article.personas {
   padding: 1%;
 }
 .dropbox-vs-evernote {
-  text-align: center;
+  text-align: left;
+  margin-left: 22%;
   padding: 5%;
 }
 .user-stories {
@@ -943,15 +946,15 @@ article.problem {
   padding-left: 5%;
 }
 article.research {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   padding-right: 5%;
   width: 90%;
 }
 .research-image {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-end; */
   width: 90%;
 }
 .user-personas {
@@ -981,6 +984,8 @@ article.research {
 }
 .dropbox-vs-evernote {
   text-align: left;
+  margin-left: 0%;
+  padding: 5%;
 }
 .user-stories {
   margin-bottom: 5%;
@@ -1279,7 +1284,9 @@ textarea#message {
   }
   .list {
     line-height: 180%;
-    font-size: 1.4rem;
+    list-style-type: none;
+    font-size: 2rem;
+    padding-left: 0px;
   }
   article.process-tagline {
     text-align: center;
