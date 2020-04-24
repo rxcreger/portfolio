@@ -83,6 +83,9 @@ a {
   width: 100%;
   z-index: 10;
 }
+.nav-menu-container {
+  align-items: center;
+}
 .nav-menu-links {
   display: none;
 }
@@ -222,13 +225,15 @@ main.case-studies {
 }
 .case-study-btn {
   color: #0E8F8F;
-  border: 2px solid #0E8F8F;
+  border: 2.2px solid #0E8F8F;
   border-radius: 8px;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
   font-size: 1.4em;
+  font-weight: 500;
   padding: 15px 32px;
   text-align: center;
   margin-bottom: 5%;
+  margin-bottom: 3%;
   text-decoration: none;
 }
 .case-study-btn a {
@@ -257,6 +262,9 @@ main.case-studies {
 #cloudspark-image {
   text-align: center;
   width: 90%;
+}
+.busy-bus {
+  margin-top: 2rem;
 }
 #busybus-image {
   text-align: center;
@@ -642,7 +650,7 @@ p.pull-quote {
   display: block;
   margin-bottom: 30%;
   padding-left: 2rem;
-  padding-top: 15rem;
+  padding-top: 20rem;
   text-align: left;
 }
 label {
@@ -770,6 +778,10 @@ textarea#message {
   }
   .cloudspark-case-study {
     text-align: left;
+    width: 90%;
+  }
+  .cloudspark-image {
+    width: 100%;
   }
   .busy-bus {
     display: flex;
@@ -777,11 +789,12 @@ textarea#message {
     margin-top: 8rem;
   }
   .busybus-case-study {
-    /* margin-right: 3rem; */
     text-align: left;
+    width: 90%;
   }
   .busybus-image {
     text-align: right;
+    width: 100%;
   }
   .about-me {
     background-image: url("../images/homepage/blue-pattern.png");
