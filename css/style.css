@@ -425,16 +425,22 @@ ul.research-insights {
 }
 .persona-container {
   margin-bottom: 10%;
+  padding-left: 17%;
 }
 .persona-copy {
   margin: 5%;
 }
-.persona-images {
-  text-align: center;
+.jolene {
+  padding-top: 5%;
+  width: 80%;
 }
-#persona {
+.paul {
+  padding-top: 5%;
+  width: 80%;
+}
+/* #persona {
   width: 50%;
-}
+} */
 article.personas {
   margin-top: 10%;
 }
@@ -968,6 +974,11 @@ article.research {
   flex-direction: row;
   justify-content: center;
   margin-top: 5%;
+  padding-left: 0%;
+}
+.persona-images {
+  text-align: center;
+  width: 50%;
 }
 .jolene {
   width: 40%;
