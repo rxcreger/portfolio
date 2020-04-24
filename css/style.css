@@ -78,6 +78,8 @@ a {
 /********* Navigation bar *********/
 .nav {
   align-items: center;
+  display: flex;
+  flex-direction: row;
   background-color: white;
   position: fixed;
   width: 100%;
