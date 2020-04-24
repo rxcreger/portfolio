@@ -6,7 +6,7 @@
     <title>Portfolio | Rebecca Creger</title>
   <!-- Custom Styles -->
   <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/cloudspark.css">
+  <link rel="stylesheet" href="css/style.css">
   <link href='https://fonts.googleapis.com/css?family=Domine' rel='stylesheet'>
   <link href="https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
@@ -56,8 +56,8 @@
                         <img src="images/cloudspark/cloudspark-logo.png" alt="Cloudspark logo" class="cloudspark-logo"/>
                          <p class="cloud-spark-tagline">Cloudspark is a mobile cloud storage app for file storage and collaboration. Users can upload photos, create and collaborate on documents and easily organize and share their files.</p>
                     <br>
-                    <div class="see-prototype">
-                         <a href="https://invis.io/3KVE7A2S92T" class="see-prototype" target="_blank">See prototype ➙</a>
+                    <div class="purple-link">
+                         <a href="https://invis.io/3KVE7A2S92T" class="purple-link" target="_blank">See prototype ➙</a>
                     </div>
                   </article>
                   <div class="cloudspark-hero-image">
@@ -83,7 +83,7 @@
             <div class="container">
                 <section class="project-overview">
                    <div class="overview-header">
-                      <h1>Overview</h1>
+                      <h1 class="h1-section">Overview</h1>
                    </div>
                    <br>
                    <div class="what-i-did">
@@ -104,7 +104,7 @@
                    </div>
                    <div class="problem-container">
                       <article class="problem">
-                         <h1>Problem</h1>
+                         <h1 class="h1-section">Problem</h1>
                          <br>
                          <p>User research revealed that cloud storage users struggle to keep their files organized, so we created and tested several prototypes to build a new cloud storage app with stronger organizational features.</p>
                          <br><p>The result was CloudSpark,  a new cloud storage app with stronger organizational features where you can store files and collaborate with friends.</p>
@@ -119,17 +119,21 @@
              <section class="research-discovery">
                   <div class="research-intro">
                     <div class="container">
-                  <h1 class="research-discovery">Research and Discovery</h1>
+                  <h1 class="h1-section">Research and Discovery</h1>
                   <br>
                   <div class="research-insights">
                      <article class="research">
                         <h4>Research Key Insights</h4>
                         <br>
-                        <p>- The top files hosted on cloud storage sites are photos and documents</p>
-                        <p>- The most important feature is uploading files from a mobile device</p>
-                        <p>- People struggle to keep their files organized in cloud storage apps</p>
+                        <ul class="research-insights">
+                            <li>The top files hosted on cloud storage sites are photos and documents</li>
+                            <li>The most important feature is uploading files from a mobile device</li>
+                            <li>People struggle to keep their files organized in cloud storage apps</li>
+                        </ul>
                         <br>
-                        <a href="drive.google.com" class="see-research">See all the research ➙</a>
+                        <div class= "purple-link">
+                          <a href="drive.google.com" class="purple-link">See all the research ➙</a>
+                        </div>
                      </article>
                      <div class="research-image">
                      <img src="images/cloudspark/research-image.png" alt="research image" class="research-image">
@@ -176,7 +180,9 @@
                   <br>
                   <p>I found opportunities for a new cloud storage app to compete by studying competitors’ weaknesses</p>
                   <br>
-                  <a href="drive.google.com" target="_blank">View competitive analysis ➙</a>
+                  <div class="purple-link">
+                    <a href="drive.google.com" class="purple-link" target="_blank">View competitive analysis ➙</a>
+                  </div>
               </article>
               <br>
               <div class="competitive-analysis-columns">
@@ -198,9 +204,11 @@
             <div class="user-stories-container">
               <article class="user-stories">
                   <h4>User Stories</h4>
-                  <p>-We prioritized user stories based on our research to build the MVP</p>
-                  <p>-Users wanted and app with better organizational features where they could upload and share photos and documents</p>
-                  <p>-So we prioritized these features as high, with other features ranked lower</p>
+                  <ul class="user-stories-strategy">
+                      <li>We prioritized user stories based on our research to build the MVP</li>
+                      <li>Users wanted and app with better organizational features where they could upload and share photos and documents</li>
+                      <li>So we prioritized these features as high, with other features ranked lower</li>
+                  </ul>
               </article>
               <br>
               <div class="user-stories-image">
@@ -214,7 +222,7 @@
           <section class="Information-Architecture">
             <div class="container">
              <div class="ia-header">
-                <h1>Information Architecture</h1>
+                <h1 class="h1-section">Information Architecture</h1>
                 <br>
              </div>
              <div class="user-flows">
@@ -223,7 +231,9 @@
                    <br>
                    <p>I mapped out the user stories with user flows to inform the design.</p>
                    <br>
-                   <a href="drive.google.com" target="_blank">View all user flows ➙</a>
+                   <div class="purple-link">
+                      <a href="drive.google.com" class="purple-link" target="_blank">View all user flows ➙</a>
+                   </div>
                 </article>
                 <br><br>
                 <img src="images/cloudspark/userflows.png" alt="User flows" class="user-flows-image">
@@ -261,13 +271,13 @@
                 <article class="user-testing">
                    <h4>User Testing Results</h4>
                    <br>
-                   <p>Users were able to complete tasks successfully but gave great feedback.<br>Based on the feedback from testing we made the following changes:</p>
+                   <p>Users were able to complete tasks successfully but gave great feedback. Based on the feedback from testing we made the following changes:</p>
                    <br>
-                   <ul class="user-testing-changes">
+                   <ol class="user-testing-changes">
                       <li>Added search bar at top(users expected this from a cloud storage app)</li>
                       <li>Labeled dashboard icons so users don’t have to guess its function</li>
                       <li>Added overflow menu icons for files to reduce the number of clicks</li>
-                   </ul>
+                   </ol>
                 </article>
                 <div class="user-testing-images">
                 <img src="images/cloudspark/user-testing.png" alt="User testing" class="user-testing-images">
@@ -279,14 +289,13 @@
           <div class="container">
           <section class="Visual-Design">
              <div class="Visual design header">
-                <h1>Visual Design</h1>
+                <h1 class="h1-section">Visual Design</h1>
              </div>
              <div class="branding">
                 <article class="branding">
                    <h4>Branding</h4>
                    <br>
-                   <p>-I chose brand characteristics like magical, fun and whimsical, which helped us choose a brand name of Cloudspark</p>
-                   <p>-I made dozens of sketches, combining the concepts of cloud and spark.</p>
+                   <p>I chose brand characteristics like magical, fun and whimsical, which helped us choose a brand name of Cloudspark. I made dozens of sketches, combining the concepts of cloud and spark.</p>
                 </article>
                 <div class="branding-image-container">
                     <div class="branding-images">
@@ -301,7 +310,7 @@
                 <article class ="logo-development">
                    <h4 class="logo-development">Logo Development</h4>
                    <br>
-                   <p> I refined the most promising concepts in  Illustrator and landed on one refined mark,<br>which we paired with the typefaces Poppins Semibold and Sofia Pro:</p>
+                   <p> I refined the most promising concepts in  Illustrator and landed on one refined mark, which we paired with the typefaces Poppins Semibold and Sofia Pro:</p>
                 </article>
                 <div class="logo-image">
                    <img src="images/cloudspark/cloudspark-logo.png" alt="Cloudspark logo">
@@ -312,7 +321,9 @@
                    <h4 class="style-guide">Style guide and brand assets</h4>
                    <p>We used a mood board to develop a brand color palette and style guide:</p>
                    <br>
-                   <a href="drive.google.com">See the style guide ➙</a>
+                   <div class="purple-link">
+                      <a href="drive.google.com" class="purple-link" target="_blank">See the style guide ➙</a>
+                   </div>
                 </article>
                 <div class="asset-images">
                    <img src="images/cloudspark/typography.png" alt="brand asset1" class="asset-images">
@@ -323,13 +334,15 @@
                 <article>
                    <h4>User testing high fidelity prototypes</h4>
                    <br>
-                   <p>• Created high fidelity prototype with new brand assets in Figma and Invision</p>
-                   <p>• User tested the high fidelity prototype using Invision and Lookback.io<br>to record the sessions.</p>
-                   <p>• Users were able to complete tasks faster than the first round of user<br>testing but they made some suggestions which resulted in the following changes:</p>
+                   <ul class="high fidelity prototypes">
+                       <li>Created high fidelity prototype with new brand assets in Figma and Invision</li>
+                       <li>User tested the high fidelity prototype using Invision and Lookback.io<br>to record the sessions.</li>
+                       <li>Users were able to complete tasks faster than the first round of user<br>testing but they made some suggestions which resulted in the following changes:</li>
+                   </ul>
                    <br>
                    <ol>
-                      <li>1. Add logo to homepages dashboard</li>
-                      <li>2. Remove drop shadows from modals</li>
+                      <li>Add logo to homepages dashboard</li>
+                      <li>Remove drop shadows from modals</li>
                    </ol>
                 </article>
                 <div class="hifi-user-testing-images">
@@ -358,7 +371,7 @@
       <div class="container">
           <section class="Final Prototype">
              <div class="final-prototype">
-               <h1 class="final-title">Final Prototype</h1>
+               <h1 class="h1-section">Final Prototype</h1>
                 <div class="final-prototype-images">
                   <div class="final">
                     <img src="images/cloudspark/final1.png" alt="final prototype1">
@@ -378,10 +391,12 @@
                 <article class="what-i-learned">
                    <h4>What I learned</h4>
                    <br>
-                   <p>- Had a lot of success with a list view design and slide up contextual menus</p>
-                   <p>- Learned the importance of performing tasks in as few clicks as possible </p>
-                   <p>- If time allowed, would have done additional research into more niche markets </p>
-                   <p>- I initially had doubts there was any room for a new app in a competitive market, but when we discovered through our research that users were frustrated by the difficulty of keeping files organized, we realized there was an opportunity to create an app that had better organizational features.</p>
+                   <ul class= "learnings">
+                       <li> Had a lot of success with a list view design and slide up contextual menus</li>
+                       <li> Learned the importance of performing tasks in as few clicks as possible </li>
+                       <li> If time allowed, would have done additional research into more niche markets </li>
+                       <li> I initially had doubts there was any room for a new app in a competitive market, but when we discovered through our research that users were frustrated by the difficulty of keeping files organized, we realized there was an opportunity to create an app that had better organizational features.</li>
+                  </ul>
                 </article>
                 </div>
                 <div class="back-to-top">
@@ -395,7 +410,7 @@
           <footer>
           <div class="container">
             <div class="footer-cta">
-              <h1 class="footer">Let's build something great together.</h1>
+              <h1>Let's build something great together.</h1>
               <br> <br> <br>
               <button class="green-button">Contact me</button>
             </div>
@@ -403,12 +418,12 @@
              <ul class="icons">
                <li>
                  <a href="https://www.linkedin.com/in/rebecca-creger-50926729/" target="_blank">
-                   <img src="images/homepage/linkedin-icon.png" alt="social media icons" class="social-media-icons">
+                   <img src="images/homepage/linkedin-icon.png" alt="social media icons" class="social-media-icons"></a>
                  </a>
                </li>
                <li>
                  <a href="https://github.com/rxcreger" target="_blank">
-                   <img src="images/homepage/github-icon.png" alt="social media icons" class="social-media-icons">
+                   <img src="images/homepage/github-icon.png" alt="social media icons" class="social-media-icons"></a>
                  </a>
                </li>
                <li>

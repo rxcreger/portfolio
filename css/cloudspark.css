@@ -4,7 +4,6 @@
 
 html {
   font-size: 10px;
-  overflow-x: hidden;
 }
 
 .container {
@@ -28,15 +27,6 @@ a {
   font-weight: 500;
   text-decoration: none;
 }
-
-h1 {
-  font-size: 4rem;
-  font-family: 'Domine', Georgia, Times, serif;
-  line-height: 160%;
-  text-align: center;
-  padding-bottom: 8%;
-  padding-top: 8%;
-}
 h2 {
   font-size: 2rem;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
@@ -58,10 +48,6 @@ h4 {
   line-height: 160%;
   text-align: left;
 }
-h1.footer {
-  text-align: center;
-  padding: .5em;
-}
 ul {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-size: 2.2em;
@@ -72,14 +58,6 @@ ol {
   font-size: 2em;
   line-height: 160%;
 }
-img {
-  text-align: center;
-}
-
-article {
-  text-align: left;
-}
-
 header {
   width: 100%;
 }
@@ -145,7 +123,7 @@ header {
   background-color: white;
   color: black;
   font-family: 'Domine', Georgia, Times, serif;
-  font-size: 1.8rem;
+  font-size: 1rem;
   line-height: 140%;
   padding: 2rem;
   text-align: center;
@@ -161,13 +139,13 @@ header {
   width: 100%;
 }
 article.cloudspark-hero {
-  text-align: center;
+  /* text-align: center; */
 }
-.see-prototype {
+.purple-link {
   color: #4A23F1;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 main.cloudspark-case-study {
   text-align: left;
@@ -176,6 +154,14 @@ main.cloudspark-case-study {
 }
 .project-nav {
   display: none;
+}
+h1.h1-section {
+  font-size: 4rem;
+  font-family: 'Domine', Georgia, Times, serif;
+  line-height: 160%;
+  text-align: center;
+  padding-bottom: 8%;
+  padding-top: 8%;
 }
 .project-overview {
   text-align: center;
@@ -195,6 +181,7 @@ main.cloudspark-case-study {
 }
 article.problem {
   margin-bottom: 5%;
+  text-align: left;
 }
 .problem-container {
   margin-bottom: 10%;
@@ -450,7 +437,7 @@ address {
     font-family: 'Muli', Helvetica, Arial, sans-serif;
     line-height: 140%;
   }
-  h1 {
+  h1.h1-section {
     font-size: 4.5em;
     padding-bottom: 5%;
     padding-top: 5%;
@@ -498,9 +485,8 @@ address {
     line-height: 160%;
     text-align: left;
   }
-  .see-prototype {
-    font-size: 1.1em;
-    text-align: left;
+  .purple-link {
+    font-size: 1.5em;
   }
   .cloudspark-hero-image {
 

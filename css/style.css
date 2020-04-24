@@ -17,7 +17,7 @@ body {
 }
 
 p {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-family: 'Muli', Helvetica, Arial, sans-serif;
   line-height: 160%;
 }
@@ -27,11 +27,46 @@ h1 {
   font-family: 'Domine', Georgia, Times, serif;
   line-height: 160%;
 }
-li {
-  font-size: 1.2em;
-  line-height: 140%;
+h2 {
+  font-size: 2rem;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  line-height: 160%;
+  text-align: left;
 }
+h3 {
+  font-size: 2rem;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+h4 {
+  font-size: 2.2rem;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  line-height: 160%;
+  text-align: left;
+}
+ul {
+  font-family: 'Muli', 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  line-height: 160%;
+  list-style-type: circle;
+  padding-left: 25px;
+}
+ol {
+  font-family: 'Muli', 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  line-height: 160%;
+  list-style: decimal;
+  padding-left: 25px;
+}
+/* li {
+  font-size: 1.5em;
+  line-height: 160%;
+  font-family: 'Muli', Helvetica, Arial, sans-serif;
+} */
 header {
   width: 100%;
 }
@@ -95,10 +130,12 @@ a {
 /* .show {display:block;} */
 
 h1.greeting {
-  font-size: 3rem
+  font-size: 3.5rem;
+  font-weight: 200;
 }
-h3.tagline {
-  font-size: 2rem;
+p.tagline {
+  font-family: 'Domine', Georgia, serif;
+  font-size: 2.5rem;
 }
 /********* Footer *********/
 footer {
@@ -294,6 +331,244 @@ p.bold {
   padding: 10%;
   width: 100%;
 }
+/************************************ CLOUDSPARK PROJECT.HTML PAGE ************************************/
+/*** Hero image section ***/
+.project-hero {
+  background-color: white;
+  color: black;
+  font-family: 'Domine', Georgia, Times, serif;
+  font-size: 1rem;
+  line-height: 140%;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+.cloudspark-logo {
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+.cloudspark-hero-image {
+  text-align: center;
+  margin-top: 5%;
+  width: 100%;
+}
+article.cloudspark-hero {
+  text-align: center;
+}
+.purple-link {
+  color: #4A23F1;
+  font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+main.cloudspark-case-study {
+  text-align: left;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.project-nav {
+  display: none;
+}
+h1.h1-section {
+  font-size: 4rem;
+  font-family: 'Domine', Georgia, Times, serif;
+  line-height: 160%;
+  text-align: center;
+  padding-bottom: 8%;
+  padding-top: 8%;
+}
+.project-overview {
+  text-align: center;
+  width: 100%;
+}
+.what-i-did {
+  text-align: center;
+}
+.role {
+  margin-bottom: 5%;
+}
+.deliverables {
+  margin-bottom: 5%;
+}
+.tools-used {
+  margin-bottom: 5%;
+}
+article.problem {
+  margin-bottom: 5%;
+  text-align: left;
+}
+.problem-container {
+  margin-bottom: 10%;
+  padding: 2em;
+}
+.research-intro {
+  background-color: #EDEBEB;
+  padding: 2rem;
+  width: 100%;
+}
+ul.research-insights {
+  list-style-type: circle;
+}
+.research-image {
+  width: 100%;
+}
+.user-personas {
+  padding: 2rem;
+}
+.persona-container {
+  margin-bottom: 10%;
+}
+.persona-copy {
+  margin: 5%;
+}
+.persona-images {
+  text-align: center;
+}
+#persona {
+  width: 50%;
+}
+article.personas {
+  margin-top: 10%;
+}
+.competitive-analysis {
+  padding: 2rem;
+  margin-bottom: 10%;
+}
+.competitive-analysis-columns {
+  padding: 1%;
+}
+.dropbox-vs-evernote {
+  text-align: center;
+  padding: 5%;
+}
+.user-stories {
+  background: #EBE8E8;
+  text-align: left;
+  margin-bottom: 8%;
+  margin-top: 8%;
+  padding: 2rem;
+  width: 100%;
+}
+.user-stories-strategy {
+  margin-top: 5%;
+}
+.Information-Architecture {
+  margin-top: 4%;
+  width: 100%;
+}
+.user-stories-image {
+  width: 100%;
+  margin: 0 auto
+}
+.user-flows {
+  margin-bottom: 5%;
+  padding: 2em;
+}
+.user-flows2 {
+  display: none;
+}
+.user-flows-image {
+  width: 100%;
+}
+.sketching {
+  padding: 2em;
+  width: 100%;
+}
+.sketch-images {
+  margin-top: 5%;
+  width: 100%;
+}
+.wireframe-images {
+text-align: center;
+}
+.user-testing {
+  background-color: #EDEBEB;
+  padding: 2em;
+}
+.user-testing-images {
+  text-align: center;
+  width: 85%;
+}
+ul.user-testing-changes {
+  font-family: 'Muli' Helvetica, Arial, sans-serif;
+  line-height: 140%;
+  list-style: decimal;
+  padding-left: 3%;
+}
+.branding {
+  margin-bottom: 8%;
+}
+article.branding {
+  padding: 2em;
+}
+.branding-images {
+  width: 100%;
+}
+article.logo-development {
+  padding: 2em;
+}
+.logo-image {
+  text-align: center;
+  margin-bottom: 8%;
+}
+.style-guide {
+  margin-bottom: 8%;
+}
+article.style-guide {
+  padding: 2em;
+}
+.asset-images {
+  text-align: center;
+  width: 100%;
+}
+.user-testing-one {
+  margin-bottom: 8%;
+  padding: 2em;
+}
+.hifi-user-testing {
+  font-family: 'Muli', 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 1.3em;
+  line-height: 140%;
+  list-style: decimal;
+  padding-left: 6%;
+}
+.hifi-user-testing-images {
+  margin-top: 2%;
+  text-align: center;
+}
+.preference-testing {
+  /* margin-bottom: 8%; */
+  margin-top: 8%;
+  padding: 2em;
+}
+.preference-testing-images {
+  text-align: center;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  width: 90%;
+}
+.final-prototype {
+  padding: 2em;
+}
+.final-prototype-images {
+  margin-top: 5%;
+  text-align: center;
+  width: 100%;
+}
+.what-i-learned {
+  line-height: 160%;
+  margin-top: 1%;
+  padding: 2em;
+}
+.what-i-learned p {
+  line-height: 170%;
+}
+.back-to-top {
+  margin: auto;
+  margin-top: 5%;
+  text-align: center;
+}
+
 /************************************ ABOUT.HTML PAGE ************************************/
 /*** Hero image section ***/
 .about-hero {
@@ -482,7 +757,327 @@ p.pull-quote {
   .step {
     width: 50%;
   }
-/*************** ABOUT.HTML PAGE ***************/
+
+/********************************* CLOUDSPARK PROJECT.HTML PAGE *********************************/
+h1.h1-section {
+  font-size: 4.5em;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  text-align: left;
+}
+h1.footer {
+  text-align: center;
+  font-size: 3em;
+}
+h3 {
+  font-size: 1.8rem;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 160%;
+}
+h4 {
+  font-size: 2.2rem;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  line-height: 160%;
+  text-align: left;
+}
+article {
+  text-align: left;
+}
+.project-hero {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8%;
+  width: 80rem;
+}
+article.cloudspark-hero {
+  display: flex;
+  flex-direction: column;
+  line-height: 160%;
+  padding-right: 5%;
+  text-align: left;
+  width: 80rem;
+}
+.cloudspark-logo {
+  margin-bottom: 5%;
+  text-align: left;
+  width: 60%;
+}
+.cloud-spark-tagline {
+  line-height: 160%;
+  text-align: left;
+}
+.purple-link {
+  font-size: 1.5em;
+}
+.cloudspark-hero-image {
+
+}
+
+.project-nav {
+  color: white;
+  background: #4A23F1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  width: 100%;
+}
+.project-nav-links {
+  background: #4A23F1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  width: 100%;
+}
+.p-links {
+  font-size: 2em;
+  padding: 1%;
+  display: flex;
+  /* white-space: nowrap; */
+}
+main.cloudspark-case-study {
+  text-align: left;
+  width: 100%;
+}
+.project-overview {
+  width: 80rem;
+}
+.what-i-did {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 160%;
+  text-align: left;
+  width: 100%;
+}
+p.what-i-did {
+  font-size: 2em;
+}
+.overview-header {
+/* padding-top: 5%; */
+}
+.role {
+width: 28%;
+}
+.deliverables {
+width: 37%;
+}
+.tools-used {
+width: 30%;
+}
+.problem-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10%;
+  padding: 0em;
+}
+article.problem {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.problem-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 5%;
+}
+.research-discovery {
+  width: 100%;
+}
+.research-intro {
+  background: #EDEBEB;
+  margin: 0 auto;
+  width: 100%;
+}
+.research-insights {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-left: 5%;
+}
+article.research {
+  display: flex;
+  flex-direction: column;
+  padding-right: 5%;
+  width: 90%;
+}
+.research-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 90%;
+}
+.user-personas {
+  text-align: left;
+}
+.persona-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5%;
+}
+.jolene {
+  width: 40%;
+}
+.paul {
+  width: 40%;
+}
+.competitive-analysis {
+  padding-top: 6%;
+  width: 100%;
+  margin-bottom: 1%;
+}
+.competitive-analysis-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dropbox-vs-evernote {
+  text-align: left;
+}
+.user-stories {
+  margin-bottom: 5%;
+}
+.user-stories-container {
+  background: #EBE8E8;
+  text-align: left;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+article.user-stories {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  width: 100%;
+}
+.user-stories-image {
+  padding-top: 8%;
+}
+.Information-Architecture {
+  margin-top: 0%;
+  width: 100%;
+}
+.user-flows {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0%;
+  padding: 0em;
+  width: 100%;
+}
+.user-flows-image {
+  display: none;
+}
+.user-flows2 {
+display: flex;
+width: 90%;
+}
+article.sketching {
+  padding-top: 10%;
+}
+.sketch-images {
+  width: 100%;
+}
+.sketching {
+  padding: 0em;
+}
+.wireframe {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5%;
+  width: 100%;
+}
+.wireframe-images {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1%;
+  padding-bottom: 5%;
+  width: 100%;
+}
+.user-testing {
+  background-color: #EDEBEB;
+  padding-left: 0em;
+  text-align: left;
+}
+article.user-testing {
+}
+.user-testing-images {
+  text-align: left;
+}
+.Visual-Design {
+  width: 100%;
+}
+.branding {
+  margin-bottom: 5%;
+  width: 100%;
+}
+article.branding {
+  padding: 0em;
+}
+.branding-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.branding-images {
+  display: flex;
+  padding-right: 5%;
+  /* width: 100%; */
+}
+.logo-image {
+  padding-top: 3%;
+  padding-bottom: 4%;
+}
+article.style-guide {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.asset-images {
+  padding: 4%;
+}
+.logo-development{
+  text-align: center;
+}
+.style-guide {
+  text-align: center;
+}
+h4.style-guide{
+  text-align: center;
+}
+.preference-testing {
+padding-top: 4%;
+padding-bottom: 4%;
+}
+.preference-testing-images {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+text-align: center;
+width: 100%;
+}
+.ptesting {
+  display: flex;
+  padding-right: 5%;
+}
+.final-prototype-images {
+  width: 100%;
+}
+.final {
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+article.what-i-learned {
+  line-height: 180%;
+  width: 100%;
+}
+
+/************************* ABOUT.HTML PAGE *************************/
 .about-hero {
   background-image: url("../images/homepage/blue-pattern.png");
   background-repeat: no-repeat;
@@ -622,6 +1217,26 @@ p.pull-quote {
     padding-top: 5%;
     width: 100%;
   }
+
+/**************************** CLOUDSPARK PROJECT.HTML PAGE **************************/
+.project-hero {
+  width: 100%;
+}
+main.cloudspark-case-study {
+  width: 100%;
+}
+.project-overview {
+  width: 100%;
+}
+.final-prototype-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+}
+.final {
+  padding: 0%;
+}
 /********************* ABOUT.HTML PAGE******************/
 .about-hero {
   background-image: url("../images/homepage/blue-pattern.png");
