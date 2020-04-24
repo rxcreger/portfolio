@@ -201,7 +201,7 @@ address {
 }
 
 h1.greeting {
-  font-weight: 550;
+  font-weight: 600;
   line-height: 170%;
 }
 
@@ -276,7 +276,7 @@ main.case-studies {
   background-image: url("../images/homepage/blue-pattern.png");
   background-repeat: no-repeat;
   background-size: cover;
-  margin top: 10%;
+  margin-top: 10%;
   padding: 5%;
   position: relative;
   text-align: left;
@@ -515,7 +515,7 @@ text-align: center;
   width: 85%;
 }
 ul.user-testing-changes {
-  font-family: 'Muli' Helvetica, Arial, sans-serif;
+  font-family: 'Muli', 'Montserrat', Helvetica, Arial, sans-serif;
   line-height: 140%;
   list-style: decimal;
   padding-left: 3%;
