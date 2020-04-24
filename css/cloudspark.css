@@ -501,6 +501,7 @@ address {
     width: 100%;
   }
   .project-nav-links {
+    color: white;
     background: #4A23F1;
     display: flex;
     flex-direction: row;
@@ -513,7 +514,7 @@ address {
     color: white;
     text-decoration: none;
   }
-  .p-links a {
+  .p-links {
     color: white;
     text-decoration: none;
     font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
