@@ -106,7 +106,7 @@ a {
   color: white;
   background: #86A681;
   font-size: 2em;
-  margin-top: 10%;
+  top: 100%;
   position: absolute;
   text-align: center;
   text-decoration: none;
