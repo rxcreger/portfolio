@@ -788,6 +788,7 @@ textarea#message {
   }
   .cs {
     margin-top: 7rem;
+    padding-top: 5vw;
   }
   .cloudspark {
     display: flex;
