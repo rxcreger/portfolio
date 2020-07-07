@@ -18,7 +18,7 @@ body {
 }
 
 p {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-family: 'Muli', Helvetica, Arial, sans-serif;
   line-height: 160%;
 }
@@ -231,6 +231,7 @@ main.case-studies {
 }
 .case-study-tagline {
   margin-top: 3%;
+  line-height: 160%;
 }
 .case-study-btn {
   color: #0E8F8F;
@@ -238,17 +239,16 @@ main.case-studies {
   border: 2.2px solid #0E8F8F;
   border-radius: 8px;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-weight: 500;
   padding: 15px 32px;
   text-align: center;
   margin-bottom: 5%;
-  margin-bottom: 3%;
   text-decoration: none;
 }
 .case-study-btn a {
   color: #0E8F8F;
-  font-size: 1.4em;
+  font-size: 1.2em;
   text-decoration: none;
 }
 .tag {
@@ -259,12 +259,10 @@ main.case-studies {
   font-size: 1.4rem;
   line-height: 28px;
   margin-right: 2px;
+  margin-top: 3%;
   padding: 10px;
   text-align: center;
   white-space: nowrap;
-}
-.case-study-tagline {
-  line-height: 160%;
 }
 .localgems {
   text-align: center;
@@ -781,9 +779,16 @@ textarea#message {
     padding: 3%;
     width: 80rem;
   }
+  .case-study-h1-heading {
+    margin-bottom: 2%;
+  }
+  p.case-study-tagline {
+    margin-top: 5%;
+  }
   .tag {
     font-size: 1.4rem;
     line-height: 300%;
+    margin-top: 3%;
     white-space: nowrap;
   }
   .cs {
@@ -1306,7 +1311,8 @@ textarea#message {
     white-space: nowrap;
   }
   .case-study-btn {
-    font-size: 1.4em;
+    font-size: 1.2em;
+    margin-top: 2%;
     text-decoration: none;
   }
   .localgems-case-study {
