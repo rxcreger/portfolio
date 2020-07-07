@@ -388,7 +388,7 @@ article.cloudspark-hero {
   font-weight: 500;
   font-size: 1.5em;
 }
-main.cloudspark-case-study {
+main.localgems-case-study {
   text-align: left;
   margin-top: 4%;
   margin-bottom: 4%;
@@ -796,24 +796,24 @@ textarea#message {
     margin-top: 3rem;
     text-align: left;
   }
-  .cloudspark-case-study {
+  .localgems-case-study {
     text-align: left;
     width: 90%;
   }
   .cloudspark-image {
-    width: 100%;
+    width: 90%;
   }
   .cloudspark {
     display: flex;
     flex-direction: row;
     margin-top: 8rem;
   }
-  .busybus-case-study {
+  .cloudspark-case-study {
     text-align: left;
     width: 90%;
   }
   .busybus-image {
-    text-align: right;
+    text-align: left;
     width: 100%;
   }
   .about-me {
@@ -931,7 +931,7 @@ article.cloudspark-hero {
   text-decoration: none;
   white-space: nowrap;
 }
-main.cloudspark-case-study {
+main.localgems-case-study {
   text-align: left;
   width: 100%;
 }
@@ -1309,16 +1309,16 @@ textarea#message {
     font-size: 1.4em;
     text-decoration: none;
   }
+  .localgems-case-study {
+    text-align: left;
+    /* width: 100rem; */
+  }
   .cloudspark-case-study {
     text-align: left;
     /* width: 100rem; */
   }
-  .busybus-case-study {
-    text-align: left;
-    /* width: 100rem; */
-  }
   #cloudspark-image {
-    text-align: left;
+    text-align: right;
     width: 90%;
   }
   #busybus-image {
@@ -1385,7 +1385,7 @@ textarea#message {
   text-decoration: none;
   white-space: nowrap;
 }
-main.cloudspark-case-study {
+main.localgems-case-study {
   width: 100%;
 }
 .project-overview {
