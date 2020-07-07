@@ -266,14 +266,14 @@ main.case-studies {
 .case-study-tagline {
   line-height: 160%;
 }
-.cloudspark {
+.localgems {
   text-align: center;
 }
 #cloudspark-image {
   text-align: center;
   width: 90%;
 }
-.busy-bus {
+.cloudspark {
   margin-top: 2rem;
   font-size: 1.1em;
 }
@@ -790,7 +790,7 @@ textarea#message {
     margin-top: 7rem;
     padding-top: 5vw;
   }
-  .cloudspark {
+  .localgems {
     display: flex;
     flex-direction: row-reverse;
     margin-top: 3rem;
@@ -803,7 +803,7 @@ textarea#message {
   .cloudspark-image {
     width: 100%;
   }
-  .busy-bus {
+  .cloudspark {
     display: flex;
     flex-direction: row;
     margin-top: 8rem;
