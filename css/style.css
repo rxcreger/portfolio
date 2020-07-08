@@ -591,6 +591,11 @@ article.style-guide {
   text-align: center;
   width: 100%;
 }
+.final-prototype-images {
+  margin-top: 5%;
+  text-align: center;
+  width: 100%;
+}
 .what-i-learned {
   line-height: 160%;
   margin-top: 1%;
@@ -808,6 +813,10 @@ article.logo-development {
 .style-guide {
   margin-bottom: 8%;
 }
+.lg-style-guide {
+  display: flex;
+  flex-direction: row;
+}
 article.style-guide {
   padding: 2em;
 }
@@ -844,9 +853,18 @@ article.style-guide {
 .final-prototype {
   padding: 2em;
 }
-.final-prototype-images {
+.lg-final-prototype-images {
   margin-top: 5%;
   text-align: center;
+  width: 100%;
+}
+.lg-final-prototype-images2 {
+  margin-top: 5%;
+  text-align: center;
+  width: 100%;
+}
+.lg-final {
+  text-align: left;
   width: 100%;
 }
 .what-i-learned {
@@ -1768,6 +1786,15 @@ h4.style-guide{
 padding-top: 4%;
 padding-bottom: 4%;
 }
+.lg-user-testing-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-left: 5%;
+}
+.lg-before {
+  text-align: center;
+}
 .preference-testing-images {
 display: flex;
 flex-direction: row;
@@ -1779,15 +1806,26 @@ width: 100%;
   display: flex;
   padding-right: 5%;
 }
-.final-prototype-images {
+.lg-final-prototype-images {
   width: 100%;
 }
-.final {
-  display: inline-flex;
-  justify-content: space-between;
+.lg-final-prototype-images {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
   padding: 5%;
 }
-
+.lg-final-prototype-images2 {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+.lg-final {
+  padding-left: 10%;
+  text-align: left;
+  width: 100%;
+}
 article.what-i-learned {
   line-height: 180%;
   width: 100%;
@@ -2033,14 +2071,16 @@ main.localgems-case-study {
 .project-overview {
   width: 100%;
 }
-.final-prototype-images {
+.lg-final-prototype-images {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 50%;
-}
-.final {
+  width: 100%;
   padding: 0%;
+}
+.lg-final-prototype-images2 {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 /********************* ABOUT.HTML PAGE******************/
