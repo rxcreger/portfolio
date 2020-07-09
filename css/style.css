@@ -80,7 +80,7 @@ a {
   text-decoration: none;
 }
 
-/********* Navigation bar *********/
+/*************************** Navigation bar ******************************/
 .nav {
   align-items: center;
   display: flex;
@@ -148,7 +148,7 @@ p.tagline {
   font-family: 'Domine', Georgia, serif;
   font-size: 2.5rem;
 }
-/********* Footer *********/
+/********************************* Footer ***************************************/
 footer {
   text-align: center;
   padding: 4em;
@@ -612,7 +612,7 @@ article.style-guide {
 
 /************************************ MOBILE LOCALGEMS.HTML PAGE ************************************/
 /*** Hero image section ***/
-.project-hero {
+.lg-project-hero {
   background-color: white;
   color: black;
   font-family: 'Domine', Georgia, Times, serif;
@@ -622,20 +622,57 @@ article.style-guide {
   text-align: center;
   width: 100%;
 }
-.cloudspark-logo {
+.localgems-logo {
   margin-top: 15%;
   margin-bottom: 5%;
 }
-.cloudspark-hero-image {
+.localgems-hero-image {
   text-align: center;
   margin-top: 5%;
   width: 100%;
 }
-article.cloudspark-hero {
+article.lg-project-hero {
   text-align: center;
 }
-.purple-link {
-  color: #4A23F1;
+.lg-desktop-prototype {
+  padding-right: 20px;
+}
+.lg-desktop-btn {
+  background-color: #EC5E63;
+  border: 2.2px solid #EC5E63;
+  border-radius: 8px;
+  font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 15px 32px;
+  text-align: center;
+  margin-bottom: 5%;
+  text-decoration: none;
+}
+.lg-desktop-btn a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+.lg-mobile-btn {
+  background-color: white;
+  border: 2.2px solid #EC5E63;
+  border-radius: 8px;
+  font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 15px 32px;
+  text-align: center;
+  margin-bottom: 5%;
+  text-decoration: none;
+}
+.lg-mobile-btn a {
+  color: #EC5E63;
+  font-size: 18px;
+  text-decoration: none;
+}
+.red-link {
+  color: #EC5E63;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 1.5em;
@@ -1492,32 +1529,29 @@ h4 {
   text-align: left;
 }
 article {
-  text-align: left;
+  /* text-align: left; */
 }
-.project-hero {
-  display: flex;
-  flex-direction: row;
+.lg-project-hero {
+  text-align: center;
   margin-top: 8%;
   width: 80rem;
 }
-article.cloudspark-hero {
-  display: flex;
-  flex-direction: column;
-  line-height: 160%;
-  padding-right: 5%;
-  text-align: left;
-  width: 80rem;
-}
-.cloudspark-logo {
+.localgems-logo {
   margin-bottom: 5%;
-  text-align: left;
-  width: 60%;
+  justify-content: center;
+  width: 30%;
 }
-.cloud-spark-tagline {
+.lg-tagline {
   line-height: 160%;
-  text-align: left;
+  text-align: center;
 }
-.purple-link {
+.lg-localgems-hero-ctas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+.red-link {
   font-size: 1.5em;
   padding-bottom: 5%;
 }
@@ -2052,7 +2086,7 @@ main.cloudspark-case-study {
 }
 
 /**************************** 1024 px LOCALGEMS.HTML PAGE **************************/
-.project-hero {
+.lg-project-hero {
   width: 100%;
 }
 .p-links a {
@@ -2083,7 +2117,7 @@ main.localgems-case-study {
   flex-direction: row-reverse;
 }
 
-/********************* ABOUT.HTML PAGE******************/
+/********************* 1024 px ABOUT.HTML PAGE******************/
 .about-hero {
   background-image: url("../images/bio/blue-pattern2.png");
   background-repeat: no-repeat;
