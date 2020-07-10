@@ -737,8 +737,28 @@ hr {
     margin-top: 3%;
     margin-bottom: 3%;
 }
-ul.research-insights {
+ul.lg-research-insights {
   list-style-type: circle;
+}
+article.localgems-stats {
+  display: flex;
+  flex-direction: row;
+}
+.localgems-stats {
+  padding: 2%;
+}
+.localgems-h1-heading {
+  color: #056893;
+}
+p.lg-facts {
+  font-size: 1.8em;
+}
+.lg-q-stats-container {
+  display: flex;
+  flex-direction: column;
+}
+.localgems-q-stats-p {
+  font-size: 1.8em;
 }
 .competitive-analysis-findings {
   margin-top: 0%;
@@ -1671,13 +1691,24 @@ article.solution {
 .research-insights {
   display: flex;
   flex-direction: row-reverse;
-  padding-left: 5%;
+  /* padding-left: 5%; */
 }
-article.research {
+article.lg-research {
   display: flex;
   flex-direction: column;
-  padding-left: 2%;
-  width: 90%;
+  width: 100%;
+}
+article.localgems-stats {
+  display: flex;
+  flex-direction: row;
+  padding: 4%;
+}
+.localgems-stats {
+  padding: 2%;
+}
+.lg-q-stats-container {
+  display: flex;
+  flex-direction: row;
 }
 .three-insights {
   padding-bottom: 4%;
