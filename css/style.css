@@ -758,7 +758,7 @@ p.lg-facts {
   flex-direction: column;
 }
 .localgems-q-stats-p {
-  font-size: 1.6em;
+  /* font-size: 1.6em; */
 }
 .competitive-analysis-findings {
   margin-top: 0%;
