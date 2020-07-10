@@ -718,6 +718,10 @@ article.problem {
   margin-bottom: 10%;
   padding: 2em;
 }
+.lg-solution-container {
+  margin-bottom: 10%;
+  padding: 2em;
+}
 .lg-research-intro {
   background-color: white;
   padding: 2rem;
@@ -1633,11 +1637,28 @@ article.problem {
   flex-direction: column;
   justify-content: flex-start;
 }
-.problem-image {
+.lg-problem-image {
   /* display: flex;
   flex-direction: column;
   justify-content: flex-end; */
-  padding-left: 5%;
+  width: 50%;
+  /* height: auto; */
+  padding-left: 2%;
+}
+.lg-solution-image {
+  width: 50%;
+}
+.lg-solution-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10%;
+  padding: 0em;
+  width: 100%;
+}
+article.solution {
+  flex-direction: column;
+  justify-content: flex-end;
 }
 .research-discovery {
   width: 100%;
@@ -1977,6 +1998,12 @@ textarea#message {
     flex-direction: column;
     margin: 0 auto;
     width: 100rem;
+  }
+  .large-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 150rem;
   }
   .nav {
     align-items: center;
