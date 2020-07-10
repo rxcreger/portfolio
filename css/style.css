@@ -676,6 +676,7 @@ article.lg-project-hero {
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 1.5em;
+  padding-top: 2%;
 }
 main.localgems-case-study {
   text-align: left;
@@ -713,7 +714,7 @@ article.problem {
   margin-bottom: 5%;
   text-align: left;
 }
-.problem-container {
+.lg-problem-container {
   margin-bottom: 10%;
   padding: 2em;
 }
@@ -734,6 +735,9 @@ hr {
 }
 ul.research-insights {
   list-style-type: circle;
+}
+.competitive-analysis-findings {
+  margin-top: 0%;
 }
 .user-personas {
   padding: 2rem;
@@ -763,10 +767,10 @@ article.personas {
   padding: 2rem;
   margin-bottom: 10%;
 }
-.competitive-analysis-columns {
+.lg-competitive-analysis-columns {
   padding: 1%;
 }
-.dropbox-vs-evernote {
+.e-commerce {
   text-align: left;
   margin-left: 22%;
   padding: 5%;
@@ -802,9 +806,10 @@ article.personas {
   width: 100%;
 }
 .lg-image-tagline{
+  color: #A4A4A4;
   text-align: center;
-  font-size: 14px;
-  margin-top: 2%;
+  font-size: 2rem;
+  font-style: italic;
 }
 .sketching {
   padding: 2em;
@@ -840,7 +845,7 @@ article.branding {
 .branding-images {
   width: 100%;
 }
-article.logo-development {
+article.lglogo-development {
   padding: 2em;
 }
 .logo-image {
@@ -1446,8 +1451,7 @@ article.branding {
 }
 .branding-image-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
 }
 .branding-images {
   align-self: center;
@@ -1554,6 +1558,7 @@ article {
 .red-link {
   font-size: 1.5em;
   padding-bottom: 5%;
+  padding-top: 2%;
 }
 .cloudspark-hero-image {
 
@@ -1616,20 +1621,22 @@ width: 37%;
 .tools-used {
 width: 30%;
 }
-.problem-container {
+.lg-problem-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   margin-bottom: 10%;
   padding: 0em;
+  width: 100%;
 }
 article.problem {
   flex-direction: column;
   justify-content: flex-start;
 }
 .problem-image {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-end; */
   padding-left: 5%;
 }
 .research-discovery {
@@ -1680,15 +1687,17 @@ article.research {
   width: 100%;
   margin-bottom: 1%;
 }
-.competitive-analysis-columns {
+.lg-competitive-analysis-columns {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.dropbox-vs-evernote {
+.e-commerce {
   text-align: left;
-  margin-left: 0%;
-  padding: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin: auto;
+  padding: 1%;
 }
 .user-stories {
   margin-bottom: 5%;
@@ -1779,7 +1788,7 @@ article.user-testing {
 article.branding {
   padding: 0em;
 }
-.branding-image-container {
+.lg-branding-image-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1787,7 +1796,7 @@ article.branding {
 .branding-images {
   align-self: center;
   display: flex;
-  padding-right: 5%;
+  /* padding-right: 5%; */
   width: 100%;
 }
 .logo-image {
@@ -1804,6 +1813,7 @@ article.style-guide {
 .lg-logo-development{
   display: flex;
   flex-direction: row-reverse;
+  justify-content: space-between;
   text-align: left;
 }
 .final-logo-container {
