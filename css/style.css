@@ -909,7 +909,7 @@ article.branding {
   padding: 2em;
   width: 100%;
 }
-.branding-images {
+.lg-branding-images {
   width: 100%;
 }
 article.lglogo-development {
@@ -1535,7 +1535,6 @@ article.branding {
 .branding-images {
   align-self: center;
   display: flex;
-  padding-right: 5%;
   width: 100%;
 }
 .logo-image {
@@ -1905,10 +1904,10 @@ article.branding {
   flex-direction: row;
   justify-content: space-between;
 }
-.branding-images {
+.lg-branding-images {
   align-self: center;
   display: flex;
-  /* padding-right: 5%; */
+  padding: 1%;
   width: 100%;
 }
 .logo-image {
