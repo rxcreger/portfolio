@@ -976,7 +976,9 @@ article.style-guide {
   padding-left: 6%;
 }
 .lg-changes-made {
+  margin-top: 5%;
   text-align: center;
+  color: #A4A4A4;
 }
 .lg-user-testing-images {
   margin-top: 2%;
@@ -2133,6 +2135,12 @@ textarea#message {
     flex-direction: column;
     margin: 0 auto;
     width: 100rem;
+  }
+  .lg-nav-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 120rem;
   }
   .large-container {
     display: flex;
