@@ -572,9 +572,9 @@ article.style-guide {
   margin-top: 2%;
   text-align: center;
 }
-.preference-testing {
+.lg-map-testing {
   /* margin-bottom: 8%; */
-  margin-top: 8%;
+  margin-top: 2%;
   padding: 2em;
 }
 .preference-testing-images {
@@ -912,12 +912,21 @@ article.branding {
 .lg-branding-images {
   width: 100%;
 }
-article.lglogo-development {
+article.lg-logo-sketch {
+  /* padding: 2em; */
+  width: 100%;
+}
+.lg-logo-development {
+  margin-top: 7%;
   padding: 2em;
 }
-.logo-image {
+.lg-logo-image {
   text-align: center;
-  margin-bottom: 8%;
+  margin-bottom: 5%;
+}
+.lg-final-logo {
+  padding: 2em;
+  width: 100%;
 }
 .style-guide {
   margin-bottom: 8%;
@@ -934,15 +943,11 @@ article.style-guide {
   text-align: center;
   width: 100%;
 }
-.user-testing-one {
-  margin-bottom: 8%;
+.lg-user-testing {
   padding: 2em;
 }
 .lg-user-testing-container {
-  display: flex;
-  flex-direction: column;
   text-align: center;
-  width: 100%;
 }
 .hifi-user-testing {
   font-family: 'Muli', 'Montserrat', Helvetica, Arial, sans-serif;
@@ -960,8 +965,6 @@ article.style-guide {
   width: 100%;
 }
 .lg-more-testing {
-  /* margin-bottom: 8%; */
-  margin-top: 8%;
   padding: 2em;
 }
 .preference-testing-images {
@@ -1910,9 +1913,9 @@ article.branding {
   padding: 1%;
   width: 100%;
 }
-.logo-image {
-  padding-top: 3%;
-  padding-bottom: 4%;
+.lg-logo-image {
+  padding-right: 5%;
+  width: 100%;
 }
 article.style-guide {
   padding-left: 5%;
@@ -1925,15 +1928,21 @@ article.style-guide {
 .asset-images {
   padding: 4%;
 }
-.lg-logo-development{
+.lg-logo-development {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
   text-align: left;
+  margin-top: 5%;
+}
+article.lg-logo-sketch {
+  padding-left: 3%;
+  padding-top: 1%;
+  width: 100%;
 }
 .final-logo-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .style-guide {
   text-align: left;
@@ -1942,8 +1951,7 @@ h4.style-guide{
   text-align: left;
 }
 .lg-more-testing {
-padding-top: 4%;
-padding-bottom: 4%;
+ /* padding: 2em; */
 }
 .lg-user-testing-container {
   display: flex;
