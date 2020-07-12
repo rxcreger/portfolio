@@ -623,7 +623,7 @@ article.style-guide {
   width: 100%;
 }
 .localgems-logo {
-  margin-top: 15%;
+  margin-top: 20%;
   margin-bottom: 5%;
 }
 .localgems-hero-image {
@@ -1629,8 +1629,8 @@ article {
 }
 .localgems-logo {
   margin-bottom: 5%;
+  margin-top: 3%;
   justify-content: center;
-  width: 30%;
 }
 .lg-tagline {
   line-height: 160%;
@@ -2248,6 +2248,19 @@ main.cloudspark-case-study {
 /**************************** 1024 px LOCALGEMS.HTML PAGE **************************/
 .lg-project-hero {
   width: 100%;
+}
+.localgems-logo {
+  margin-bottom: 5%;
+  margin-top: 1%;
+  justify-content: center;
+}
+.lg-localgems-hero-ctas {
+  justify-content: center;
+  text-align: center;
+  margin-top: 1%;
+}
+.localgems-hero-image {
+  margin-top: 1%;
 }
 .p-links a {
   color: white;
