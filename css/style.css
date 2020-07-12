@@ -840,6 +840,9 @@ article.personas {
   width: 50%;
   margin-bottom: 5%;
 }
+.lg-competitor {
+  width: 100%;
+}
 .lg-comp-findings {
   padding: 2rem;
 }
@@ -1828,14 +1831,15 @@ article.localgems-stats {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-self: center;
 }
-.e-commerce {
-  text-align: left;
-  margin-left: 2%;
-  margin-right: 2%;
-  margin: auto;
-  padding: 1%;
+.lg-competitor {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  width: 100%;
 }
+
 .user-stories {
   margin-bottom: 5%;
 }
