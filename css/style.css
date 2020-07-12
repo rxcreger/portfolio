@@ -446,10 +446,11 @@ ul.research-insights {
 }
 .persona-container {
   margin-bottom: 10%;
-  padding-left: 17%;
+  width: 100%;
 }
 .persona-copy {
   margin: 5%;
+  width: 100%;
 }
 .jolene {
   padding-top: 5%;
@@ -813,10 +814,10 @@ p.lg-facts {
 }
 .persona-container {
   margin-bottom: 10%;
-  padding-left: 17%;
+  justify-content: center;
 }
-.persona-copy {
-  margin: 5%;
+.lg-persona-copy {
+  margin: 0%;
 }
 .jolene {
   padding-top: 5%;
@@ -844,10 +845,10 @@ article.personas {
 }
 .lg-competitive-analysis-images {
   width: 50%;
-  margin-bottom: 5%;
 }
 .lg-competitor {
   width: 100%;
+  margin-top: 8%;
 }
 .lg-comp-findings {
   padding: 2rem;
