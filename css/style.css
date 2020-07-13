@@ -139,7 +139,9 @@ a {
   background-color: #f1f1f1;
 }
 /* .show {display:block;} */
-
+.recent-work :hover{
+  color: #0E8F8F;
+}
 h1.greeting {
   font-size: 3.5rem;
   font-weight: 200;
