@@ -233,6 +233,13 @@ h1.greeting {
   text-align: center;
   margin: 1% 0;
 }
+.arrow a {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 2em;
+  margin: -2em;
+}
 .bounce {
   -moz-animation: bounce 4s infinite;
   -webkit-animation: bounce 4s infinite;
