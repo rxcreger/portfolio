@@ -598,6 +598,14 @@ article.style-guide {
   text-align: center;
   width: 100%;
 }
+.cs-brand-colors {
+  padding: 1%;
+  width: 100%;
+}
+.cs-typography {
+  padding: 1%;
+  width: 100%;
+}
 .user-testing-one {
   margin-bottom: 8%;
   padding: 2em;
@@ -1011,10 +1019,6 @@ article.style-guide {
   display: flex;
   flex-direction: column;
   text-align: left;
-}
-.asset-images {
-  text-align: center;
-  width: 100%;
 }
 .lg-user-testing {
   padding: 2em;
@@ -1628,7 +1632,10 @@ article.style-guide {
   padding-right: 5%;
 }
 .asset-images {
+  display: flex;
+  flex-direction: row;
   padding: 4%;
+  width: 100%;
 }
 .logo-development{
   text-align: left;
@@ -2004,9 +2011,6 @@ article.style-guide {
 .lg-style-guide {
   display: flex;
   flex-direction: row;
-}
-.asset-images {
-  padding: 4%;
 }
 .lg-logo-development {
   display: flex;
