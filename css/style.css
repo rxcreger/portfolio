@@ -231,7 +231,7 @@ h1.greeting {
 /*** bounce arrow ***/
 .arrow {
   text-align: center;
-  margin: 2% 0;
+  margin: 1% 0;
 }
 .bounce {
   -moz-animation: bounce 4s infinite;
@@ -1254,7 +1254,7 @@ textarea#message {
     white-space: nowrap;
   }
   .bounce-arrow {
-    margin-top: 1rem;
+    margin-top: .5rem;
     /* padding-top: 4vw; */
     text-align: center;
   }
