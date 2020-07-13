@@ -214,10 +214,11 @@ h1.greeting {
 .featured-work {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-size: 1.3em;
+  font-weight: 500;
   padding: .5rem;
   text-align: center;
   text-decoration: none;
-  margin-bottom: 1rem;
+  margin-bottom: 6rem;
 }
 .featured-work a {
   text-decoration: none;
@@ -225,6 +226,7 @@ h1.greeting {
 }
 .down-arrow {
   padding: .5em;
+  text-align: center;
   width: 20px;
 }
 /*** Case studies section ***/
@@ -816,8 +818,8 @@ p.lg-facts {
   margin-bottom: 10%;
   justify-content: center;
 }
-.lg-persona-copy {
-  margin: 0%;
+.persona-copy {
+  margin: 5%;
 }
 .jolene {
   padding-top: 5%;
@@ -942,6 +944,9 @@ article.lg-logo-sketch {
   /* padding: 2em; */
   width: 100%;
 }
+.lg-logo-sketch {
+  width: 100%;
+}
 .lg-logo-development {
   margin-top: 7%;
   padding: 2em;
@@ -949,6 +954,7 @@ article.lg-logo-sketch {
 .lg-logo-image {
   text-align: center;
   margin-bottom: 5%;
+  width: 100%;
 }
 .lg-final-logo {
   padding: 2em;
@@ -1210,7 +1216,6 @@ textarea#message {
     padding-right: 0%;
   }
   main.case-studies {
-    text-align: left;
     padding: 3%;
     width: 80rem;
   }
@@ -1225,6 +1230,11 @@ textarea#message {
     line-height: 300%;
     margin-top: 3%;
     white-space: nowrap;
+  }
+  .down-arrow {
+    margin-top: 5rem;
+    padding-top: 4vw;
+    text-align: center;
   }
   .cs {
     margin-top: 7rem;
@@ -1428,13 +1438,12 @@ article.problem {
 .research-insights {
   display: flex;
   flex-direction: row-reverse;
-  padding-left: 5%;
 }
 article.research {
   display: flex;
   flex-direction: column;
   padding-left: 2%;
-  width: 90%;
+  width: 100%;
 }
 .three-insights {
   padding-bottom: 4%;
@@ -1774,11 +1783,6 @@ article.lg-solution {
   background-color: white;
   margin: 0 auto;
   width: 100%;
-}
-.research-insights {
-  display: flex;
-  flex-direction: row-reverse;
-  /* padding-left: 5%; */
 }
 article.lg-research {
   display: flex;
