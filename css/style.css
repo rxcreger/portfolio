@@ -227,7 +227,6 @@ h1.greeting {
 .down-arrow {
   padding: .5em;
   text-align: center;
-  width: 20px;
 }
 /*** Case studies section ***/
 main.case-studies {
@@ -1232,13 +1231,14 @@ textarea#message {
     white-space: nowrap;
   }
   .down-arrow {
-    margin-top: 5rem;
+    margin-top: 4rem;
     padding-top: 4vw;
     text-align: center;
   }
   .cs {
     margin-top: 7rem;
     padding-top: 5vw;
+    text-align: center;
   }
   .localgems {
     display: flex;
