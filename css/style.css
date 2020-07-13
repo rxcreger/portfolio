@@ -139,9 +139,18 @@ a {
   background-color: #f1f1f1;
 }
 /* .show {display:block;} */
-.recent-work :hover{
+.recent-work a {
+  color: black;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 2em;
+  margin: -2em;
+}
+.recent-work a:hover{
   color: #0E8F8F;
 }
+
 h1.greeting {
   font-size: 3.5rem;
   font-weight: 200;
@@ -475,7 +484,7 @@ ul.research-insights {
 .user-personas {
   padding: 2rem;
 }
-.persona-container {
+.lg-persona-container {
   margin-bottom: 10%;
   width: 100%;
 }
@@ -843,7 +852,7 @@ p.lg-facts {
 .user-personas {
   padding: 2rem;
 }
-.persona-container {
+.lg-persona-container {
   margin-bottom: 10%;
   justify-content: center;
 }
@@ -1848,7 +1857,7 @@ article.a-localgems-stats {
 .user-personas {
   text-align: left;
 }
-.persona-container {
+.lg-persona-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
