@@ -593,9 +593,13 @@ article.logo-development {
 }
 article.style-guide {
   padding: 2em;
+  text-align: left;
 }
-.asset-images {
-  text-align: center;
+.cs-moodboard {
+  width: 100%;
+}
+.cs-asset-images {
+  text-align: left;
   width: 100%;
 }
 .cs-brand-colors {
@@ -1012,7 +1016,7 @@ article.lg-logo-sketch {
 .lg-style-guide {
   margin-bottom: 1%;
 }
-article.style-guide {
+article.lg-style-guide {
   padding: 2em;
 }
 .lg-style-guide {
@@ -1630,11 +1634,19 @@ article.branding {
 article.style-guide {
   padding-left: 5%;
   padding-right: 5%;
+  margin-bottom: 0%;
 }
-.asset-images {
+.cs-moodboard {
+  width: 100%;
+}
+.cs-brand-colors {
+  padding: 0%;
+  width: 100%;
+}
+.cs-asset-images {
   display: flex;
   flex-direction: row;
-  padding: 4%;
+  padding: 2%;
   width: 100%;
 }
 .logo-development{
@@ -1642,6 +1654,7 @@ article.style-guide {
 }
 .style-guide {
   text-align: center;
+  margin-bottom: 0%;
 }
 h4.style-guide{
   text-align: center;
@@ -2004,9 +2017,10 @@ article.branding {
   padding-right: 5%;
   width: 100%;
 }
-article.style-guide {
-  padding-left: 5%;
-  padding-right: 5%;
+article.lg-style-guide {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
 }
 .lg-style-guide {
   display: flex;
