@@ -418,11 +418,13 @@ h1.what_ppl_think {
 }
 /* Slider/testimonials text */
 .slider_text {
+  bottom: 8px;
   color: #717171;
   font-size: 15px;
+  margin-bottom: 2%;
+  margin-top: 2%;
   padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
+  position: relative;
   width: 100%;
   text-align: center;
 }
