@@ -417,6 +417,7 @@ h1.what_ppl_think {
 /* Hide the images by default */
 .mySlides {
   display: none;
+  padding-bottom: 5%;
   padding-top: 5%;
 }
 /* Slider/testimonials text */
