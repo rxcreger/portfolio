@@ -396,25 +396,28 @@ p.bold {
   background: #EBE8E8;
   text-align: center;
   width: 100%;
+  margin-bottom: 10%;
   margin-top: 10%;
 }
 h1.what_ppl_think {
   font-size: 3rem;
   font-family: 'Domine', Georgia, Times, serif;
   line-height: 160%;
-  margin-bottom: 5%;
+  margin-bottom: 0%;
+  margin-top: 5%;
+  padding-top: 10%;
 }
 /* Slideshow container */
 .slideshow-container {
   height: 300px;
-  max-width: 1000px;
+  max-width: 600px;
   position: relative;
   margin: auto;
 }
 /* Hide the images by default */
 .mySlides {
   display: none;
-  padding-top: 10%;
+  padding-top: 5%;
 }
 /* Slider/testimonials text */
 .slider_text {
@@ -423,10 +426,10 @@ h1.what_ppl_think {
   font-size: 15px;
   margin-bottom: 2%;
   margin-top: 2%;
-  padding: 8px 12px;
+  padding: 8px 2em;
   position: relative;
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 /* The dots/bullets/indicators */
 .dot {
@@ -440,11 +443,16 @@ h1.what_ppl_think {
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+  text-align: center;
 }
 .active, .dot:hover {
   background-color: #717171;
 }
 
+.carousel-dot {
+  padding-top: 8vw;
+  position: relative;
+}
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
