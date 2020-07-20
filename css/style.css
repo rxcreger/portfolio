@@ -398,6 +398,12 @@ p.bold {
   width: 100%;
   margin-top: 10%;
 }
+h1.what_ppl_think {
+  font-size: 3rem;
+  font-family: 'Domine', Georgia, Times, serif;
+  line-height: 160%;
+  margin-bottom: 5%;
+}
 /* Slideshow container */
 .slideshow-container {
   height: 400px;
