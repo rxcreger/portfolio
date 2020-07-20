@@ -409,7 +409,7 @@ h1.what_ppl_think {
 }
 /* Slideshow container */
 .slideshow-container {
-  height: 300px;
+  /* height: 300px; */
   max-width: 600px;
   position: relative;
   margin: auto;
@@ -417,7 +417,7 @@ h1.what_ppl_think {
 /* Hide the images by default */
 .mySlides {
   display: none;
-  padding-bottom: 5%;
+  /* padding-bottom: 5%; */
   padding-top: 5%;
 }
 /* Slider/testimonials text */
@@ -451,7 +451,7 @@ h1.what_ppl_think {
 }
 
 .carousel-dot {
-  padding-top: 10vw;
+  padding-top: 3vw;
   position: relative;
 }
 /* Fading animation */
@@ -2376,6 +2376,9 @@ textarea#message {
     text-align: center;
     line-height: 200%;
     width: 100%;
+  }
+  h1.what_ppl_think {
+    padding-top: 4%;
   }
   /* The dots/bullets/indicators */
   .dot {
