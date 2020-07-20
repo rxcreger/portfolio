@@ -59,7 +59,7 @@
         <!-- <div class="container"> -->
            <div class="hero-tagline">
                <h1 class="greeting"><span style="color:#F98181">Hello! </span>I'm Rebecca.</h1>
-               <p class="tagline">I’m a UX designer living in the San Francisco Bay Area. I love asking questions and designing user-centric solutions to people’s needs.</h3>
+               <p class="tagline">I’m a UX designer living in the San Francisco Bay Area. I love asking questions and designing beautiful user experiences that improve people's lives</h3>
            </div>
            <div class="headshot">
                <img src="images/homepage/headshot.png" alt="headshot">
@@ -219,11 +219,24 @@
     </div>
          <!-- Testimonials section -->
       <section class="testimonials">
-        <div class="container">
-           <h1>What people think of me</h1>
-           <br>
-           <p>“As her mentor I have seen Rebecca grow into a job ready, pro active UX/Product designer that has mastered a research driven, user centred design process to design seamless user experiences and engaging interfaces. I would recommend her any day!”<br><br>Mike Dekker, Independent UX/UI Designer & Consultant</p>
-        </div>
+        <!-- <div class="container"> -->
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <h1>What people think of me</h1>
+              <br>
+              <p class="slider_text">“As her mentor I have seen Rebecca grow into a job ready, pro active UX/Product designer that has mastered a research driven, user centred design process to design seamless user experiences and engaging interfaces. I would recommend her any day!”<br><br>- Mike Dekker, Independent UX/UI Designer & Consultant</p>
+           </div>
+           <div class="mySlides fade">
+             <h1>What people think of me</h1>
+             <br>
+             <p class="slider_text">“Rebecca reported to me for several years while working together to improve the experience of a community at a two-sided marketplace called 99designs. She is not only hard-working, but is extremely reliable, organized, and methodical in her approach to problems both big and small. Rebecca has strong experience in advocating for and curating online communities while identifying problems, looking at data, collaborating on solutions, and measuring outcomes. I recommend her for any company or team both as a great professional and person.”<br><br>- Allison Gremillion, Community Management & Strategy</p>
+          </div>
+         </div>
+          <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+          </div>
+        <!-- </div> -->
       </section>
          <!-- Footer -->
       <footer>
@@ -274,6 +287,36 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-164133953-1');
+    </script>
+    <script>
+              var slideIndex = 1;
+          showSlides(slideIndex);
+
+          // Next/previous controls
+          function plusSlides(n) {
+          showSlides(slideIndex += n);
+          }
+
+          // Thumbnail image controls
+          function currentSlide(n) {
+          showSlides(slideIndex = n);
+          }
+
+          function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          }
     </script>
    </body>
  </html>
