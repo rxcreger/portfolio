@@ -396,9 +396,11 @@ p.bold {
   background: #EBE8E8;
   text-align: center;
   width: 100%;
+  margin-top: 10%;
 }
 /* Slideshow container */
 .slideshow-container {
+  height: 400px;
   max-width: 1000px;
   position: relative;
   margin: auto;
@@ -406,6 +408,7 @@ p.bold {
 /* Hide the images by default */
 .mySlides {
   display: none;
+  padding-top: 10%;
 }
 /* Slider/testimonials text */
 .slider_text {
