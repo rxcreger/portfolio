@@ -613,7 +613,7 @@ article.personas {
   padding: 2em;
 }
 .user-flows2 {
-  display: none;
+  /* display: none; */
 }
 .user-flows-image {
   width: 100%;
@@ -1640,7 +1640,7 @@ article.user-stories {
   width: 100%;
 }
 .user-flows-image {
-  display: none;
+  /* display: none; */
 }
 .user-flows2 {
 display: flex;
