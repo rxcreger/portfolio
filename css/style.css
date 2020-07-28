@@ -293,14 +293,15 @@ main.case-studies {
 
 .case-study-btn a {
   color: #0E8F8F;
-  font-size: 18px;
   text-decoration: none;
 }
-.case-study-btn :hover{
-  color: #FFFFFF;
-  background-color: #0E8F8F;
+.case-study-btn:hover{
+  color: white;
+  background-color: #DCE9E9;
   border: 2.2px solid #0E8F8F;
   border-radius: 8px;
+  font-weight: 500;
+  margin-bottom: 5%;
   padding: 15px 32px;
 }
 .tag {
@@ -348,7 +349,7 @@ article.short-bio {
 }
 .green-button {
   background-color: #86A681;
-  border: none;
+  border: 2.2px solid #86A681;
   border-radius: 5px;
   color: white;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
@@ -361,13 +362,8 @@ article.short-bio {
   color: white;
 }
 .green-button:hover {
-  background-color: #FFFFFF;
-  border: 2.2px solid #86A681;
-  border-radius: 5px;
-  color: #86A681;
-  font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
-  padding: 15px 32px;
-  text-align: center;
+  background-color: #73966E;
+  border: 2.2px solid #73966E;
 }
 
 article.process-tagline {
