@@ -281,7 +281,7 @@ main.case-studies {
   color: #0E8F8F;
   background-color: white;
   border: 2.2px solid #0E8F8F;
-  border-radius: 8px;
+  border-radius: 5px;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 500;
@@ -296,22 +296,24 @@ main.case-studies {
   text-decoration: none;
 }
 .case-study-btn:hover{
-  color: white;
-  background-color: #DCE9E9;
+  background-color: #E7F4E5;
   border: 2.2px solid #0E8F8F;
-  border-radius: 8px;
+  border-radius: 5px;
+  font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
+  font-size: 18px;
   font-weight: 500;
   margin-bottom: 5%;
   padding: 15px 32px;
+  text-decoration: none;
 }
 .tag {
-  color: #414A4C;
-  border-radius: 20px;
-  border: 2px solid #414A4C;
+  color: #676767;
+  border-radius: 25px;
+  border: 2px solid #676767;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
   font-size: 1.4rem;
   line-height: 28px;
-  margin-right: 2px;
+  margin-right: 5px;
   margin-top: 3%;
   padding: 10px;
   text-align: center;
@@ -323,6 +325,7 @@ main.case-studies {
 #cloudspark-image {
   text-align: center;
   width: 90%;
+  border-radius: 5px;
 }
 .cloudspark {
   margin-top: 2rem;
@@ -331,6 +334,7 @@ main.case-studies {
 #busybus-image {
   text-align: center;
   width: 90%;
+  border-radius: 5px;
 }
 .about-me {
   background-image: url("../images/homepage/blue-pattern.png");
