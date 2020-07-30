@@ -144,8 +144,8 @@ a {
   display: inline-block;
   position: relative;
   z-index: 1;
-  padding: 2em;
-  margin: -2em;
+  padding: 1.5em;
+  margin: -1.5em;
 }
 .recent-work a:hover{
   color: #0E8F8F;
@@ -229,8 +229,8 @@ h1.greeting {
   padding: .5rem;
   text-align: center;
   text-decoration: none;
-  margin-top: 4rem;
-  padding-top: 4vw;
+  margin-top: 2rem;
+  padding-top: 3vw;
 }
 .featured-work a {
   text-decoration: none;
@@ -246,8 +246,8 @@ h1.greeting {
   display: inline-block;
   position: relative;
   z-index: 1;
-  padding: 2em;
-  margin: -2em;
+  padding: 1.5em;
+  margin: -1.5em;
 }
 .bounce {
   -moz-animation: bounce 4s infinite;
@@ -1365,8 +1365,6 @@ textarea#message {
     white-space: nowrap;
   }
   .bounce-arrow {
-    margin-top: .5rem;
-    /* padding-top: 4vw; */
     text-align: center;
   }
   .cs {
