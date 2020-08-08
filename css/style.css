@@ -1036,6 +1036,15 @@ article.personas {
   width: 100%;
   margin-top: 8%;
 }
+.lg-strengths {
+  color: #056893;
+}
+.lg-weaknesses {
+  color: #EC5E63;
+}
+.lg-competitor-copy {
+  font-size: 1.3em;
+}
 .lg-comp-findings {
   padding: 2rem;
 }
@@ -2055,6 +2064,11 @@ article.a-localgems-stats {
   flex-direction: row;
   justify-content: space-between;
   align-self: center;
+  padding: 0rem;
+}
+.lg-competitive-analysis-images {
+  width: 70%;
+  /* padding-bottom: 2%; */
 }
 .lg-competitor {
   display: flex;
