@@ -1093,6 +1093,14 @@ article.personas {
   margin-top: 5%;
   width: 100%;
 }
+
+.lg-sketch-wireframe {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5%;
+  width: 100%;
+}
+
 .lg-wireframe-images {
 text-align: center;
 width: 100%;
@@ -2107,20 +2115,16 @@ article.sketching {
 .lg-sketch-wireframe {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   padding-bottom: 5%;
   width: 100%;
 }
 .lg-wireframe {
-  margin-top: 2%;
-  padding-left: 3%;
+  /* margin-top: 2%; */
+  padding-left: 2%;
+  /* width: 100%; */
 }
 .lg-wireframe-images {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 1%;
-  padding-bottom: 5%; */
   width: 100%;
 }
 .user-testing {
