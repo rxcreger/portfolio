@@ -1144,6 +1144,8 @@ article.lg-logo-sketch {
   padding: 2em;
 }
 .lg-logo-image {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   margin-bottom: 5%;
   width: 100%;
@@ -2159,7 +2161,6 @@ article.branding {
   width: 100%;
 }
 .lg-logo-image {
-  padding-right: 5%;
   width: 100%;
 }
 article.lg-style-guide {
