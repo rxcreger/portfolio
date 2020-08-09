@@ -1075,6 +1075,7 @@ article.personas {
 }
 .user-flows2 {
   display: none;
+  width: 100%;
 }
 .lg-user-flows-image {
   width: 100%;
@@ -1319,12 +1320,14 @@ label {
   white-space: nowrap;
 }
 input[type=text], select {
+    border: 1px solid #c9c4c4;
     font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
     font-size: 2rem;
     height: 40px;
     margin: 1.3rem 0rem 2rem;
     outline: none;
     padding: 1.2rem 2rem;
+    width: 90%;
 }
 textarea#message {
     border: 1px solid #c9c4c4;
@@ -1496,7 +1499,7 @@ textarea#message {
     width: 50%;
   }
 
-/********************************* CLOUDSPARK PROJECT.HTML PAGE *********************************/
+/********************************* CLOUDSPARK PROJECT.HTML 768px PAGE *********************************/
 h1.h1-section {
   font-size: 4.5em;
   padding-bottom: 5%;
@@ -1547,8 +1550,14 @@ article.cloudspark-hero {
   text-align: left;
 }
 .purple-link {
-  font-size: 1.5em;
+  font-size: 2rem;
+  font-weight: 500;
   padding-bottom: 5%;
+  padding-top: 1%;
+}
+.purple-link:hover {
+  font-size: 2.1rem;
+  font-weight: 600;
 }
 .cloudspark-hero-image {
 
@@ -1733,6 +1742,7 @@ article.user-stories {
 }
 .user-flows2 {
 display: flex;
+margin-top: 3%;
 width: 90%;
 }
 article.sketching {
