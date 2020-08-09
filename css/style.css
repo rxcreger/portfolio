@@ -471,6 +471,12 @@ h1.what_ppl_think {
   padding-top: 3vw;
   position: relative;
 }
+.attribution {
+  color: #86A681;
+  font-size: 1.2em;
+  margin-top: 5%;
+  text-decoration: none;
+}
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
