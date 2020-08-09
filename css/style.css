@@ -1547,12 +1547,13 @@ article.cloudspark-hero {
   width: 80rem;
 }
 .cloudspark-logo {
-  margin-bottom: 5%;
+  margin-bottom: 8%;
   text-align: left;
   width: 60%;
 }
 .cloud-spark-tagline {
   line-height: 160%;
+  margin-bottom: 3%;
   text-align: left;
 }
 .purple-link {
