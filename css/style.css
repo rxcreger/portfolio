@@ -923,6 +923,17 @@ article.lg-project-hero {
   padding-top: 5%;
   width: 100%;
 }
+.pb-early-testing {
+  width: 100%;
+}
+.pb-early-testing-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.pb-lofi-wireframe-images {
+  width: 100%;
+}
 
 /************************************ MOBILE LOCALGEMS.HTML PAGE ************************************/
 /*** Hero image section ***/
@@ -1697,6 +1708,10 @@ textarea#message {
     display: flex;
     flex-direction: column;
     width: 100%;
+  }
+  .pb-early-testing {
+    display: flex;
+    flex-direction: row;
   }
 /********************************* CLOUDSPARK PROJECT.HTML 768px PAGE *********************************/
 h1.h1-section {
