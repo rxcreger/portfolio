@@ -934,6 +934,12 @@ article.lg-project-hero {
 .pb-lofi-wireframe-images {
   width: 100%;
 }
+.pb-user-testing-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
 
 /************************************ MOBILE LOCALGEMS.HTML PAGE ************************************/
 /*** Hero image section ***/
@@ -1712,6 +1718,19 @@ textarea#message {
   .pb-early-testing {
     display: flex;
     flex-direction: row;
+  }
+  .pb-p-testing {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .pb-p-testing-copy {
+    width: 100%;
+  }
+  .pb-user-testing-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
   }
 /********************************* CLOUDSPARK PROJECT.HTML 768px PAGE *********************************/
 h1.h1-section {
