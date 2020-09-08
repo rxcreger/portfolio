@@ -801,6 +801,92 @@ article.style-guide {
   margin-top: 5%;
   text-align: center;
 }
+/************************************ MOBILE PANTRYBUDDY.HTML PAGE ************************************/
+/*** Hero image section ***/
+.lg-project-hero {
+  background-color: white;
+  color: black;
+  font-family: 'Domine', Georgia, Times, serif;
+  font-size: 1rem;
+  line-height: 140%;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+.localgems-logo {
+  margin-top: 20%;
+  margin-bottom: 5%;
+}
+.localgems-hero-image {
+  text-align: center;
+  margin-top: 5%;
+  width: 100%;
+}
+article.lg-project-hero {
+  text-align: center;
+}
+.lg-localgems-hero-ctas {
+  justify-content: center;
+  text-align: center;
+  margin-top: 5%;
+}
+.pb-desktop-prototype {
+  padding-right: 0px;
+}
+.pb-mobile-btn {
+  background-color: #0D8C75;
+  border: 2.2px solid #0D8C75;
+  border-radius: 8px;
+  font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 15px 32px;
+  text-align: center;
+  margin-bottom: 3%;
+  text-decoration: none;
+  width: 245px;
+}
+.pb-mobile-btn a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+.pb-mobile-btn:hover {
+  background-color: #027863;
+  border: 2.2px solid #027863;
+  text-decoration: none;
+}
+.pb-desktop-btn {
+  background-color: white;
+  border: 2.2px solid #0D8C75;
+  border-radius: 8px;
+  font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 15px 32px;
+  text-align: center;
+  margin-bottom: 5%;
+  text-decoration: none;
+  width: 245px;
+}
+.pb-desktop-btn a {
+  color: #0D8C75;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.pb-desktop-btn:hover {
+  background-color: #CCF9DF;
+  border: 2.2px solid #027863;
+  text-decoration: none;
+}
+.red-link {
+  color: #EC5E63;
+  font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  padding-top: 1%;
+}
 
 /************************************ MOBILE LOCALGEMS.HTML PAGE ************************************/
 /*** Hero image section ***/
@@ -1419,7 +1505,8 @@ textarea#message {
     margin-left: 6rem;
     list-style-type: none;
   }
-  /********************* INDEX.HTML PAGE******************/
+  /********************* INDEX.HTML PAGE 768 px page******************/
+
   .hero {
     display: flex;
     flex-direction: row;
@@ -1514,6 +1601,17 @@ textarea#message {
   }
   .step {
     width: 50%;
+  }
+
+  /********************************* PANTRYBUDDY.HTML 768px PAGE *********************************/
+  h1.h1-section {
+    font-size: 4.5em;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    text-align: left;
+  }
+  .lg-mobile-prototype {
+    padding-right: 10px;
   }
 
 /********************************* CLOUDSPARK PROJECT.HTML 768px PAGE *********************************/
@@ -2501,7 +2599,23 @@ textarea#message {
   .dot {
     /* margin-bottom: 40; */
   }
-
+  /**************************** 1024px PANTRYBUDDY PROJECT.HTML PAGE **************************/
+  .project-hero {
+    width: 100%;
+  }
+  .p-links a {
+    color: white;
+    font-size: 1em;
+    font-weight: normal;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    display: flex;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  main.cloudspark-case-study {
+    width: 100%;
+  }
 /**************************** 1024px CLOUDSPARK PROJECT.HTML PAGE **************************/
 .project-hero {
   width: 100%;
