@@ -891,6 +891,15 @@ article.lg-project-hero {
 .pb-qualitative-stats {
 
 }
+.pb-quantitative-stats {
+  display: flex;
+  flex-direction: column;
+}
+.pb-q-stats-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3%;
+}
 .pb-q-stats-container {
   display: flex;
   flex-direction: column;
@@ -1664,14 +1673,30 @@ textarea#message {
     margin: auto;
     width: 100%;
   }
+  .pb-quantitative-stats {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    width: 100%;
+  }
+  .pb-stats {
+    display: flex;
+    flex-direction: column;
+  }
+  .pb-stats-row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
   .pb-qualitative-stats {
     display: flex;
     flex-direction: row;
+    width: 100%;
   }
   .pb-q-stats-container {
     display: flex;
     flex-direction: column;
-    padding: 1%;
+    width: 100%;
   }
 /********************************* CLOUDSPARK PROJECT.HTML 768px PAGE *********************************/
 h1.h1-section {
