@@ -905,6 +905,13 @@ article.lg-project-hero {
   display: flex;
   flex-direction: column;
 }
+.pb-strengths {
+  margin-top: 5%;
+  color: #0B69DD;
+}
+.pb-weaknesses {
+  color: #E03347;
+}
 .pb-q-stats-container {
   display: flex;
   flex-direction: column;
