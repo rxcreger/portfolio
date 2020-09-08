@@ -881,12 +881,22 @@ article.lg-project-hero {
   border: 2.2px solid #027863;
   text-decoration: none;
 }
+.pb-project-nav-links {
+  display: none;
+}
 .green-link {
   color: #0D8C75;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 1.5em;
   padding-top: 1%;
+}
+.pb-h1-heading {
+  color: #0D8C75;
+}
+.pb-h2-heading {
+  color: #0B69DD;
+  font-family: 'Domine', Georgia, Times, serif;
 }
 .pb-qualitative-stats {
 
