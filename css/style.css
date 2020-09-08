@@ -813,13 +813,14 @@ article.style-guide {
   text-align: center;
   width: 100%;
 }
-.localgems-logo {
+.pantrybuddy-logo {
   margin-top: 20%;
-  margin-bottom: 5%;
+  margin-bottom: 8%;
+  width: 50%;
 }
-.localgems-hero-image {
+.pb-hero-image {
   text-align: center;
-  margin-top: 5%;
+  margin-top: 2%;
   width: 100%;
 }
 article.lg-project-hero {
@@ -1612,6 +1613,12 @@ textarea#message {
   }
   .lg-mobile-prototype {
     padding-right: 10px;
+  }
+  .pantrybuddy-logo {
+    margin-bottom: 5%;
+    margin-top: 3%;
+    justify-content: center;
+    width: 30%;
   }
 
 /********************************* CLOUDSPARK PROJECT.HTML 768px PAGE *********************************/
