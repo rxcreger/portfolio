@@ -975,6 +975,10 @@ article.lg-project-hero {
   color: #0B69DD;
   font-weight: bolder;
 }
+.pb-final-logo {
+  padding: 1em;
+  text-align: center;
+}
 
 
 
@@ -1354,6 +1358,8 @@ article.lg-logo-sketch {
   width: 100%;
 }
 .lg-final-logo {
+  display: flex;
+  flex-direction: column;
   padding: 2em;
   width: 100%;
 }
@@ -2500,8 +2506,9 @@ article.lg-logo-sketch {
   width: 100%;
 }
 .final-logo-container {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
+  /* width: 100%; */
 }
 .style-guide {
   text-align: left;
