@@ -881,8 +881,8 @@ article.lg-project-hero {
   border: 2.2px solid #027863;
   text-decoration: none;
 }
-.red-link {
-  color: #EC5E63;
+.green-link {
+  color: #0D8C75;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 1.5em;
@@ -1620,7 +1620,24 @@ textarea#message {
     justify-content: center;
     width: 30%;
   }
-
+  .pb-project-nav {
+    color: white;
+    background: #0D8C75;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+  }
+  .pb-project-nav-links {
+    background: #0D8C75;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+  }
 /********************************* CLOUDSPARK PROJECT.HTML 768px PAGE *********************************/
 h1.h1-section {
   font-size: 4.5em;
