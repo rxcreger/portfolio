@@ -888,6 +888,32 @@ article.lg-project-hero {
   font-size: 1.5em;
   padding-top: 1%;
 }
+.pb-qualitative-stats {
+
+}
+.pb-q-stats-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3%;
+}
+.pb-q-stats {
+  margin-top: 8%;
+  width: 100%;
+}
+
+.pb-ingredient {
+  text-align: center;
+  padding-bottom: 2%;
+  padding-right: 2%;
+  width: 80%;
+}
+
+.pb-ingredients-row {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5%;
+  width: 100%;
+}
 
 /************************************ MOBILE LOCALGEMS.HTML PAGE ************************************/
 /*** Hero image section ***/
@@ -1637,6 +1663,15 @@ textarea#message {
     justify-content: space-between;
     margin: auto;
     width: 100%;
+  }
+  .pb-qualitative-stats {
+    display: flex;
+    flex-direction: row;
+  }
+  .pb-q-stats-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
   }
 /********************************* CLOUDSPARK PROJECT.HTML 768px PAGE *********************************/
 h1.h1-section {
