@@ -926,6 +926,14 @@ article.lg-project-hero {
   padding-right: 2%;
   width: 80%;
 }
+.h2ingredient {
+  font-family: 'Muli', Helvetica, Arial, sans-serif;
+  font-size: 1.6em;
+  font-weight: 400;
+  margin-bottom: 2%;
+  margin-top: 5%;
+  text-align: center;
+}
 
 .pb-ingredients-row {
   display: flex;
@@ -934,6 +942,10 @@ article.lg-project-hero {
   width: 100%;
 }
 .pb-early-testing {
+  padding: 2em;
+  width: 100%;
+}
+.pb-early-testing-copy {
   width: 100%;
 }
 .pb-early-testing-container {
@@ -944,11 +956,26 @@ article.lg-project-hero {
 .pb-lofi-wireframe-images {
   width: 100%;
 }
+.pb-p-testing {
+  padding: 2em;
+}
 .pb-user-testing-container {
   display: flex;
   flex-direction: row;
   width: 100%;
 }
+.changes-made {
+  margin-top: 5%;
+  text-align: center;
+  color: #888888;
+}
+.ptesting-winner {
+  margin-top: 5%;
+  text-align: center;
+  color: #0B69DD;
+  font-weight: bolder;
+}
+
 
 
 /************************************ MOBILE LOCALGEMS.HTML PAGE ************************************/
@@ -1710,10 +1737,11 @@ textarea#message {
     display: flex;
     flex-direction: column;
   }
-  .pb-stats-row {
+  .pb-stats-column {
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin-right: 8%;
   }
   .pb-qualitative-stats {
     display: flex;
@@ -1723,6 +1751,11 @@ textarea#message {
   .pb-q-stats-container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .pb-q-stats {
+    margin-right: 8%;
     width: 100%;
   }
   .pb-early-testing {
@@ -1732,14 +1765,29 @@ textarea#message {
   .pb-p-testing {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     width: 100%;
   }
   .pb-p-testing-copy {
+    margin-right: 5%;
     width: 100%;
   }
   .pb-user-testing-container {
     display: flex;
     flex-direction: row;
+    width: 100%;
+  }
+  .pb-before {
+    margin-top: 3%;
+    text-align: center;
+    width: 80%;
+  }
+  .pb-after {
+    margin-top: 3%;
+    text-align: center;
+    width: 80%;
+  }
+  .pb-branding-images {
     width: 100%;
   }
 /********************************* CLOUDSPARK PROJECT.HTML 768px PAGE *********************************/
@@ -2424,8 +2472,7 @@ article.branding {
 }
 .lg-branding-images {
   align-self: center;
-  display: flex;
-  padding: 1%;
+  padding-right: 1%;
   width: 100%;
 }
 .lg-logo-image {
@@ -2468,18 +2515,19 @@ h4.style-guide{
 .lg-user-testing-container {
   display: flex;
   flex-direction: row;
+  margin-bottom: 5%;
   text-align: center;
   width: 100%;
 }
 .lg-before {
   margin-top: 3%;
   text-align: center;
-  width: 100%;
+  width: 80%;
 }
 .lg-after {
   margin-top: 3%;
   text-align: center;
-  width: 100%;
+  width: 80%;
 }
 .preference-testing-images {
 display: flex;
