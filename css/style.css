@@ -969,6 +969,9 @@ article.lg-project-hero {
   text-align: center;
   color: #888888;
 }
+.pb-branding-images {
+  width: 100%;
+}
 .ptesting-winner {
   margin-top: 5%;
   text-align: center;
@@ -979,7 +982,19 @@ article.lg-project-hero {
   padding: 1em;
   text-align: center;
 }
-
+.pb-u-testing {
+  padding: 2em;
+}
+.pb-before {
+  margin-top: 3%;
+  text-align: center;
+  width: 100%;
+}
+.pb-after {
+  margin-top: 3%;
+  text-align: center;
+  width: 100%;
+}
 
 
 /************************************ MOBILE LOCALGEMS.HTML PAGE ************************************/
