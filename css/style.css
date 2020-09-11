@@ -584,7 +584,7 @@ h1.h1-section {
   padding-top: 8%;
 }
 .project-overview {
-  text-align: center;
+  text-align: left;
   width: 100%;
 }
 .what-i-did {
@@ -597,6 +597,9 @@ h1.h1-section {
   margin-bottom: 5%;
 }
 .tools-used {
+  margin-bottom: 5%;
+}
+.duration {
   margin-bottom: 5%;
 }
 article.problem {
@@ -898,6 +901,13 @@ article.lg-project-hero {
 .pb-project-nav-links {
   display: none;
 }
+.h1-overview {
+  text-align: left;
+  margin-bottom: 2%;
+}
+.overview-header {
+  padding: 2em;
+}
 .green-link {
   color: #0D8C75;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
@@ -1121,7 +1131,7 @@ h1.h1-section {
   padding-top: 8%;
 }
 .project-overview {
-  text-align: center;
+  text-align: left;
   width: 100%;
 }
 .what-i-did {
@@ -1770,6 +1780,16 @@ textarea#message {
     margin: auto;
     width: 100%;
   }
+  .h1-overview {
+    font-size: 3.5em;
+    padding-top: 5%;
+  }
+  .what-i-did-container {
+    width: 100%;
+  }
+  .deliverables {
+    margin-right: 15%;
+  }
   .pb-quantitative-stats {
     display: flex;
     flex-direction: row;
@@ -1945,9 +1965,13 @@ p.what-i-did {
   font-size: 2em;
 }
 .overview-header {
-/* padding-top: 5%; */
+  padding-bottom: 5%;
+  padding-top: 5%;
+  padding-left: 0em;
+  padding-right: 0em;
+  text-align: left;
 }
-.role {
+/* .role {
 width: 28%;
 }
 .deliverables {
@@ -1955,7 +1979,7 @@ width: 37%;
 }
 .tools-used {
 width: 30%;
-}
+} */
 .problem-container {
   display: flex;
   flex-direction: row;
@@ -2296,10 +2320,8 @@ main.localgems-case-study {
 p.what-i-did {
   font-size: 2em;
 }
-.overview-header {
-/* padding-top: 5%; */
-}
-.role {
+
+/* .role {
 width: 28%;
 }
 .deliverables {
@@ -2307,7 +2329,7 @@ width: 37%;
 }
 .tools-used {
 width: 30%;
-}
+} */
 .lg-problem-container {
   display: flex;
   flex-direction: row;
@@ -2351,6 +2373,7 @@ article.lg-solution {
 article.lg-research {
   display: flex;
   flex-direction: column;
+  margin-top: 5%;
   width: 100%;
 }
 article.a-localgems-stats {

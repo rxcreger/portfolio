@@ -91,23 +91,35 @@
             <div class="container">
                 <section class="project-overview" id="overview">
                    <div class="overview-header">
-                      <h1 class="h1-section">Overview</h1>
+                      <h1 class="h1-overview">Overview</h1>
+                      <p>I collaborated with a developer to redesign a recipe app he’d built by:</p><br>
+                      <ul>
+                        <li>Leading the end-to end design process from research, visual design, prototyping and testing to handoff</li>
+                        <li>Designing a responsive, progressive web app</li>
+                        <li>Doing a total re-brand with a new logo, assets, and clean, consistent UI</li>
+                        <li>Preparing designs for developer handoff</li>
+                      </ul>
                    </div>
-                   <br>
                    <div class="what-i-did">
-                      <div class="role">
-                        <h4 class="what-i-did">Role</h4>
-                         <p class="what-i-did">UX Research, UX Design,<br>Information architecture,<br>Visual design and testing</p>
+                     <div class="what-i-did-container">
+                        <div class="role">
+                          <h4 class="what-i-did">Role</h4>
+                           <p class="what-i-did">UI/UX Designer</p>
+                        </div>
+                        <div class="deliverables">
+                          <h4 class="what-i-did">Deliverables</h4>
+                           <p class="what-i-did">High fidelity Invision prototype, Competitive analysis, user personas, user stories, user flows, logo, brand style guide, UI design, developer deliverables</p>
+                        </div>
                       </div>
-                      <br>
-                      <div class="deliverables">
-                        <h4 class="what-i-did">Deliverables</h4>
-                         <p class="what-i-did">High fidelity Invision prototype,<br>competitive analysis, user<br>personas, user stories, user flows, logo, brand style guide, UI design</p>
-                      </div>
-                      <br>
-                      <div class="tools-used">
-                        <h4 class="what-i-did">Tools used</h4>
-                         <p class="what-i-did">Figma, Invision,<br>Google Forms, Illustrator,<br>Whimsical, Lookback.io, UsabilityHub</p>
+                      <div class="what-i-did-container">
+                        <div class="duration">
+                          <h4 class="what-i-did">Duration</h4>
+                           <p class="what-i-did">5 weeks</p>
+                        </div>
+                        <div class="tools-used">
+                          <h4 class="what-i-did">Tools used</h4>
+                           <p class="what-i-did">Figma, Invision, Google Forms, Illustrator, Whimsical, Lookback.io, UsabilityHub</p>
+                        </div>
                       </div>
                    </div>
                    <div class="lg-problem-container">
@@ -130,9 +142,9 @@
                    <br>
                    <p>I worked with developer Ben Sumser to redesign the existing app and make it into a progressive web app with a:</p><br>
                    <ol>
-                    <li>Smoother onboarding process customized to user preferences</li>
+                    <li>Smoother onboarding process where users input ingredients and get recipe recommendations</li>
                     <li>Total re-brand with a consistent look and feel</li>
-                    <li>Easy navigation that allows users to input ingredients from their kitchen and get recipes</li>
+                    <li>Easy navigation that allows users to signup, save recipes and make shopping lists</li>
                   </ol>
                 </article>
                 <div class="lg-solution-image">
@@ -149,16 +161,25 @@
                   <h1 class="h1-section">Research and Discovery</h1>
                   <br>
                   <div class="lg-research-insights">
+                    <article class="lg-research">
+                      <h4>Starting with a usability audit</h4>
+                      <p>I started by testing the existing app on several users, none of whom were able to use the app successfully to find recipes. Roadblocks they ran into:</p><br>
+                      <ol>
+                      <li>Being slowed down by a sign-up process that was introduced before demonstrating the value of the app</li>
+                      <li>Confused by and not able to input ingredients in order to get recipes</li>
+                      </ol>
+                      <br>
+                    </article>
+                    <article class="lg-research">
+                      <h4>Defining front end scope and strategy</h4>
+                      <p>To improve the experience and build an app fast, the developer recommended building a progressive web app in React that would look and function a lot like a mobile app. To increase the chances of showing users relevant recipes we knew we needed a large database of recipes to choose from. The cost of subscribing to large recipe databases was a bit prohibitive, so we decided to build our own recipe database of a few hundred recipes to build out the MVP. To increase the number of recipes matches based on ingredients we decided to build out the ingredient list based on all the ingredients in our recipe database.<br>
+                      Now that I knew I had more freedom to create a more comprehensive experience for users with a progressive web app I conducted more research to understand user needs in a recipe app.</p>
+                    </article>
                      <article class="lg-research">
                        <!-- <div class="research-container"> -->
-                            <h4>User Research</h4>
+                            <h4>User Research Survey</h4>
                             <br>
-                            <ol>
-                            <li>I started with an audit of the existing web app, where I found that no users were able to use the app successfully to find recipes.</li>
-                            <li>I presented these findings to the developer and collaborated with him to build out a more  compreshensive app to address those roadblock in the existing app.</li>
-                            <li>Did follow-up interviews where I asked users to record themselves standing in their kitchens deciding what to cook with their ingredients.</li>
-                            <li>Conducted a survey to discover user habits, pain points and needs when it comes to cooking at home.</li>
-                            </ol>
+                            <p>Next, I created a survey to discover our users’ needs when it comes to finding recipes for ingredients in their kitchens. From a pool of 32 respondents, I made several key findings</p>
                             <br>
                             <article class="pb-quantitative-stats">
                               <div class="pb-stats-column">
@@ -236,9 +257,9 @@
           <div class="container">
           <div class="user-personas">
               <article class="personas">
-              <h4>User Survey Analysis</h4>
+              <h4>User Interviews and Survey Analysis</h4>
               <br>
-              <p>Based on the findings I realized I needed to create a recipe app that would:</p>
+              <p>I conducted follow-up interviews where I asked users about their responses and to record themselves standing in their kitchens deciding what to cook with their ingredients. Based on the findings I realized I needed to create a recipe app that would:</p>
               <ul>
                 <li>Show recipe recommendations based on their dietary preferences</li>
                 <li>Show recipe recommendations based on ingredients in their kitchen</li>
@@ -255,7 +276,7 @@
               <article>
                   <h4>Competitive Analysis</h4>
                   <br>
-                  <p>To find an opportunity for a recipe app to compete in the marketplace, I conducted a competitive analysis on three competitors: I chose some because our users use them to find recipes and other because they’re direct competitors:</p>
+                  <p>To find an opportunity for a recipe app to compete in the marketplace, I conducted a competitive analysis on three competitors: I chose Allrecipes because our users use it to find recipes and Tasty and Supercook because they also have a features that show you recipes based on ingredients you have.</p>
                   <br>
               </article>
               <br>
@@ -342,7 +363,7 @@
               <article class="personas">
               <h4>User Personas</h4>
               <br>
-              <p>As trends in my research emerged, I conducted follow-up interviews with respondents to better understand their survey responses and learn more about how they decided what to cook at home.</p>
+              <p>As trends in my research emerged, I conducted follow-up interviews with respondents to better understand their survey responses and learn more about how they decided what to cook at home. Based on trends of the data and follow-up interviews, I created three personas:</p>
               </article>
                 <div class="lg-persona-container">
                   <div class="jolene">
@@ -353,6 +374,7 @@
                         <h4>Daniel</h4>
                         <p class="persona-story">
                           <br>Goals:
+                            <br>Loves cooking, wants to try new recipes
                             <br>Wants to reduce waste and save trips to grocery store.
                             <br>Wants recipes based on dietary preferences.
                           <br><br>Frustrations:
@@ -481,9 +503,11 @@
            <div class="pb-early-testing-copy">
                 <h4>Early User testing</h4>
                 <br>
-                <p>I did some quick user testing with the wireframes to see if my onboarding process was working and I got these results and made these changes:</p>
+                <p>User testing with the wireframes was promising: users were able to indicate preferences and input ingredients during the onboarding process, however when it came to highlighting recipe categories based on on their preferences vs recipes based on ingredients from their home feed there was some confusion about navigating between those sub category pages and the home feed. To make it clearer to the users which page they were on I made the following changes:</p>
                 <ul>
-                  <li>Changed the navigational structure</li>
+                  <li>Indicated the homepage with the title “Pantrybuddy” at the top, and “Recipes” for the sub category pages</li>
+                  <li>Changed top nav to include a back arrow to navigate back to the main feed</li>
+                  <li>Improved the visual hierarchy of the bottom navbar</li>
                 </ul>
             </div>
         <div class="pb-early-testing-container">
@@ -515,7 +539,7 @@
                 <article class="branding">
                    <h4>Branding exploration and discovery</h4>
                    <br>
-                   <p>To kick start this process, I created a moodboard of…….to help us mind-map and list-make the brand characteristics I wanted our platform to convey. I used this list of characteristics and sketched dozens of logo concepts. I narrowed it down to two of the strongest ones and ran a preference test, and the design with… emerged as the clear winner.</p>
+                   <p>To kick start this process, I collaborated with the developer to create a moodboard of images and list of adjectives that would capture the look and feel of the Pantrybuddy brand. We choose brand characteristics like:<br>Modern, friendly, fresh, easy, clean, healthy, delicious, simple</p>
                 </article>
             </div>
             </div>
@@ -527,7 +551,7 @@
                 <article class="lg-logo-sketch">
                    <h4 class="logo-development">Logo Development</h4>
                    <br>
-                   <p> The app already had the name Pantrybuddy so I created dozens of sketches to convey this concept</p>
+                   <p>We knew we wanted a stylised wordmark logo so I made dozens of sketches that would evoke the function of Pantrybuddy, incorporating food and pantry imagery.</p>
                 </article>
                 <div class="lg-logo-image">
                    <img src="images/pantrybuddy/pb-logo-sketches.png" alt="Cloudspark logo" class="lg-logo-image">
@@ -537,7 +561,7 @@
                 <article class="lg-logo-sketch">
                    <h4 class="logo-development">Preference Testing</h4>
                    <br>
-                   <p>Using the ideas generated from mind-mapping, I created dozens of sketches that would evoke the function of Pantrybuddy, focusing on creating a stylized wordmark. I ran a preference test between three options and the wordmark with the fork and spoon incorporated emerged as the clear winner.</p>
+                   <p>I refined the strongest sketches for the icon version of the logo and ran a preference test between two options. The icon with the fork and spoon incorporated emerged as the clear winner.</p>
                 </article>
                 <div class="lg-logo-image">
                    <img src="images/pantrybuddy/pb icon preference test.png" alt="Cloudspark logo" class="lg-logo-image">
@@ -546,7 +570,7 @@
              <div class="lg-final-logo">
                 <article class="final-logo-copy">
                    <h4 class="logo-development">The Final Logo</h4><br>
-                   <p>The logo mark itself reflects the concept of... It represents how. I choose a (color) from the mood board for the mark. I used the font Jost for the wordmark because it’s friendly, modern and easily incorporates a fork and spoon into it.</p>
+                   <p>The icon version had resonated with users, so I created a wordmark version of the icon with the spoon and fork incorporated into it. The concept reflects users’ desires to make and enjoy quick and easy meals based on ingredients in their kitchen. I used the font Jost for the wordmark because it fits the friendly, clean and modern brand characteristics.</p>
                    <br>
                 </article>
                   <div class="pb-final-logo">
@@ -561,13 +585,13 @@
                <div class="container">
                 <article class="lg-style-guide">
                    <h4 class="lg-style-guide">Style guide and brand assets</h4>
-                   <p>I used the typeface Raleway for headers, and paired it with the font Lato for body copy.  I built our color palette around the green of the logo mark, with primary colors like blues that are associated with trust and have a calming effect on home cooks who are in a hurry../... I created a style guide that would instruct how to use assets like the logo, colors and typefaces in the app design. </p>
+                   <p>I used the typeface Raleway for headers, and paired it with the font Lato for body copy.  I built a bright, primary color palette around the green of the logo mark, with blues that are associated with trust and have a calming effect on home cooks who are in a hurry. Next, I created a style guide that instructs how to properly use brand assets in the app design.</p>
                    <br>
                    <div class="green-link">
                       <a href="https://drive.google.com/file/d/1SuYPjPgjXF_FaUti6UaX-MkND5arkXnb/view?usp=sharing" class="green-link" target="_blank">See the full style guide ➙</a>
                    </div>
                 </article>
-                </div>
+              </div>
                 <div class="lg-style-guide">
                   <div class="lg-assets">
                     <img src="images/pantrybuddy/pb styleguide1.png" alt="brand asset1" class="lg-brandguide-images">
@@ -582,7 +606,7 @@
                <article class="pb-p-testing-copy">
                   <h4 class="logo-development">Preference Testing</h4>
                   <br>
-                  <p>Using the new branding I conducted a preference test for the landing page, and this version won out. I wanted to make sure I got the brand positioning right on the home page so I ran a preference test between two options:</p>
+                  <p>Using the new branding I created several iterations of the landing page. I wanted to pick a design that would demonstrate the value of the app and entice users to get started. I had to find a balance between explaining how the app worked without being too verbose so I conducted a preference test between two versions. The version with less text and appealing photography was the clear winner:</p>
                </article>
                <div class="pb-user-testing-container">
                  <div class="lg-before">
@@ -609,7 +633,7 @@
                    <br><br>
                    <ol>
                       <li>Browse for and filter different categories of products</li>
-                      <li>Indicate their dietary preferences</li>
+                      <li>SIndicate their dietary preferences</li>
                       <li>Log ingredients from their kitchen</li>
                       <li>Filter through recipe category and find a recipe</li>
                    </ol>
@@ -660,13 +684,13 @@
              <div class="final-prototype">
                <hr>
                <h1 class="h1-section">Final Prototype</h1>
-               <p>After much testing and iteration I finalized my desktop and mobile prototypes. This easy to use web app lets users shop local online and:</p>
+               <p>After much testing and iteration I finalized my desktop and mobile prototypes. Pantrybuddy is a responsive, easy to use, progressive web app that includes:</p>
                 <div class="lg-final-prototype-images">
                   <div class="lg-final">
-                    <h4>Onboarding indicate preferences, log ingredients</h4>
+                    <h4>An easy onboarding process where users can:</h4>
                     <br>
-                    <p>- Lots of options</p>
-                    <p>- Option to skip onboarding</p>
+                    <p>Input ingredients from their kitchen and get recipes</p>
+                    <p>Indicate dietary preferences to get custom recipe recommendations</p>
                   </div>
                   <div class="lg-final">
                     <img src="images/pantrybuddy/pb conclusion onboarding.png" alt="final prototype2" class="lg-final-prototype-images">
@@ -674,11 +698,10 @@
                 </div>
                 <div class="lg-final-prototype-images2">
                   <div class="lg-final">
-                    <h4>Mobile and responsive homepage</h4>
+                    <h4>A customized homefeed that:</h4>
                     <br>
-                    <p>✓ Shows recipes based on ingredients and preferences</p>
-                    <p>✓ Nav, progressive web app</p>
-                    <p>✓ Still shows you recipe</p>
+                    <p>Highlights recipes based on ingredients and dietary preferences</p>
+                    <p>Facilitates easy navigation between the homefeed, pantry, favorites, shopping list and account settings</p>
                   </div>
                   <div class="lg-final">
                     <img src="images/pantrybuddy/pb conclusion homefeed.png" alt="final prototype2" class="lg-final-prototype-images2">
@@ -686,23 +709,15 @@
                 </div>
                 <div class="lg-final-prototype-images">
                   <div class="lg-final">
-                    <h4>Mobile and responsive recipe page</h4>
+                    <h4>Recipes pages that:</h4>
                     <br>
-                    <p>Same format for each recipe</p>
-                    <p>Shows what ingredients you have and odn’t have</p>
+                    <p>Show all recipes in the same layout, with no disruptive transition to 3rd party sites</p>
+                    <p>Shows all the recipe information in a clear, coherent layout</p>
+                    <p>Shows which logged ingredients you have or don’t have</p>
                   </div>
                   <div class="lg-final">
                     <img src="images/pantrybuddy/pb conclusion recipe page.png" alt="final prototype2" class="lg-final-prototype-images">
                   </div>
-                </div>
-                <div class="container">
-                   <h4>Conclusion</h4>
-                   <br>
-                   <p>This is what I learned:<br>
-                     <br>-This is what I learned:
-                     <br>-Provide value to users even if they skip onboarding, don’t penalize them for not using your app as intended.
-                     <br>-<br>
-                  </p>
                 </div>
                 </div>
             </section>
@@ -711,13 +726,21 @@
                   <hr>
                   <h1 class="h1-section">Development</h1>
                   <div class="container">
-                     <h4>Conclusion</h4>
+                     <h4>What I learned</h4>
                      <br>
-                     <p>Developer handoff:<br>
-                       <br>-This app is under development
-                       <br>-Provide value to users even if they skip onboarding, don’t penalize them for not using your app as intended.
-                       <br>-<br>
-                    </p>
+                       <ul>
+                         <li>Provide value to users even if they skip onboarding, don’t penalize them for not using your app as intended.</li>
+                         <li>It’s important to clearly show your users where they are</li>
+                         <li>Starting with a mobile first approach is key - once I had designed and tested my mobile designs I was able to take those learnings and translate them into responsive designs</li>
+                  </div>
+                  <br><br>
+                  <div class="container">
+                     <h4>Developer handoff</h4>
+                     <br>
+                       <ul>
+                         <li>I organized the style guide, photos, vector assets in google drive folders for the developer</li>
+                         <li>I uploaded the figma files into zeppelin for the developer to translate into code</li>
+                         <li>This app is currently in the development stage.</li>
                   </div>
                 </div>
 
