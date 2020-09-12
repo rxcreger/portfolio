@@ -541,6 +541,9 @@ h1.what_ppl_think {
 article.cloudspark-hero {
   text-align: center;
 }
+h4.cs-what-i-did {
+  color: #AAAAAA;
+}
 .purple-link {
   color: #4A23F1;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
@@ -567,6 +570,11 @@ article.cloudspark-hero {
   font-size: 22px;
   text-decoration: none;
 }
+.cloudspark-btn:hover {
+  background-color: #6D4BFF;
+  border: 2.2px solid #6D4BFF;
+  text-decoration: none;
+}
 main.localgems-case-study {
   text-align: left;
   margin-top: 4%;
@@ -588,13 +596,13 @@ h1.h1-section {
   width: 100%;
 }
 .what-i-did {
-  text-align: center;
+  text-align: left;
 }
 .role {
   margin-bottom: 5%;
 }
 .deliverables {
-  margin-bottom: 5%;
+  margin-bottom: 0%;
 }
 .tools-used {
   margin-bottom: 5%;
@@ -908,6 +916,12 @@ article.lg-project-hero {
 .overview-header {
   padding: 2em;
 }
+.what-i-did-container {
+  padding: 2em;
+}
+h4.pb-what-i-did {
+  color: #0B69DD;
+}
 .green-link {
   color: #0D8C75;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
@@ -1107,6 +1121,9 @@ article.lg-project-hero {
   border: 2.2px solid #DA555A;
   text-decoration: none;
 }
+h4.lg-what-i-did {
+  color: #FF8A5B;
+}
 .red-link {
   color: #EC5E63;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
@@ -1135,13 +1152,13 @@ h1.h1-section {
   width: 100%;
 }
 .what-i-did {
-  text-align: center;
+  text-align: left;
 }
 .role {
   margin-bottom: 5%;
 }
 .deliverables {
-  margin-bottom: 5%;
+  margin-bottom: 0%;
 }
 .tools-used {
   margin-bottom: 5%;
@@ -1785,6 +1802,9 @@ textarea#message {
     padding-top: 5%;
   }
   .what-i-did-container {
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding: 0em;
     width: 100%;
   }
   .deliverables {
