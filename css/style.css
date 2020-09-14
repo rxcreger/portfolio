@@ -1710,8 +1710,10 @@ textarea#message {
   }
   .localgems {
     display: flex;
-    flex-direction: row-reverse;
-    margin-top: 3rem;
+    flex-direction: row;
+    margin-top: 8rem;
+    /* flex-direction: row-reverse;
+    margin-top: 3rem; */
     text-align: left;
   }
   .localgems-case-study {
@@ -1723,8 +1725,11 @@ textarea#message {
   }
   .cloudspark {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row;
+    margin-top: 8rem; */
+    flex-direction: row-reverse;
     margin-top: 8rem;
+    text-align: left;
   }
   .cloudspark-case-study {
     text-align: left;
