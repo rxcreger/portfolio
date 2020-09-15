@@ -1545,25 +1545,6 @@ p.pull-quote {
   text-align: left;
   /* width: 100%; */
 }
-.resume-button {
-  background-color: #86A681;
-  border: 2.2px solid #86A681;
-  border-radius: 5px;
-  color: white;
-  font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
-  justify-content: center;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 1.6em;
-}
-.resume-button a {
-  color: white;
-}
-.resume-button:hover {
-  background-color: #73966E;
-  border: 2.2px solid #73966E;
-}
 /*************************** CONTACT.HTML***************************/
 .form-container {
   display: block;
