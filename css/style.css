@@ -278,13 +278,13 @@ main.case-studies {
   line-height: 160%;
 }
 .case-study-btn {
-  color: #0E8F8F;
-  background-color: white;
-  border: 2.4px solid #0E8F8F;
+  color: white;
+  background-color: #86A681;
+  border: 2.4px solid #86A681;
   border-radius: 5px;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   padding: 15px 32px;
   text-align: center;
   margin-bottom: 5%;
@@ -292,26 +292,18 @@ main.case-studies {
 }
 
 .case-study-btn a {
-  color: #0E8F8F;
+  color: white;
   text-decoration: none;
 }
 .case-study-btn:hover {
-  border: 2.4px solid #0E8F8F;
+  background-color: #73966E;
+  border: 2.4px solid #73966E;
   border-radius: 5px;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
   font-size: 18px;
-  font-weight: 500;
   margin-bottom: 5%;
   padding: 15px 32px;
   text-decoration: none;
-}
-.case-study-btn:hover {
-  border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  -webkit-transform: scale(1.02, 1.02);
-  transform: scale(1.01, 1.01);
 }
 
 .tag {
@@ -383,14 +375,8 @@ article.short-bio {
   color: white;
 }
 .green-button:hover {
-  /* background-color: #73966E; */
-  /* border: 2.2px solid #73966E; */
-  border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  -webkit-transform: scale(1.02, 1.02);
-  transform: scale(1.01, 1.01);
+  background-color: #73966E;
+  border: 2.2px solid #73966E;
 }
 
 article.process-tagline {
@@ -1534,7 +1520,6 @@ p.about-hero-tagline {
 
 /*** Main bio section ***/
 main.bio {
-  text-align: left;
   margin-top: 5%;
   padding: 4%;
   width: 100%;
@@ -1546,6 +1531,7 @@ p.about-intro {
   margin-bottom: 3%;
 }
 .bio-part-1 {
+  text-align: left;
   /* width: 100%; */
 }
 p.pull-quote {
@@ -1556,7 +1542,27 @@ p.pull-quote {
   text-align: left;
 }
 .bio-part-2 {
+  text-align: left;
   /* width: 100%; */
+}
+.resume-button {
+  background-color: #86A681;
+  border: 2.2px solid #86A681;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
+  justify-content: center;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.6em;
+}
+.resume-button a {
+  color: white;
+}
+.resume-button:hover {
+  background-color: #73966E;
+  border: 2.2px solid #73966E;
 }
 /*************************** CONTACT.HTML***************************/
 .form-container {
