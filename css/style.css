@@ -2649,6 +2649,14 @@ article.what-i-learned {
 }
 
 /************************* 768px ABOUT.HTML PAGE *************************/
+.selected-nav-menu-links {
+  color: #86A681;
+  text-decoration: none;
+}
+.selected-nav-menu-links a {
+  color: #86A681;
+  text-decoration: none;
+}
 .about-hero {
   background-image: url("../images/homepage/blue-pattern.png");
   background-repeat: no-repeat;
