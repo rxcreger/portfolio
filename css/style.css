@@ -393,6 +393,7 @@ p.process-tagline {
 .process-icon {
   text-align: left;
   padding-top: 4%;
+  width: 50%;
 }
 .list {
   line-height: 180%;
