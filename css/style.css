@@ -308,8 +308,15 @@ main.case-studies {
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
-    box-shadow: inset 0 -.5em 0 rgba(35,209,221,0.5);
+    /* box-shadow: inset 0 -10px 0 rgba(35,209,221,0.5);
+    border-bottom: 3px solid #23D1DD;
+    color: inherit; */
+    background-color: transparent;
     color: inherit;
+    text-decoration: none;
+    transition: background .15s cubic-bezier(.33,.66,.66,1);
+    border-bottom: 10px solid #97EDF3;
+    box-shadow: inset 0 0px 0 #97EDF3;
   /* -moz-border-radius: 35px;
   -webkit-border-radius: 35px;
   -o-border-radius: 35px;
@@ -323,7 +330,12 @@ main.case-studies {
   text-decoration: none;
 }
 .case-study-btn:hover {
-  box-shadow: inset 0 -.5em 0 rgba(35,209,221,0.8);
+  background-color: transparent;
+  color: inherit;
+  text-decoration: none;
+  transition: background .15s cubic-bezier(.33,.66,.66,1);
+  border-bottom: 10px solid #58EBF5;
+  box-shadow: inset 0 0px 0 #58EBF5;
   /* background-color: #73966E;
   border: 2.4px solid #73966E;
   border-radius: 5px; */
