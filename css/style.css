@@ -332,6 +332,7 @@ main.case-studies {
 .case-study-btn:hover {
   background-color: transparent;
   color: inherit;
+  text-c
   text-decoration: none;
   transition: background .15s cubic-bezier(.33,.66,.66,1);
   border-bottom: 10px solid #58EBF5;
