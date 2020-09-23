@@ -99,13 +99,14 @@ a {
 .personal-logo {
   float: left;
   padding: 1em;
+  width: 60px;
 }
 .hamburger-menu {
   background-color: white;
   cursor: pointer;
   border: none;
   float: right;
-  padding: 2.3em;
+  padding: 1.5em;
 }
 .dropdown {
   display: flex;
