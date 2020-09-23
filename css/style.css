@@ -1218,6 +1218,11 @@ article.lg-solution {
   margin-bottom: 5%;
   padding: 2em;
 }
+.pb-solution-video {
+  margin: 5%;
+  text-align: center;
+  width: 80%;
+}
 .lg-research-intro {
   background-color: white;
   padding: 2rem;
@@ -1844,6 +1849,11 @@ textarea#message {
   }
   .deliverables {
     margin-right: 15%;
+  }
+  .pb-solution-video {
+    margin: 5%;
+    text-align: center;
+    width: 300px;
   }
   .pb-quantitative-stats {
     display: flex;
