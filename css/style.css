@@ -950,6 +950,10 @@ article.lg-project-hero {
 h4.pb-what-i-did {
   color: #0B69DD;
 }
+.onboarding-sequence {
+  margin-top: 5%;
+  width: 100%;
+}
 .green-link {
   color: #0D8C75;
   font-family: 'Montserrat', 'Muli', Helvetica, Arial, sans-serif;
