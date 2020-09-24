@@ -239,6 +239,11 @@ h1.greeting {
 }
 
 /*** bounce arrow ***/
+.bounce-arrow {
+  margin-top: 15%;
+  text-align: center;
+  width: 25px;
+}
 .arrow {
   text-align: center;
   margin: 1% 0;
@@ -1741,7 +1746,9 @@ textarea#message {
     white-space: nowrap;
   }
   .bounce-arrow {
+    margin-top: 15%;
     text-align: center;
+    width: 35px;
   }
   .cs {
     margin-top: 7rem;
