@@ -149,7 +149,7 @@ a {
   margin: -1.5em;
 }
 .recent-work a:hover{
-  color: #0E8F8F;
+  color: #23D1DD;
 }
 
 h1.greeting {
@@ -242,7 +242,7 @@ h1.greeting {
 .bounce-arrow {
   margin-top: 15%;
   text-align: center;
-  width: 25px;
+  width: 20px;
 }
 .arrow {
   text-align: center;
