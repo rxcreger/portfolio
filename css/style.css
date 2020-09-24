@@ -372,6 +372,12 @@ main.case-studies {
 .localgems {
   text-align: center;
 }
+.localgems-case-study {
+  margin-bottom: 4rem;
+}
+.cloudspark-case-study {
+  margin-bottom: 4rem;
+}
 #cloudspark-image {
   text-align: center;
   width: 90%;
@@ -1769,6 +1775,7 @@ textarea#message {
   .localgems-case-study {
     text-align: left;
     width: 90%;
+    margin-bottom: 0rem;
   }
   .cloudspark-image {
     width: 90%;
@@ -1784,6 +1791,7 @@ textarea#message {
   .cloudspark-case-study {
     text-align: left;
     width: 100%;
+    margin-bottom: 0rem;
   }
   .busybus-image {
     text-align: left;
