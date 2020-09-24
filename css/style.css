@@ -1923,6 +1923,9 @@ textarea#message {
   .pb-branding-images {
     width: 100%;
   }
+  .pb-final-prototype-images {
+    width: 80%;
+  }
 /********************************* CLOUDSPARK PROJECT.HTML 768px PAGE *********************************/
 h1.h1-section {
   font-size: 4.5em;
@@ -2691,7 +2694,7 @@ width: 100%;
   margin-top: 5%;
   display: flex;
   flex-direction: row-reverse;
-  width: 100%;
+  width: 60%;
 }
 .lg-prototype {
   padding-left: 2%;
@@ -2937,6 +2940,9 @@ textarea#message {
   main.cloudspark-case-study {
     width: 100%;
   }
+  .pb-final-prototype-images2 {
+    width: 80%;
+  }
 /**************************** 1024px CLOUDSPARK PROJECT.HTML PAGE **************************/
 .project-hero {
   width: 100%;
@@ -3012,7 +3018,9 @@ main.localgems-case-study {
   justify-content: space-between;
   width: 100%;
 }
-
+.lg-final {
+  width: 100%;
+}
 /********************* 1024 px ABOUT.HTML PAGE******************/
 .about-hero {
   background-image: url("../images/bio/blue-pattern2.png");
