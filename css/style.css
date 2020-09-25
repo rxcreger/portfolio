@@ -866,8 +866,17 @@ article.style-guide {
 }
 .back-to-top {
   margin: auto;
-  margin-top: 5%;
+  margin-top: 1%;
   text-align: center;
+}
+.back-to-top a {
+  color: black;
+  text-decoration: none;
+}
+.up-arrow {
+  margin-top: 2%;
+  text-align: center;
+  width: 30px;
 }
 /************************************ MOBILE PANTRYBUDDY.HTML PAGE ************************************/
 /*** Hero image section ***/
@@ -1084,6 +1093,16 @@ h4.pb-what-i-did {
 }
 .pb-after {
   margin-top: 3%;
+  text-align: center;
+  width: 100%;
+}
+.pb-final-prototype-images2 {
+  margin-top: 2%;
+  text-align: center;
+  width: 100%;
+}
+.pb-final-prototype-images3 {
+  margin-top: 2%;
   text-align: center;
   width: 100%;
 }
@@ -1943,6 +1962,12 @@ textarea#message {
   }
   .pb-final-prototype-images {
     width: 80%;
+  }
+  .pb-final-prototype-images2 {
+    width: 80%;
+  }
+  .pb-final-prototype-images3 {
+    width: 100%;
   }
 /********************************* CLOUDSPARK PROJECT.HTML 768px PAGE *********************************/
 h1.h1-section {
