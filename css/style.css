@@ -900,6 +900,10 @@ article.style-guide {
   margin-top: 2%;
   width: 100%;
 }
+.pretty-mock {
+  margin: auto;
+  width: 100%;
+}
 article.lg-project-hero {
   text-align: center;
 }
