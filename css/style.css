@@ -1105,6 +1105,10 @@ h4.pb-what-i-did {
 .pb-u-testing {
   padding: 2em;
 }
+.following-changes {
+  margin-top: 5%;
+  text-align: center;
+}
 .pb-before {
   margin-top: 3%;
   text-align: center;
@@ -1535,7 +1539,9 @@ article.lg-style-guide {
   padding: 2em;
 }
 .lg-user-testing-container {
+  padding: 2em;
   text-align: center;
+  width: 100%;
 }
 .hifi-user-testing {
   font-family: 'Muli', 'Montserrat', Helvetica, Arial, sans-serif;
@@ -1975,6 +1981,9 @@ textarea#message {
     display: flex;
     flex-direction: row;
     width: 100%;
+  }
+  .following-changes {
+    text-align: center;
   }
   .pb-before {
     margin-top: 3%;
