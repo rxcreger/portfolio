@@ -1070,7 +1070,7 @@ h4.pb-what-i-did {
 }
 .pb-early-testing-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
 }
 .pb-lofi-wireframe-images {
@@ -1083,6 +1083,9 @@ h4.pb-what-i-did {
   display: flex;
   flex-direction: row;
   width: 100%;
+}
+.ul-following-changes {
+  font-weight: bolder;
 }
 .changes-made {
   margin-top: 5%;
@@ -1964,8 +1967,7 @@ textarea#message {
     width: 100%;
   }
   .pb-early-testing {
-    display: flex;
-    flex-direction: row;
+    width: 100%;
   }
   .pb-p-testing {
     display: flex;
