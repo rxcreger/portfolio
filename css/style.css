@@ -1279,7 +1279,7 @@ article.lg-solution {
   width: 100%;
 }
 .lg-solution-container {
-  margin-bottom: 5%;
+  margin-bottom: 3%;
   padding: 2em;
 }
 .pb-solution-video {
@@ -1931,6 +1931,10 @@ textarea#message {
     text-align: center;
     width: 300px;
   }
+  .onboarding-sequence {
+    margin-top: 1%;
+    width: 100%;
+  }
   .pb-quantitative-stats {
     display: flex;
     flex-direction: row;
@@ -2504,7 +2508,7 @@ width: 30%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 10%;
+  margin-bottom: 3%;
   width: 100%;
 }
 article.lg-problem {
