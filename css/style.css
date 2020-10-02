@@ -284,7 +284,7 @@ main.case-studies {
   line-height: 160%;
 }
 
-.case-study-btn {
+/* .case-study-btn {
   color: white;
   background-color: #86A681;
   border: 2.4px solid #86A681;
@@ -296,9 +296,9 @@ main.case-studies {
   text-align: center;
   margin-bottom: 5%;
   text-decoration: none;
-}
+} */
 
-/* .case-study-btn {
+.case-study-btn {
   background-color: #23D1DD;
   color: white;
   border: 2.4px solid #23D1DD;
@@ -310,7 +310,7 @@ main.case-studies {
   margin-top: 1%;
   padding: 15px 32px;
   text-decoration: none;
-} */
+}
 
 .case-study-btn a {
   color: white;
