@@ -159,6 +159,7 @@ h1.greeting {
 p.tagline {
   font-family: 'Domine', Georgia, serif;
   font-size: 2.5rem;
+  text-align: left;
 }
 /********************************* Footer ***************************************/
 footer {
