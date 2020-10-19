@@ -367,6 +367,10 @@ main.case-studies {
   -webkit-transform: scale(1.02, 1.02);
   transform: scale(1.02, 1.02);
 }
+.pantrybuddy {
+  margin-top: 2rem;
+  font-size: 1.1em;
+}
 .cloudspark {
   margin-top: 2rem;
   font-size: 1.1em;
@@ -1788,13 +1792,21 @@ textarea#message {
     width: 30px;
   }
   .cs {
-    margin-top: 4rem;
-    padding-top: 4vw;
+    margin-top: 3rem;
+    padding-top: 3vw;
     text-align: center;
   }
   .case-study-btn {
     margin-bottom: 0%;
     margin-top: 0%;
+  }
+  .pantrybuddy {
+    display: flex;
+    /* flex-direction: row;
+    margin-top: 8rem; */
+    flex-direction: row-reverse;
+    margin-top: 3rem;
+    text-align: left;
   }
   .localgems {
     display: flex;
